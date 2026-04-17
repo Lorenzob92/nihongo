@@ -1,5 +1,6 @@
-import { generateText } from "ai";
+import { generateText, type LanguageModel } from "ai";
 import { gateway } from "@ai-sdk/gateway";
+import { anthropic } from "@ai-sdk/anthropic";
 
 export const runtime = "edge";
 
@@ -13,12 +14,24 @@ Keep it under 80 words. Plain text only, no markdown. British English. NEVER use
 
 type DefineRequest = { text: string };
 
+function pickModel(): LanguageModel | null {
+  if (process.env.ANTHROPIC_API_KEY) {
+    return anthropic("claude-haiku-4-5");
+  }
+  if (process.env.AI_GATEWAY_API_KEY) {
+    return gateway("anthropic/claude-haiku-4-5");
+  }
+  return null;
+}
+
 export async function POST(req: Request) {
-  if (!process.env.AI_GATEWAY_API_KEY && !process.env.ANTHROPIC_API_KEY && !process.env.VERCEL) {
+  const model = pickModel();
+  if (!model) {
     return Response.json(
       {
         error: "ai_not_configured",
-        definition: "AI lookup unavailable. Open Jisho via the link below for a dictionary entry.",
+        definition:
+          "AI lookup unavailable: set ANTHROPIC_API_KEY (or AI_GATEWAY_API_KEY) in Vercel project env vars. Use the Jisho link below as a fallback.",
       },
       { status: 200 },
     );
@@ -37,16 +50,20 @@ export async function POST(req: Request) {
 
   try {
     const { text: out } = await generateText({
-      model: gateway("anthropic/claude-haiku-4-5"),
+      model,
       system: SYSTEM,
       prompt: text,
-      providerOptions: {
-        gateway: { caching: "auto" },
-      },
     });
     return Response.json({ definition: out });
   } catch (err) {
     const message = err instanceof Error ? err.message : "unknown_error";
-    return Response.json({ error: "ai_call_failed", message }, { status: 500 });
+    return Response.json(
+      {
+        error: "ai_call_failed",
+        definition: `Lookup failed: ${message}. Try Jisho link below.`,
+        message,
+      },
+      { status: 200 },
+    );
   }
 }
