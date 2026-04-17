@@ -77,20 +77,20 @@ const STATUS_PILL: Record<Tool["status"], { tone: "recommend" | "muted" | "accen
 
 export default function ToolsPage() {
   return (
-    <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
-      <header className="mb-8 space-y-3">
-        <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted">
+    <main className="mx-auto w-full max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
+      <header className="mb-5">
+        <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-500">
           Tools
         </p>
-        <h1 className="font-display text-3xl text-ink-deep sm:text-4xl">
-          Standalone utilities
+        <h1 className="mt-1 text-2xl sm:text-4xl font-black tracking-tight text-white">
+          Standalone <span className="text-[#638dff]">utilities</span>
         </h1>
-        <p className="max-w-2xl text-sm text-muted">
+        <p className="mt-2 max-w-2xl text-sm text-zinc-400">
           Things you reach for outside a lesson flow. Reading helper, conversation, kanji explorer, and the diagnostic are live; pitch accent is a working skeleton.
         </p>
       </header>
 
-      <ul className="grid gap-3 sm:grid-cols-2">
+      <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {TOOLS.map((tool) => {
           const Icon = tool.icon;
           const pill = STATUS_PILL[tool.status];
@@ -98,22 +98,24 @@ export default function ToolsPage() {
             <li key={tool.title}>
               <Link
                 href={tool.href}
-                className="group flex h-full flex-col gap-3 rounded-[16px] border border-line bg-surface p-5 shadow-card transition-all hover:-translate-y-0.5 hover:border-line-strong"
+                className="group flex h-full flex-col gap-3 rounded-[12px] border border-white/10 bg-surface p-4 shadow-card transition-all hover:-translate-y-0.5 hover:border-[#638dff]/40"
               >
                 <div className="flex items-start justify-between gap-2">
-                  <span className="grid h-10 w-10 place-items-center rounded-[12px] bg-accent-soft text-accent-deep">
+                  <span className="grid h-10 w-10 place-items-center rounded-[10px] bg-[#638dff]/15 text-[#638dff]">
                     <Icon className="h-5 w-5" />
                   </span>
                   <Pill tone={pill.tone}>{pill.label}</Pill>
                 </div>
                 <div>
-                  <h2 className="font-display text-xl text-ink-deep">{tool.title}</h2>
-                  <p lang="ja" className="font-jp text-xs text-muted">
+                  <h2 className="text-lg font-black tracking-tight text-white">
+                    {tool.title}
+                  </h2>
+                  <p lang="ja" className="font-jp text-[11px] text-zinc-500">
                     {tool.jaTitle}
                   </p>
                 </div>
-                <p className="text-sm leading-relaxed text-ink/80">{tool.description}</p>
-                <span className="mt-auto inline-flex items-center gap-1 pt-2 text-xs font-medium text-accent-deep transition-transform group-hover:translate-x-0.5">
+                <p className="text-xs leading-relaxed text-zinc-400">{tool.description}</p>
+                <span className="mt-auto inline-flex items-center gap-1 pt-1 text-[11px] font-semibold text-[#638dff] transition-transform group-hover:translate-x-0.5">
                   Open <ArrowRight className="h-3 w-3" />
                 </span>
               </Link>
