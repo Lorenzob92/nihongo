@@ -45,6 +45,14 @@ export function MangaPage({
     };
   }, [ocrUrl]);
 
+  // Reset load state when page changes so the new image must report onLoad
+  // again before we measure it (otherwise renderSize stays at the previous
+  // page's dimensions and the overlay aligns to the wrong page).
+  useEffect(() => {
+    setImgLoaded(false);
+    setRenderSize(null);
+  }, [page]);
+
   // Track rendered image size for the overlay
   useEffect(() => {
     if (!imgLoaded) return;
