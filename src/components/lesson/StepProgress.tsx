@@ -31,24 +31,24 @@ export function StepProgress({
 }: StepProgressProps) {
   const pct = ((currentIndex + 1) / total) * 100;
   return (
-    <div className="sticky top-[56px] sm:top-[60px] z-30 border-b border-line bg-background/85 backdrop-blur-md">
-      <div className="mx-auto flex max-w-3xl flex-col gap-3 px-4 py-3 sm:px-6">
+    <div className="sticky top-[56px] sm:top-[60px] z-30 border-b border-white/10 bg-background/85 backdrop-blur-md">
+      <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 py-2.5 sm:px-6">
         <div className="flex items-center justify-between gap-3">
-          <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted">
+          <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-500">
             Step {currentIndex + 1} of {total}
           </span>
-          <span className="truncate text-xs font-medium text-ink/70">{label}</span>
+          <span className="truncate text-xs font-semibold text-zinc-300">{label}</span>
         </div>
-        <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-line">
+        <div className="relative h-1 w-full overflow-hidden rounded-full bg-white/10">
           <motion.div
-            className="absolute inset-y-0 left-0 rounded-full bg-accent"
+            className="absolute inset-y-0 left-0 rounded-full bg-[#638dff]"
             initial={{ width: 0 }}
             animate={{ width: `${pct}%` }}
             transition={{ type: "spring", stiffness: 200, damping: 25 }}
           />
         </div>
         {steps ? (
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1">
             {steps.map((s, i) => {
               const isDone = i < currentIndex;
               const isCurrent = i === currentIndex;
@@ -58,12 +58,12 @@ export function StepProgress({
                   type="button"
                   onClick={() => onPick?.(i)}
                   className={cn(
-                    "rounded-full px-2.5 py-1 text-[10px] font-mono uppercase tracking-wider transition-colors",
+                    "rounded-md px-2 py-0.5 text-[10px] font-mono uppercase tracking-wider transition-colors",
                     isCurrent
-                      ? "bg-accent text-white"
+                      ? "bg-[#638dff] text-white"
                       : isDone
-                        ? "bg-accent-soft text-accent-deep"
-                        : "bg-surface-soft text-muted hover:bg-line",
+                        ? "bg-[#638dff]/15 text-[#638dff]"
+                        : "bg-white/5 text-zinc-500 hover:bg-white/10",
                   )}
                 >
                   {STEP_LABELS[s.type] ?? s.type}

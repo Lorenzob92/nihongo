@@ -77,17 +77,17 @@ export function LessonFlow({ content }: LessonFlowProps) {
       />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-10">
-          <header className="mb-6 space-y-3">
+        <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6 sm:py-8">
+          <header className="mb-5 space-y-2">
             <div className="flex flex-wrap items-center gap-2">
               <Pill tone="accent">Section {content.section}</Pill>
-              <Pill tone="muted">{content.jlptLevel}</Pill>
+              <Pill tone="jlpt">{content.jlptLevel}</Pill>
               <Pill tone="muted">{content.estimatedMin} min</Pill>
             </div>
-            <h1 className="font-display text-3xl text-ink-deep sm:text-4xl">
+            <h1 className="text-2xl sm:text-4xl font-black tracking-tight text-white">
               {content.title}
             </h1>
-            <JapaneseText size="xl" className="text-muted">
+            <JapaneseText size="xl" className="text-zinc-400 font-atmos">
               {content.titleJa}
             </JapaneseText>
           </header>
