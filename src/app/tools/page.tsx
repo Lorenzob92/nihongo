@@ -1,11 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ArrowRight, BookOpen, Mic, Search, Inbox, Sparkles } from "lucide-react";
+import { ArrowRight, BookOpen, Mic, Search, Inbox, Sparkles, Activity } from "lucide-react";
 import { Pill } from "@/components/ui/Pill";
 
 export const metadata: Metadata = {
   title: "Tools",
-  description: "Standalone utilities: reading helper, conversation, mining, pitch accent, kanji explorer.",
+  description: "Standalone utilities: reading helper, conversation, mining, pitch accent, kanji explorer, diagnostic.",
 };
 
 type Tool = {
@@ -13,7 +13,7 @@ type Tool = {
   title: string;
   jaTitle: string;
   description: string;
-  status: "stub" | "phase2" | "phase3";
+  status: "live" | "v1" | "phase2" | "phase3";
   icon: React.ComponentType<{ className?: string }>;
 };
 
@@ -22,17 +22,41 @@ const TOOLS: Tool[] = [
     href: "/tools/reading-helper",
     title: "Reading helper",
     jaTitle: "読解ヘルパー",
-    description: "Paste any Japanese paragraph. Get a sentence-by-sentence breakdown with grammar notes and clickable definitions.",
-    status: "stub",
+    description: "Paste any Japanese paragraph. Streamed sentence-by-sentence breakdown with grammar notes, tokens, and click-to-mine on advanced words.",
+    status: "live",
     icon: BookOpen,
   },
   {
-    href: "/tools",
-    title: "Conversation practice",
+    href: "/tools/conversation",
+    title: "Conversation partner",
     jaTitle: "会話練習",
-    description: "Claude as a patient native speaker, voice mode, level-calibrated to your current phase.",
-    status: "phase2",
+    description: "Claude as a patient native friend. Text mode V1: streaming, toggleable furigana, soft corrections every 5 turns, end-session summary.",
+    status: "live",
     icon: Mic,
+  },
+  {
+    href: "/diagnostic",
+    title: "Adaptive diagnostic",
+    jaTitle: "診断テスト",
+    description: "4-axis adaptive placement (kanji, vocab, grammar, listening). ~15 minutes. Outputs a per-axis level estimate and your next 5 lessons.",
+    status: "live",
+    icon: Activity,
+  },
+  {
+    href: "/tools/kanji-explorer",
+    title: "Kanji explorer",
+    jaTitle: "漢字エクスプローラー",
+    description: "KanjiVG stroke-order viewer with animated playback. 612 kanji indexed. Search, click, watch the strokes draw.",
+    status: "live",
+    icon: Search,
+  },
+  {
+    href: "/tools/pitch-accent",
+    title: "Pitch accent drill",
+    jaTitle: "アクセント練習",
+    description: "Visual contour for the four canonical patterns (heiban, atamadaka, nakadaka, odaka). Five sample words to prove the concept; FSRS + mic in V2.",
+    status: "v1",
+    icon: Sparkles,
   },
   {
     href: "/tools",
@@ -42,26 +66,11 @@ const TOOLS: Tool[] = [
     status: "phase2",
     icon: Inbox,
   },
-  {
-    href: "/tools",
-    title: "Pitch accent drill",
-    jaTitle: "アクセント練習",
-    description: "Daily 5-minute minimal pairs with click-the-high-mora UI.",
-    status: "phase3",
-    icon: Sparkles,
-  },
-  {
-    href: "/tools",
-    title: "Kanji explorer",
-    jaTitle: "漢字エクスプローラー",
-    description: "KanjiVG stroke-order viewer plus AI-generated personal mnemonics on demand.",
-    status: "phase3",
-    icon: Search,
-  },
 ];
 
 const STATUS_PILL: Record<Tool["status"], { tone: "recommend" | "muted" | "accent"; label: string }> = {
-  stub: { tone: "accent", label: "V0 stub" },
+  live: { tone: "recommend", label: "Live" },
+  v1: { tone: "accent", label: "V1 skeleton" },
   phase2: { tone: "muted", label: "Phase 2" },
   phase3: { tone: "muted", label: "Phase 3" },
 };
@@ -77,7 +86,7 @@ export default function ToolsPage() {
           Standalone utilities
         </h1>
         <p className="max-w-2xl text-sm text-muted">
-          Things you reach for outside a lesson flow. The reading helper ships in V0 as a stub; the rest land in Phase 2 and 3.
+          Things you reach for outside a lesson flow. Reading helper, conversation, kanji explorer, and the diagnostic are live; pitch accent is a working skeleton.
         </p>
       </header>
 
