@@ -1,4 +1,47 @@
-# V0 scaffolding notes
+# Wiring notes
+
+Last update: 2026-04-17 (post-wiring pass)
+
+## Live now (after wiring pass)
+
+- 9 lessons (na-adjectives, wa-vs-ga, te-form, causative, particles-wo-ni-de mapped to both wo-particle and ni-vs-de slugs, four-conditionals-synthesis, passive, sonkeigo)
+- /tools/reading-helper — streamObject + AI Gateway, full token grid + mining queue (localStorage)
+- /tools/conversation — text V1, streamText + AI Gateway, exact spec system prompt, 5-turn correction cadence + on-demand "私の日本語、大丈夫？", end-of-session summary, localStorage memory
+- /tools/kanji-explorer — KanjiVG (612 kanji) with stroke-order animation
+- /tools/pitch-accent — V1 skeleton: 5 sample words across heiban/atamadaka/nakadaka/odaka with PitchGraph SVG component
+- /diagnostic — adaptive 4-axis placement test (kanji, vocab, grammar, listening), localStorage results + recommended next 5 lessons
+
+## Required env vars on Vercel
+
+The AI features (reading helper + conversation) call AI Gateway. They expect ONE of:
+
+- `AI_GATEWAY_API_KEY` (preferred, set on Vercel; auto-routes through the Gateway with Anthropic underneath)
+- `ANTHROPIC_API_KEY` (fallback if calling Anthropic directly)
+
+If neither is set, the API routes return a friendly 503 with a message instead of crashing. Detection also short-circuits when `process.env.VERCEL` is set so production credentials work transparently.
+
+To set on Vercel: `vercel env add AI_GATEWAY_API_KEY` (or via the dashboard).
+
+## Decisions log (wiring pass)
+
+- na-adjectives: kept the foundation's clean schema and folded in the parallel agent's specific Frieren reference plus the kirei/kirai trap example. Result is the union of both.
+- 5 of 8 drafted lessons (na-adjectives, four-conditionals, passive-voice, keigo-intro, particles-wo-ni-de) used a divergent schema (extra step types like `comparison`, nested `groups`, `kind`+`id`+`label` for SRS, `choice`/`reorder` drill types). All five were rewritten to match `LessonContent` while preserving every example sentence, drill item, listening transcript, reading passage, and SRS card from the drafts. Some structural niceties (decision tree as its own step type, side-by-side comparison tables) were folded into the existing `concept` and `cheatsheet` step types.
+- particles-wo-ni-de is registered under both `wo-particle` and `ni-vs-de` slugs in the lesson registry so both curriculum entries (A2 and A3) flip to built. The composite lesson covers all three particles in one go, matching how the parallel agent drafted it.
+- Used Claude Sonnet 4.6 (`anthropic/claude-sonnet-4-6`) via AI Gateway as instructed.
+- API route paths follow the user's instruction (`/api/reading-helper`, `/api/conversation/message`) rather than the spec's nested `/api/tools/...`.
+- Curriculum status type only allows "planned" | "built". The original instruction said to flip to "ready"; using "built" to stay within the type.
+
+## Known gaps for the next pass
+
+- Reading helper: word-define endpoint (click a token for inline definition) is not yet wired. The token chips render correctly but clicking them does nothing. Spec §5 covers this.
+- Conversation partner: voice mode (V2). Whisper STT + VOICEVOX TTS deferred per spec.
+- Conversation partner: weak_points list is hardcoded (Lorenzo's known issues from the audit). When Postgres lands, wire to FSRS state.
+- Pitch accent: FSRS scheduling, mic input, full Wadoku/NHK pitch dictionary import — V2.
+- Diagnostic: results persist to localStorage only; the recommendation slugs do not all map to live lessons in the curriculum yet (they refer to the broader tagged pool from the diagnostic spec).
+
+---
+
+# Original V0 scaffolding notes
 
 Decisions and TODOs left for Phase 2 agents.
 
