@@ -47,7 +47,7 @@ export function MokuroOverlay({ data, renderWidth, renderHeight, onTextClick }: 
               e.stopPropagation();
               onTextClick(text, e.clientX, e.clientY);
             }}
-            className="pointer-events-auto absolute rounded-sm border border-[#638dff]/30 bg-[#638dff]/5 transition-colors hover:bg-[#638dff]/25 hover:border-[#638dff]/80"
+            className="pointer-events-auto absolute rounded-[3px] border-2 border-[#638dff]/70 bg-[#638dff]/15 shadow-[0_0_0_1px_rgba(99,141,255,0.25)] transition-colors hover:bg-[#638dff]/40 hover:border-[#638dff] active:bg-[#638dff]/60"
             style={{
               left: `${left}px`,
               top: `${top}px`,
