@@ -1,0 +1,3674 @@
+{
+  "一": {
+    "unicode": "04E00",
+    "strokeCount": 1,
+    "svgPath": "/kanji-svgs/04e00.svg",
+    "jlptLevel": "N5"
+  },
+  "二": {
+    "unicode": "04E8C",
+    "strokeCount": 2,
+    "svgPath": "/kanji-svgs/04e8c.svg",
+    "jlptLevel": "N5"
+  },
+  "九": {
+    "unicode": "04E5D",
+    "strokeCount": 2,
+    "svgPath": "/kanji-svgs/04e5d.svg",
+    "jlptLevel": "N5"
+  },
+  "七": {
+    "unicode": "04E03",
+    "strokeCount": 2,
+    "svgPath": "/kanji-svgs/04e03.svg",
+    "jlptLevel": "N5"
+  },
+  "人": {
+    "unicode": "04EBA",
+    "strokeCount": 2,
+    "svgPath": "/kanji-svgs/04eba.svg",
+    "jlptLevel": "N5"
+  },
+  "入": {
+    "unicode": "05165",
+    "strokeCount": 2,
+    "svgPath": "/kanji-svgs/05165.svg",
+    "jlptLevel": "N5"
+  },
+  "八": {
+    "unicode": "0516B",
+    "strokeCount": 2,
+    "svgPath": "/kanji-svgs/0516b.svg",
+    "jlptLevel": "N5"
+  },
+  "力": {
+    "unicode": "0529B",
+    "strokeCount": 2,
+    "svgPath": "/kanji-svgs/0529b.svg",
+    "jlptLevel": "N4"
+  },
+  "十": {
+    "unicode": "05341",
+    "strokeCount": 2,
+    "svgPath": "/kanji-svgs/05341.svg",
+    "jlptLevel": "N5"
+  },
+  "三": {
+    "unicode": "04E09",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/04e09.svg",
+    "jlptLevel": "N5"
+  },
+  "上": {
+    "unicode": "04E0A",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/04e0a.svg",
+    "jlptLevel": "N5"
+  },
+  "下": {
+    "unicode": "04E0B",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/04e0b.svg",
+    "jlptLevel": "N5"
+  },
+  "口": {
+    "unicode": "053E3",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/053e3.svg",
+    "jlptLevel": "N4"
+  },
+  "大": {
+    "unicode": "05927",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/05927.svg",
+    "jlptLevel": "N5"
+  },
+  "女": {
+    "unicode": "05973",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/05973.svg",
+    "jlptLevel": "N5"
+  },
+  "山": {
+    "unicode": "05C71",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/05c71.svg",
+    "jlptLevel": "N5"
+  },
+  "川": {
+    "unicode": "05DDD",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/05ddd.svg",
+    "jlptLevel": "N5"
+  },
+  "工": {
+    "unicode": "05DE5",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/05de5.svg",
+    "jlptLevel": "N4"
+  },
+  "土": {
+    "unicode": "0571F",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/0571f.svg",
+    "jlptLevel": "N5"
+  },
+  "千": {
+    "unicode": "05343",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/05343.svg",
+    "jlptLevel": "N5"
+  },
+  "夕": {
+    "unicode": "05915",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/05915.svg",
+    "jlptLevel": "N4"
+  },
+  "子": {
+    "unicode": "05B50",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/05b50.svg",
+    "jlptLevel": "N5"
+  },
+  "小": {
+    "unicode": "05C0F",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/05c0f.svg",
+    "jlptLevel": "N5"
+  },
+  "才": {
+    "unicode": "0624D",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/0624d.svg",
+    "jlptLevel": "N3"
+  },
+  "中": {
+    "unicode": "04E2D",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/04e2d.svg",
+    "jlptLevel": "N5"
+  },
+  "五": {
+    "unicode": "04E94",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/04e94.svg",
+    "jlptLevel": "N5"
+  },
+  "六": {
+    "unicode": "0516D-KAISHO",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/0516d-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "円": {
+    "unicode": "05186",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05186.svg",
+    "jlptLevel": "N5"
+  },
+  "天": {
+    "unicode": "05929-KAISHO",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05929-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "手": {
+    "unicode": "0624B",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/0624b.svg",
+    "jlptLevel": "N4"
+  },
+  "文": {
+    "unicode": "06587-KAISHO",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/06587-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "日": {
+    "unicode": "065E5-KAISHO",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/065e5-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "月": {
+    "unicode": "06708-KAISHO",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/06708-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "木": {
+    "unicode": "06728-KAISHO",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/06728-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "水": {
+    "unicode": "06C34",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/06c34.svg",
+    "jlptLevel": "N5"
+  },
+  "火": {
+    "unicode": "0706B",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/0706b.svg",
+    "jlptLevel": "N5"
+  },
+  "犬": {
+    "unicode": "072AC",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/072ac.svg",
+    "jlptLevel": "N4"
+  },
+  "王": {
+    "unicode": "0738B-VTLST",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/0738b-vtlst.svg",
+    "jlptLevel": "N3"
+  },
+  "出": {
+    "unicode": "051FA",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/051fa.svg",
+    "jlptLevel": "N5"
+  },
+  "右": {
+    "unicode": "053F3",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/053f3.svg",
+    "jlptLevel": "N5"
+  },
+  "四": {
+    "unicode": "056DB",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/056db.svg",
+    "jlptLevel": "N5"
+  },
+  "左": {
+    "unicode": "05DE6",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05de6.svg",
+    "jlptLevel": "N5"
+  },
+  "本": {
+    "unicode": "0672C",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/0672c.svg",
+    "jlptLevel": "N5"
+  },
+  "正": {
+    "unicode": "06B63-HZFST",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/06b63-hzfst.svg",
+    "jlptLevel": "N4"
+  },
+  "田": {
+    "unicode": "07530-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/07530-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "白": {
+    "unicode": "0767D-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/0767d-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "目": {
+    "unicode": "076EE-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/076ee-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "石": {
+    "unicode": "077F3",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/077f3.svg",
+    "jlptLevel": "N3"
+  },
+  "立": {
+    "unicode": "07ACB-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/07acb-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "万": {
+    "unicode": "04E07",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/04e07.svg",
+    "jlptLevel": "N5"
+  },
+  "今": {
+    "unicode": "04ECA",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/04eca.svg",
+    "jlptLevel": "N5"
+  },
+  "元": {
+    "unicode": "05143",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05143.svg",
+    "jlptLevel": "N4"
+  },
+  "公": {
+    "unicode": "0516C",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/0516c.svg",
+    "jlptLevel": "N4"
+  },
+  "内": {
+    "unicode": "05185",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05185.svg",
+    "jlptLevel": "N3"
+  },
+  "切": {
+    "unicode": "05207-KAISHO",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05207-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "午": {
+    "unicode": "05348",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05348.svg",
+    "jlptLevel": "N5"
+  },
+  "友": {
+    "unicode": "053CB",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/053cb.svg",
+    "jlptLevel": "N5"
+  },
+  "太": {
+    "unicode": "0592A",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/0592a.svg",
+    "jlptLevel": "N3"
+  },
+  "少": {
+    "unicode": "05C11",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05c11.svg",
+    "jlptLevel": "N4"
+  },
+  "引": {
+    "unicode": "05F15",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05f15.svg",
+    "jlptLevel": "N3"
+  },
+  "心": {
+    "unicode": "05FC3",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05fc3.svg",
+    "jlptLevel": "N4"
+  },
+  "方": {
+    "unicode": "065B9-KAISHO",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/065b9-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "牛": {
+    "unicode": "0725B",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/0725b.svg",
+    "jlptLevel": "N4"
+  },
+  "父": {
+    "unicode": "07236",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/07236.svg",
+    "jlptLevel": "N5"
+  },
+  "止": {
+    "unicode": "06B62-HZFST",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/06b62-hzfst.svg",
+    "jlptLevel": "N4"
+  },
+  "兄": {
+    "unicode": "05144",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05144.svg",
+    "jlptLevel": "N4"
+  },
+  "冬": {
+    "unicode": "051AC",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/051ac.svg",
+    "jlptLevel": "N4"
+  },
+  "北": {
+    "unicode": "05317-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05317-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "半": {
+    "unicode": "0534A",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/0534a.svg",
+    "jlptLevel": "N5"
+  },
+  "古": {
+    "unicode": "053E4",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/053e4.svg",
+    "jlptLevel": "N4"
+  },
+  "台": {
+    "unicode": "053F0",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/053f0.svg",
+    "jlptLevel": "N4"
+  },
+  "外": {
+    "unicode": "05916",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05916.svg",
+    "jlptLevel": "N5"
+  },
+  "市": {
+    "unicode": "05E02-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05e02-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "広": {
+    "unicode": "05E83-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05e83-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "母": {
+    "unicode": "06BCD",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/06bcd.svg",
+    "jlptLevel": "N5"
+  },
+  "用": {
+    "unicode": "07528-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/07528-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "世": {
+    "unicode": "04E16",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/04e16.svg",
+    "jlptLevel": "N4"
+  },
+  "主": {
+    "unicode": "04E3B-VTLST",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/04e3b-vtlst.svg",
+    "jlptLevel": "N4"
+  },
+  "他": {
+    "unicode": "04ED6",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/04ed6.svg",
+    "jlptLevel": "N3"
+  },
+  "代": {
+    "unicode": "04EE3",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/04ee3.svg",
+    "jlptLevel": "N4"
+  },
+  "写": {
+    "unicode": "05199",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05199.svg",
+    "jlptLevel": "N4"
+  },
+  "去": {
+    "unicode": "053BB",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/053bb.svg",
+    "jlptLevel": "N4"
+  },
+  "号": {
+    "unicode": "053F7",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/053f7.svg",
+    "jlptLevel": "N3"
+  },
+  "平": {
+    "unicode": "05E73",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05e73.svg",
+    "jlptLevel": "N3"
+  },
+  "打": {
+    "unicode": "06253",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/06253.svg",
+    "jlptLevel": "N3"
+  },
+  "申": {
+    "unicode": "07533-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/07533-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "礼": {
+    "unicode": "0793C",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/0793c.svg",
+    "jlptLevel": "N3"
+  },
+  "休": {
+    "unicode": "04F11-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/04f11-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "先": {
+    "unicode": "05148",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05148.svg",
+    "jlptLevel": "N5"
+  },
+  "名": {
+    "unicode": "0540D",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/0540d.svg",
+    "jlptLevel": "N5"
+  },
+  "字": {
+    "unicode": "05B57-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05b57-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "年": {
+    "unicode": "05E74",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05e74.svg",
+    "jlptLevel": "N5"
+  },
+  "早": {
+    "unicode": "065E9-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/065e9-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "気": {
+    "unicode": "06C17",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/06c17.svg",
+    "jlptLevel": "N5"
+  },
+  "百": {
+    "unicode": "0767E-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/0767e-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "耳": {
+    "unicode": "08033-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/08033-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "男": {
+    "unicode": "07537-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/07537-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "町": {
+    "unicode": "0753A-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0753a-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "花": {
+    "unicode": "082B1",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/082b1.svg",
+    "jlptLevel": "N4"
+  },
+  "見": {
+    "unicode": "0898B-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0898b-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "赤": {
+    "unicode": "08D64",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/08d64.svg",
+    "jlptLevel": "N4"
+  },
+  "足": {
+    "unicode": "08DB3",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/08db3.svg",
+    "jlptLevel": "N4"
+  },
+  "車": {
+    "unicode": "08ECA-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/08eca-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "不": {
+    "unicode": "04E0D",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/04e0d.svg",
+    "jlptLevel": "N4"
+  },
+  "仕": {
+    "unicode": "04ED5",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/04ed5.svg",
+    "jlptLevel": "N4"
+  },
+  "交": {
+    "unicode": "04EA4",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/04ea4.svg",
+    "jlptLevel": "N3"
+  },
+  "会": {
+    "unicode": "04F1A",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/04f1a.svg",
+    "jlptLevel": "N4"
+  },
+  "光": {
+    "unicode": "05149",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05149.svg",
+    "jlptLevel": "N3"
+  },
+  "同": {
+    "unicode": "0540C",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/0540c.svg",
+    "jlptLevel": "N4"
+  },
+  "回": {
+    "unicode": "056DE",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/056de.svg",
+    "jlptLevel": "N3"
+  },
+  "多": {
+    "unicode": "0591A",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/0591a.svg",
+    "jlptLevel": "N4"
+  },
+  "当": {
+    "unicode": "05F53-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05f53-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "毎": {
+    "unicode": "06BCE",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/06bce.svg",
+    "jlptLevel": "N5"
+  },
+  "米": {
+    "unicode": "07C73-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/07c73-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "考": {
+    "unicode": "08003-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/08003-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "肉": {
+    "unicode": "08089",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/08089.svg",
+    "jlptLevel": "N4"
+  },
+  "自": {
+    "unicode": "081EA-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/081ea-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "色": {
+    "unicode": "08272",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/08272.svg",
+    "jlptLevel": "N4"
+  },
+  "行": {
+    "unicode": "0884C",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/0884c.svg",
+    "jlptLevel": "N5"
+  },
+  "西": {
+    "unicode": "0897F",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/0897f.svg",
+    "jlptLevel": "N5"
+  },
+  "何": {
+    "unicode": "04F55",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/04f55.svg",
+    "jlptLevel": "N5"
+  },
+  "体": {
+    "unicode": "04F53",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/04f53.svg",
+    "jlptLevel": "N4"
+  },
+  "作": {
+    "unicode": "04F5C",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/04f5c.svg",
+    "jlptLevel": "N4"
+  },
+  "図": {
+    "unicode": "056F3",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/056f3.svg",
+    "jlptLevel": "N4"
+  },
+  "声": {
+    "unicode": "058F0",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/058f0.svg",
+    "jlptLevel": "N3"
+  },
+  "売": {
+    "unicode": "058F2",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/058f2.svg",
+    "jlptLevel": "N4"
+  },
+  "弟": {
+    "unicode": "05F1F-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05f1f-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "形": {
+    "unicode": "05F62",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05f62.svg",
+    "jlptLevel": "N3"
+  },
+  "来": {
+    "unicode": "06765-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/06765-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "社": {
+    "unicode": "0793E",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0793e.svg",
+    "jlptLevel": "N4"
+  },
+  "言": {
+    "unicode": "08A00",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/08a00.svg",
+    "jlptLevel": "N4"
+  },
+  "走": {
+    "unicode": "08D70",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/08d70.svg",
+    "jlptLevel": "N4"
+  },
+  "近": {
+    "unicode": "08FD1",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/08fd1.svg",
+    "jlptLevel": "N4"
+  },
+  "学": {
+    "unicode": "05B66",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05b66.svg",
+    "jlptLevel": "N5"
+  },
+  "空": {
+    "unicode": "07A7A-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/07a7a-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "金": {
+    "unicode": "091D1",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/091d1.svg",
+    "jlptLevel": "N5"
+  },
+  "雨": {
+    "unicode": "096E8",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/096e8.svg",
+    "jlptLevel": "N5"
+  },
+  "青": {
+    "unicode": "09752-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/09752-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "草": {
+    "unicode": "08349-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/08349-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "音": {
+    "unicode": "097F3-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/097f3-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "化": {
+    "unicode": "05316",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/05316.svg",
+    "jlptLevel": "N3"
+  },
+  "地": {
+    "unicode": "05730",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05730.svg",
+    "jlptLevel": "N4"
+  },
+  "両": {
+    "unicode": "04E21",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/04e21.svg",
+    "jlptLevel": "N3"
+  },
+  "全": {
+    "unicode": "05168-VTLST",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05168-vtlst.svg",
+    "jlptLevel": "N3"
+  },
+  "向": {
+    "unicode": "05411",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05411.svg",
+    "jlptLevel": "N3"
+  },
+  "安": {
+    "unicode": "05B89-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05b89-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "曲": {
+    "unicode": "066F2-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/066f2-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "有": {
+    "unicode": "06709-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/06709-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "次": {
+    "unicode": "06B21",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/06b21.svg",
+    "jlptLevel": "N3"
+  },
+  "死": {
+    "unicode": "06B7B",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/06b7b.svg",
+    "jlptLevel": "N4"
+  },
+  "京": {
+    "unicode": "04EAC-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/04eac-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "国": {
+    "unicode": "056FD-VTLST",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/056fd-vtlst.svg",
+    "jlptLevel": "N5"
+  },
+  "夜": {
+    "unicode": "0591C-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0591c-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "妹": {
+    "unicode": "059B9-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/059b9-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "姉": {
+    "unicode": "059C9-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/059c9-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "店": {
+    "unicode": "05E97-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05e97-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "明": {
+    "unicode": "0660E-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0660e-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "東": {
+    "unicode": "06771-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06771-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "歩": {
+    "unicode": "06B69-HZFST",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06b69-hzfst.svg",
+    "jlptLevel": "N4"
+  },
+  "画": {
+    "unicode": "0753B-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0753b-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "直": {
+    "unicode": "076F4-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/076f4-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "知": {
+    "unicode": "077E5",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/077e5.svg",
+    "jlptLevel": "N4"
+  },
+  "長": {
+    "unicode": "09577-HZFST",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/09577-hzfst.svg",
+    "jlptLevel": "N5"
+  },
+  "前": {
+    "unicode": "0524D-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/0524d-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "南": {
+    "unicode": "05357",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05357.svg",
+    "jlptLevel": "N5"
+  },
+  "室": {
+    "unicode": "05BA4-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05ba4-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "後": {
+    "unicode": "05F8C",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05f8c.svg",
+    "jlptLevel": "N5"
+  },
+  "思": {
+    "unicode": "0601D-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/0601d-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "活": {
+    "unicode": "06D3B",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06d3b.svg",
+    "jlptLevel": "N3"
+  },
+  "海": {
+    "unicode": "06D77",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06d77.svg",
+    "jlptLevel": "N4"
+  },
+  "点": {
+    "unicode": "070B9-HZFST",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/070b9-hzfst.svg",
+    "jlptLevel": "N3"
+  },
+  "科": {
+    "unicode": "079D1-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/079d1-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "茶": {
+    "unicode": "08336-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/08336-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "食": {
+    "unicode": "098DF-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/098df-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "首": {
+    "unicode": "09996-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/09996-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "欠": {
+    "unicode": "06B20",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/06b20.svg",
+    "jlptLevel": "N3"
+  },
+  "由": {
+    "unicode": "07531-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/07531-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "民": {
+    "unicode": "06C11",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/06c11.svg",
+    "jlptLevel": "N3"
+  },
+  "付": {
+    "unicode": "04ED8",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/04ed8.svg",
+    "jlptLevel": "N3"
+  },
+  "以": {
+    "unicode": "04EE5",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/04ee5.svg",
+    "jlptLevel": "N4"
+  },
+  "失": {
+    "unicode": "05931",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05931.svg",
+    "jlptLevel": "N3"
+  },
+  "必": {
+    "unicode": "05FC5-TEN3",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/05fc5-ten3.svg",
+    "jlptLevel": "N3"
+  },
+  "未": {
+    "unicode": "0672A-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/0672a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "末": {
+    "unicode": "0672B-KAISHO",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/0672b-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "校": {
+    "unicode": "06821-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06821-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "夏": {
+    "unicode": "0590F-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0590f-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "家": {
+    "unicode": "05BB6-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05bb6-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "時": {
+    "unicode": "06642-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06642-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "紙": {
+    "unicode": "07D19-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/07d19-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "記": {
+    "unicode": "08A18",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/08a18.svg",
+    "jlptLevel": "N3"
+  },
+  "通": {
+    "unicode": "0901A-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0901a-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "高": {
+    "unicode": "09AD8-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/09ad8-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "強": {
+    "unicode": "05F37",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05f37.svg",
+    "jlptLevel": "N4"
+  },
+  "教": {
+    "unicode": "06559",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/06559.svg",
+    "jlptLevel": "N4"
+  },
+  "理": {
+    "unicode": "07406-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/07406-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "組": {
+    "unicode": "07D44-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/07d44-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "船": {
+    "unicode": "08239-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/08239-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "週": {
+    "unicode": "09031",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/09031.svg",
+    "jlptLevel": "N4"
+  },
+  "雪": {
+    "unicode": "096EA-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/096ea-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "魚": {
+    "unicode": "09B5A-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/09b5a-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "鳥": {
+    "unicode": "09CE5-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/09ce5-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "黒": {
+    "unicode": "09ED2-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/09ed2-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "支": {
+    "unicode": "0652F",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/0652f.svg",
+    "jlptLevel": "N3"
+  },
+  "住": {
+    "unicode": "04F4F-VTLST",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/04f4f-vtlst.svg",
+    "jlptLevel": "N4"
+  },
+  "助": {
+    "unicode": "052A9-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/052a9-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "医": {
+    "unicode": "0533B",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0533b.svg",
+    "jlptLevel": "N4"
+  },
+  "君": {
+    "unicode": "0541B",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0541b.svg",
+    "jlptLevel": "N3"
+  },
+  "対": {
+    "unicode": "05BFE-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05bfe-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "局": {
+    "unicode": "05C40",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05c40.svg",
+    "jlptLevel": "N3"
+  },
+  "役": {
+    "unicode": "05F79",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05f79.svg",
+    "jlptLevel": "N3"
+  },
+  "投": {
+    "unicode": "06295",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/06295.svg",
+    "jlptLevel": "N3"
+  },
+  "決": {
+    "unicode": "06C7A",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/06c7a.svg",
+    "jlptLevel": "N3"
+  },
+  "究": {
+    "unicode": "07A76-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/07a76-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "者": {
+    "unicode": "08005-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/08005-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "研": {
+    "unicode": "07814",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/07814.svg",
+    "jlptLevel": "N4"
+  },
+  "馬": {
+    "unicode": "099AC-VT6",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/099ac-vt6.svg",
+    "jlptLevel": "N3"
+  },
+  "場": {
+    "unicode": "05834-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/05834-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "朝": {
+    "unicode": "0671D-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0671d-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "番": {
+    "unicode": "0756A-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0756a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "答": {
+    "unicode": "07B54",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/07b54.svg",
+    "jlptLevel": "N4"
+  },
+  "絵": {
+    "unicode": "07D75-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/07d75-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "買": {
+    "unicode": "08CB7",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/08cb7.svg",
+    "jlptLevel": "N4"
+  },
+  "道": {
+    "unicode": "09053-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/09053-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "間": {
+    "unicode": "09593-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/09593-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "数": {
+    "unicode": "06570",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/06570.svg",
+    "jlptLevel": "N3"
+  },
+  "楽": {
+    "unicode": "0697D-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/0697d-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "話": {
+    "unicode": "08A71",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/08a71.svg",
+    "jlptLevel": "N5"
+  },
+  "電": {
+    "unicode": "096FB-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/096fb-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "所": {
+    "unicode": "06240",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06240.svg",
+    "jlptLevel": "N3"
+  },
+  "事": {
+    "unicode": "04E8B",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/04e8b.svg",
+    "jlptLevel": "N4"
+  },
+  "使": {
+    "unicode": "04F7F",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/04f7f.svg",
+    "jlptLevel": "N4"
+  },
+  "具": {
+    "unicode": "05177-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05177-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "受": {
+    "unicode": "053D7",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/053d7.svg",
+    "jlptLevel": "N3"
+  },
+  "和": {
+    "unicode": "0548C-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0548c-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "始": {
+    "unicode": "059CB",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/059cb.svg",
+    "jlptLevel": "N4"
+  },
+  "定": {
+    "unicode": "05B9A-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05b9a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "実": {
+    "unicode": "05B9F-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05b9f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "服": {
+    "unicode": "0670D-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0670d-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "泳": {
+    "unicode": "06CF3",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06cf3.svg",
+    "jlptLevel": "N3"
+  },
+  "物": {
+    "unicode": "07269-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/07269-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "苦": {
+    "unicode": "082E6",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/082e6.svg",
+    "jlptLevel": "N3"
+  },
+  "表": {
+    "unicode": "08868-HZLST",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/08868-hzlst.svg",
+    "jlptLevel": "N3"
+  },
+  "部": {
+    "unicode": "090E8-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/090e8-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "乗": {
+    "unicode": "04E57-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/04e57-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "客": {
+    "unicode": "05BA2-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05ba2-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "屋": {
+    "unicode": "05C4B-VTFST",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05c4b-vtfst.svg",
+    "jlptLevel": "N4"
+  },
+  "度": {
+    "unicode": "05EA6-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05ea6-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "待": {
+    "unicode": "05F85",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05f85.svg",
+    "jlptLevel": "N4"
+  },
+  "持": {
+    "unicode": "06301",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06301.svg",
+    "jlptLevel": "N4"
+  },
+  "界": {
+    "unicode": "0754C-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/0754c-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "発": {
+    "unicode": "0767A-DG3",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/0767a-dg3.svg",
+    "jlptLevel": "N4"
+  },
+  "相": {
+    "unicode": "076F8-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/076f8-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "美": {
+    "unicode": "07F8E-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/07f8e-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "負": {
+    "unicode": "08CA0-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/08ca0-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "送": {
+    "unicode": "09001",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/09001.svg",
+    "jlptLevel": "N4"
+  },
+  "重": {
+    "unicode": "091CD-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/091cd-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "談": {
+    "unicode": "08AC7",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/08ac7.svg",
+    "jlptLevel": "N3"
+  },
+  "要": {
+    "unicode": "08981",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/08981.svg",
+    "jlptLevel": "N3"
+  },
+  "勝": {
+    "unicode": "052DD-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/052dd-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "起": {
+    "unicode": "08D77-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/08d77-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "速": {
+    "unicode": "0901F-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0901f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "配": {
+    "unicode": "0914D-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0914d-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "酒": {
+    "unicode": "09152-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/09152-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "院": {
+    "unicode": "09662-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/09662-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "終": {
+    "unicode": "07D42-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/07d42-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "習": {
+    "unicode": "07FD2-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/07fd2-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "転": {
+    "unicode": "08EE2-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/08ee2-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "進": {
+    "unicode": "09032",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/09032.svg",
+    "jlptLevel": "N3"
+  },
+  "落": {
+    "unicode": "0843D",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0843d.svg",
+    "jlptLevel": "N3"
+  },
+  "葉": {
+    "unicode": "08449-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/08449-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "運": {
+    "unicode": "0904B-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0904b-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "開": {
+    "unicode": "0958B-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0958b-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "集": {
+    "unicode": "096C6-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/096c6-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "飲": {
+    "unicode": "098F2-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/098f2-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "業": {
+    "unicode": "0696D-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/0696d-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "漢": {
+    "unicode": "06F22",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/06f22.svg",
+    "jlptLevel": "N4"
+  },
+  "路": {
+    "unicode": "08DEF",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/08def.svg",
+    "jlptLevel": "N3"
+  },
+  "歌": {
+    "unicode": "06B4C",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/06b4c.svg",
+    "jlptLevel": "N4"
+  },
+  "聞": {
+    "unicode": "0805E-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/0805e-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "語": {
+    "unicode": "08A9E",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/08a9e.svg",
+    "jlptLevel": "N5"
+  },
+  "読": {
+    "unicode": "08AAD",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/08aad.svg",
+    "jlptLevel": "N5"
+  },
+  "鳴": {
+    "unicode": "09CF4-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/09cf4-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "横": {
+    "unicode": "06A2A-KAISHO",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/06a2a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "調": {
+    "unicode": "08ABF",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/08abf.svg",
+    "jlptLevel": "N3"
+  },
+  "親": {
+    "unicode": "089AA-KAISHO",
+    "strokeCount": 16,
+    "svgPath": "/kanji-svgs/089aa-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "頭": {
+    "unicode": "0982D-KAISHO",
+    "strokeCount": 16,
+    "svgPath": "/kanji-svgs/0982d-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "顔": {
+    "unicode": "09854-KAISHO",
+    "strokeCount": 18,
+    "svgPath": "/kanji-svgs/09854-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "病": {
+    "unicode": "075C5-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/075c5-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "最": {
+    "unicode": "06700-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/06700-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "争": {
+    "unicode": "04E89",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/04e89.svg",
+    "jlptLevel": "N3"
+  },
+  "伝": {
+    "unicode": "04F1D",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/04f1d.svg",
+    "jlptLevel": "N3"
+  },
+  "共": {
+    "unicode": "05171",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05171.svg",
+    "jlptLevel": "N3"
+  },
+  "好": {
+    "unicode": "0597D",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/0597d.svg",
+    "jlptLevel": "N3"
+  },
+  "成": {
+    "unicode": "06210",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/06210.svg",
+    "jlptLevel": "N3"
+  },
+  "老": {
+    "unicode": "08001-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/08001-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "位": {
+    "unicode": "04F4D-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/04f4d-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "初": {
+    "unicode": "0521D",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0521d.svg",
+    "jlptLevel": "N3"
+  },
+  "別": {
+    "unicode": "05225",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05225.svg",
+    "jlptLevel": "N4"
+  },
+  "利": {
+    "unicode": "05229-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05229-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "努": {
+    "unicode": "052AA",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/052aa.svg",
+    "jlptLevel": "N3"
+  },
+  "労": {
+    "unicode": "052B4",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/052b4.svg",
+    "jlptLevel": "N3"
+  },
+  "命": {
+    "unicode": "0547D",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0547d.svg",
+    "jlptLevel": "N3"
+  },
+  "放": {
+    "unicode": "0653E-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0653e-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "昔": {
+    "unicode": "06614-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06614-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "注": {
+    "unicode": "06CE8-VTLST",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06ce8-vtlst.svg",
+    "jlptLevel": "N4"
+  },
+  "育": {
+    "unicode": "080B2-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/080b2-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "指": {
+    "unicode": "06307-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06307-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "洋": {
+    "unicode": "06D0B",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06d0b.svg",
+    "jlptLevel": "N4"
+  },
+  "神": {
+    "unicode": "0795E-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/0795e-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "追": {
+    "unicode": "08FFD",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/08ffd.svg",
+    "jlptLevel": "N3"
+  },
+  "戦": {
+    "unicode": "06226-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/06226-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "良": {
+    "unicode": "0826F-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0826f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "特": {
+    "unicode": "07279-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/07279-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "便": {
+    "unicode": "04FBF-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/04fbf-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "働": {
+    "unicode": "050CD-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/050cd-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "意": {
+    "unicode": "0610F-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/0610f-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "味": {
+    "unicode": "05473-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05473-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "勉": {
+    "unicode": "052C9",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/052c9.svg",
+    "jlptLevel": "N4"
+  },
+  "庭": {
+    "unicode": "05EAD-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05ead-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "息": {
+    "unicode": "0606F-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0606f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "旅": {
+    "unicode": "065C5-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/065c5-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "流": {
+    "unicode": "06D41-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06d41-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "消": {
+    "unicode": "06D88-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06d88-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "員": {
+    "unicode": "054E1",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/054e1.svg",
+    "jlptLevel": "N4"
+  },
+  "都": {
+    "unicode": "090FD-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/090fd-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "動": {
+    "unicode": "052D5-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/052d5-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "商": {
+    "unicode": "05546-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05546-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "悪": {
+    "unicode": "060AA",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/060aa.svg",
+    "jlptLevel": "N4"
+  },
+  "族": {
+    "unicode": "065CF-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/065cf-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "深": {
+    "unicode": "06DF1-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/06df1-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "球": {
+    "unicode": "07403-VTLST",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/07403-vtlst.svg",
+    "jlptLevel": "N3"
+  },
+  "陽": {
+    "unicode": "0967D-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0967d-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "寒": {
+    "unicode": "05BD2-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/05bd2-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "悲": {
+    "unicode": "060B2-MDFST",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/060b2-mdfst.svg",
+    "jlptLevel": "N3"
+  },
+  "期": {
+    "unicode": "0671F-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0671f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "歯": {
+    "unicode": "06B6F-HZFST",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/06b6f-hzfst.svg",
+    "jlptLevel": "N3"
+  },
+  "港": {
+    "unicode": "06E2F-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/06e2f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "登": {
+    "unicode": "0767B-DG3",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0767b-dg3.svg",
+    "jlptLevel": "N3"
+  },
+  "着": {
+    "unicode": "07740-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/07740-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "野": {
+    "unicode": "091CE-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/091ce-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "生": {
+    "unicode": "0751F-VTLST",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/0751f-vtlst.svg",
+    "jlptLevel": "N5"
+  },
+  "亡": {
+    "unicode": "04EA1-KAISHO",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/04ea1-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "合": {
+    "unicode": "05408",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05408.svg",
+    "jlptLevel": "N3"
+  },
+  "風": {
+    "unicode": "098A8",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/098a8.svg",
+    "jlptLevel": "N4"
+  },
+  "予": {
+    "unicode": "04E88",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/04e88.svg",
+    "jlptLevel": "N3"
+  },
+  "反": {
+    "unicode": "053CD",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/053cd.svg",
+    "jlptLevel": "N3"
+  },
+  "新": {
+    "unicode": "065B0-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/065b0-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "返": {
+    "unicode": "08FD4",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/08fd4.svg",
+    "jlptLevel": "N3"
+  },
+  "問": {
+    "unicode": "0554F-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/0554f-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "宿": {
+    "unicode": "05BBF-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05bbf-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "想": {
+    "unicode": "060F3-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/060f3-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "感": {
+    "unicode": "0611F",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/0611f.svg",
+    "jlptLevel": "N3"
+  },
+  "暗": {
+    "unicode": "06697-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/06697-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "様": {
+    "unicode": "069D8-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/069d8-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "福": {
+    "unicode": "0798F-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/0798f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "銀": {
+    "unicode": "09280-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/09280-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "題": {
+    "unicode": "0984C-KAISHO",
+    "strokeCount": 18,
+    "svgPath": "/kanji-svgs/0984c-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "館": {
+    "unicode": "09928-KAISHO",
+    "strokeCount": 16,
+    "svgPath": "/kanji-svgs/09928-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "駅": {
+    "unicode": "099C5-VT6",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/099c5-vt6.svg",
+    "jlptLevel": "N4"
+  },
+  "料": {
+    "unicode": "06599-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06599-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "殺": {
+    "unicode": "06BBA-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06bba-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "然": {
+    "unicode": "07136",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/07136.svg",
+    "jlptLevel": "N3"
+  },
+  "熱": {
+    "unicode": "071B1",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/071b1.svg",
+    "jlptLevel": "N3"
+  },
+  "選": {
+    "unicode": "09078",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/09078.svg",
+    "jlptLevel": "N3"
+  },
+  "願": {
+    "unicode": "09858-KAISHO",
+    "strokeCount": 19,
+    "svgPath": "/kanji-svgs/09858-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "情": {
+    "unicode": "060C5-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/060c5-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "映": {
+    "unicode": "06620-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06620-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "疑": {
+    "unicode": "07591-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/07591-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "皆": {
+    "unicode": "07686-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/07686-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "例": {
+    "unicode": "04F8B",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/04f8b.svg",
+    "jlptLevel": "N3"
+  },
+  "参": {
+    "unicode": "053C2",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/053c2.svg",
+    "jlptLevel": "N3"
+  },
+  "完": {
+    "unicode": "05B8C-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05b8c-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "念": {
+    "unicode": "05FF5",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05ff5.svg",
+    "jlptLevel": "N3"
+  },
+  "折": {
+    "unicode": "06298",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/06298.svg",
+    "jlptLevel": "N3"
+  },
+  "望": {
+    "unicode": "0671B-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/0671b-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "束": {
+    "unicode": "0675F-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0675f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "残": {
+    "unicode": "06B8B",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06b8b.svg",
+    "jlptLevel": "N3"
+  },
+  "求": {
+    "unicode": "06C42",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/06c42.svg",
+    "jlptLevel": "N3"
+  },
+  "約": {
+    "unicode": "07D04-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/07d04-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "性": {
+    "unicode": "06027-VTLST",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06027-vtlst.svg",
+    "jlptLevel": "N3"
+  },
+  "格": {
+    "unicode": "0683C-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0683c-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "能": {
+    "unicode": "080FD-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/080fd-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "術": {
+    "unicode": "08853-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/08853-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "私": {
+    "unicode": "079C1-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/079c1-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "帰": {
+    "unicode": "05E30-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05e30-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "春": {
+    "unicode": "06625-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06625-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "昼": {
+    "unicode": "0663C-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/0663c-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "晴": {
+    "unicode": "06674-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/06674-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "秋": {
+    "unicode": "079CB-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/079cb-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "計": {
+    "unicode": "08A08",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/08a08.svg",
+    "jlptLevel": "N4"
+  },
+  "列": {
+    "unicode": "05217",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05217.svg",
+    "jlptLevel": "N3"
+  },
+  "式": {
+    "unicode": "05F0F",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05f0f.svg",
+    "jlptLevel": "N3"
+  },
+  "信": {
+    "unicode": "04FE1",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/04fe1.svg",
+    "jlptLevel": "N3"
+  },
+  "単": {
+    "unicode": "05358-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05358-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "変": {
+    "unicode": "05909-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05909-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "夫": {
+    "unicode": "0592B",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/0592b.svg",
+    "jlptLevel": "N3"
+  },
+  "建": {
+    "unicode": "05EFA",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/05efa.svg",
+    "jlptLevel": "N4"
+  },
+  "昨": {
+    "unicode": "06628-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06628-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "法": {
+    "unicode": "06CD5",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06cd5.svg",
+    "jlptLevel": "N3"
+  },
+  "英": {
+    "unicode": "082F1-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/082f1-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "飯": {
+    "unicode": "098EF-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/098ef-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "晩": {
+    "unicode": "06669-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/06669-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "猫": {
+    "unicode": "0732B-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/0732b-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "園": {
+    "unicode": "05712",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/05712.svg",
+    "jlptLevel": "N3"
+  },
+  "曜": {
+    "unicode": "066DC-KAISHO",
+    "strokeCount": 18,
+    "svgPath": "/kanji-svgs/066dc-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "書": {
+    "unicode": "066F8-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/066f8-kaisho.svg",
+    "jlptLevel": "N5"
+  },
+  "遠": {
+    "unicode": "09060",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/09060.svg",
+    "jlptLevel": "N3"
+  },
+  "係": {
+    "unicode": "04FC2-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/04fc2-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "取": {
+    "unicode": "053D6-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/053d6-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "品": {
+    "unicode": "054C1",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/054c1.svg",
+    "jlptLevel": "N4"
+  },
+  "守": {
+    "unicode": "05B88-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05b88-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "幸": {
+    "unicode": "05E78-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05e78-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "急": {
+    "unicode": "06025-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06025-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "真": {
+    "unicode": "0771F-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0771f-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "箱": {
+    "unicode": "07BB1-KAISHO",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/07bb1-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "面": {
+    "unicode": "09762",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/09762.svg",
+    "jlptLevel": "N3"
+  },
+  "喜": {
+    "unicode": "0559C",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0559c.svg",
+    "jlptLevel": "N3"
+  },
+  "治": {
+    "unicode": "06CBB",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06cbb.svg",
+    "jlptLevel": "N3"
+  },
+  "笑": {
+    "unicode": "07B11",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/07b11.svg",
+    "jlptLevel": "N3"
+  },
+  "辞": {
+    "unicode": "08F9E-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/08f9e-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "関": {
+    "unicode": "095A2-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/095a2-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "政": {
+    "unicode": "0653F-HZFST",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/0653f-hzfst.svg",
+    "jlptLevel": "N3"
+  },
+  "留": {
+    "unicode": "07559-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/07559-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "険": {
+    "unicode": "0967A",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/0967a.svg",
+    "jlptLevel": "N3"
+  },
+  "危": {
+    "unicode": "05371",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05371.svg",
+    "jlptLevel": "N3"
+  },
+  "存": {
+    "unicode": "05B58",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05b58.svg",
+    "jlptLevel": "N3"
+  },
+  "原": {
+    "unicode": "0539F-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0539f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "薬": {
+    "unicode": "085AC-KAISHO",
+    "strokeCount": 16,
+    "svgPath": "/kanji-svgs/085ac-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "側": {
+    "unicode": "05074-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05074-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "堂": {
+    "unicode": "05802",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05802.svg",
+    "jlptLevel": "N4"
+  },
+  "席": {
+    "unicode": "05E2D-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05e2d-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "敗": {
+    "unicode": "06557-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/06557-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "果": {
+    "unicode": "0679C-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0679c-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "因": {
+    "unicode": "056E0",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/056e0.svg",
+    "jlptLevel": "N3"
+  },
+  "常": {
+    "unicode": "05E38",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05e38.svg",
+    "jlptLevel": "N3"
+  },
+  "識": {
+    "unicode": "08B58-KAISHO",
+    "strokeCount": 19,
+    "svgPath": "/kanji-svgs/08b58-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "非": {
+    "unicode": "0975E-MDFST",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0975e-mdfst.svg",
+    "jlptLevel": "N3"
+  },
+  "官": {
+    "unicode": "05B98-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05b98-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "察": {
+    "unicode": "05BDF-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/05bdf-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "愛": {
+    "unicode": "0611B",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/0611b.svg",
+    "jlptLevel": "N3"
+  },
+  "警": {
+    "unicode": "08B66",
+    "strokeCount": 19,
+    "svgPath": "/kanji-svgs/08b66.svg",
+    "jlptLevel": "N3"
+  },
+  "覚": {
+    "unicode": "0899A-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0899a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "説": {
+    "unicode": "08AAC",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/08aac.svg",
+    "jlptLevel": "N3"
+  },
+  "試": {
+    "unicode": "08A66",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/08a66.svg",
+    "jlptLevel": "N4"
+  },
+  "告": {
+    "unicode": "0544A",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0544a.svg",
+    "jlptLevel": "N3"
+  },
+  "種": {
+    "unicode": "07A2E-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/07a2e-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "達": {
+    "unicode": "09054",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/09054.svg",
+    "jlptLevel": "N3"
+  },
+  "類": {
+    "unicode": "0985E-KAISHO",
+    "strokeCount": 18,
+    "svgPath": "/kanji-svgs/0985e-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "報": {
+    "unicode": "05831-VTFST",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/05831-vtfst.svg",
+    "jlptLevel": "N3"
+  },
+  "等": {
+    "unicode": "07B49",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/07b49.svg",
+    "jlptLevel": "N3"
+  },
+  "借": {
+    "unicode": "0501F-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0501f-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "座": {
+    "unicode": "05EA7-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05ea7-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "忘": {
+    "unicode": "05FD8-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05fd8-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "洗": {
+    "unicode": "06D17",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06d17.svg",
+    "jlptLevel": "N3"
+  },
+  "験": {
+    "unicode": "09A13-VT6",
+    "strokeCount": 18,
+    "svgPath": "/kanji-svgs/09a13-vt6.svg",
+    "jlptLevel": "N4"
+  },
+  "許": {
+    "unicode": "08A31",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/08a31.svg",
+    "jlptLevel": "N3"
+  },
+  "静": {
+    "unicode": "09759-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/09759-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "煙": {
+    "unicode": "07159",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/07159.svg",
+    "jlptLevel": "N3"
+  },
+  "加": {
+    "unicode": "052A0",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/052a0.svg",
+    "jlptLevel": "N3"
+  },
+  "容": {
+    "unicode": "05BB9-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05bb9-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "易": {
+    "unicode": "06613-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06613-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "財": {
+    "unicode": "08CA1-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/08ca1-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "若": {
+    "unicode": "082E5",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/082e5.svg",
+    "jlptLevel": "N3"
+  },
+  "忙": {
+    "unicode": "05FD9-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05fd9-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "徒": {
+    "unicode": "05F92",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05f92.svg",
+    "jlptLevel": "N3"
+  },
+  "得": {
+    "unicode": "05F97-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05f97-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "続": {
+    "unicode": "07D9A-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/07d9a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "連": {
+    "unicode": "09023-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/09023-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "困": {
+    "unicode": "056F0-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/056f0-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "機": {
+    "unicode": "06A5F-KAISHO",
+    "strokeCount": 16,
+    "svgPath": "/kanji-svgs/06a5f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "飛": {
+    "unicode": "098DB",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/098db.svg",
+    "jlptLevel": "N3"
+  },
+  "害": {
+    "unicode": "05BB3-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05bb3-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "余": {
+    "unicode": "04F59",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/04f59.svg",
+    "jlptLevel": "N3"
+  },
+  "難": {
+    "unicode": "096E3",
+    "strokeCount": 18,
+    "svgPath": "/kanji-svgs/096e3.svg",
+    "jlptLevel": "N3"
+  },
+  "確": {
+    "unicode": "078BA",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/078ba.svg",
+    "jlptLevel": "N3"
+  },
+  "在": {
+    "unicode": "05728",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05728.svg",
+    "jlptLevel": "N3"
+  },
+  "夢": {
+    "unicode": "05922",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/05922.svg",
+    "jlptLevel": "N3"
+  },
+  "産": {
+    "unicode": "07523-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/07523-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "倒": {
+    "unicode": "05012-VTFST",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05012-vtfst.svg",
+    "jlptLevel": "N3"
+  },
+  "妻": {
+    "unicode": "059BB-VTLST",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/059bb-vtlst.svg",
+    "jlptLevel": "N3"
+  },
+  "議": {
+    "unicode": "08B70",
+    "strokeCount": 20,
+    "svgPath": "/kanji-svgs/08b70.svg",
+    "jlptLevel": "N3"
+  },
+  "犯": {
+    "unicode": "072AF",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/072af.svg",
+    "jlptLevel": "N3"
+  },
+  "罪": {
+    "unicode": "07F6A-MDFST",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/07f6a-mdfst.svg",
+    "jlptLevel": "N3"
+  },
+  "論": {
+    "unicode": "08AD6-KAISHO",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/08ad6-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "経": {
+    "unicode": "07D4C-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/07d4c-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "済": {
+    "unicode": "06E08-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/06e08-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "判": {
+    "unicode": "05224-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05224-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "制": {
+    "unicode": "05236",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05236.svg",
+    "jlptLevel": "N3"
+  },
+  "務": {
+    "unicode": "052D9",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/052d9.svg",
+    "jlptLevel": "N3"
+  },
+  "資": {
+    "unicode": "08CC7-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/08cc7-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "権": {
+    "unicode": "06A29-KAISHO",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/06a29-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "件": {
+    "unicode": "04EF6",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/04ef6.svg",
+    "jlptLevel": "N3"
+  },
+  "断": {
+    "unicode": "065AD",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/065ad.svg",
+    "jlptLevel": "N3"
+  },
+  "任": {
+    "unicode": "04EFB",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/04efb.svg",
+    "jlptLevel": "N3"
+  },
+  "責": {
+    "unicode": "08CAC-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/08cac-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "増": {
+    "unicode": "05897-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/05897-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "解": {
+    "unicode": "089E3-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/089e3-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "際": {
+    "unicode": "0969B",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/0969b.svg",
+    "jlptLevel": "N3"
+  },
+  "認": {
+    "unicode": "08A8D",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/08a8d.svg",
+    "jlptLevel": "N3"
+  },
+  "過": {
+    "unicode": "0904E-HZFST",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0904e-hzfst.svg",
+    "jlptLevel": "N3"
+  },
+  "寝": {
+    "unicode": "05BDD-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/05bdd-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "置": {
+    "unicode": "07F6E-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/07f6e-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "費": {
+    "unicode": "08CBB-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/08cbb-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "示": {
+    "unicode": "0793A",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/0793a.svg",
+    "jlptLevel": "N3"
+  },
+  "観": {
+    "unicode": "089B3-KAISHO",
+    "strokeCount": 18,
+    "svgPath": "/kanji-svgs/089b3-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "値": {
+    "unicode": "05024-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05024-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "吸": {
+    "unicode": "05438",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05438.svg",
+    "jlptLevel": "N3"
+  },
+  "状": {
+    "unicode": "072B6",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/072b6.svg",
+    "jlptLevel": "N3"
+  },
+  "収": {
+    "unicode": "053CE",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/053ce.svg",
+    "jlptLevel": "N3"
+  },
+  "職": {
+    "unicode": "08077-KAISHO",
+    "strokeCount": 18,
+    "svgPath": "/kanji-svgs/08077-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "規": {
+    "unicode": "0898F-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/0898f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "割": {
+    "unicode": "05272-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/05272-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "演": {
+    "unicode": "06F14-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/06f14-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "師": {
+    "unicode": "05E2B",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05e2b.svg",
+    "jlptLevel": "N3"
+  },
+  "備": {
+    "unicode": "05099-INSATSU",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/05099-insatsu.svg",
+    "jlptLevel": "N3"
+  },
+  "優": {
+    "unicode": "0512A-KAISHO",
+    "strokeCount": 17,
+    "svgPath": "/kanji-svgs/0512a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "宅": {
+    "unicode": "05B85-KAISHO",
+    "strokeCount": 6,
+    "svgPath": "/kanji-svgs/05b85-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "現": {
+    "unicode": "073FE-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/073fe-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "呼": {
+    "unicode": "0547C",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0547c.svg",
+    "jlptLevel": "N3"
+  },
+  "違": {
+    "unicode": "09055",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/09055.svg",
+    "jlptLevel": "N3"
+  },
+  "差": {
+    "unicode": "05DEE-VTLST",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05dee-vtlst.svg",
+    "jlptLevel": "N3"
+  },
+  "質": {
+    "unicode": "08CEA-KAISHO",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/08cea-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "供": {
+    "unicode": "04F9B",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/04f9b.svg",
+    "jlptLevel": "N3"
+  },
+  "限": {
+    "unicode": "09650-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/09650-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "与": {
+    "unicode": "04E0E",
+    "strokeCount": 3,
+    "svgPath": "/kanji-svgs/04e0e.svg",
+    "jlptLevel": "N3"
+  },
+  "渡": {
+    "unicode": "06E21-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/06e21-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "景": {
+    "unicode": "0666F-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0666f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "抜": {
+    "unicode": "0629C",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0629c.svg",
+    "jlptLevel": "N3"
+  },
+  "候": {
+    "unicode": "05019",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05019.svg",
+    "jlptLevel": "N3"
+  },
+  "構": {
+    "unicode": "069CB-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/069cb-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "捕": {
+    "unicode": "06355-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06355-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "慣": {
+    "unicode": "06163-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/06163-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "満": {
+    "unicode": "06E80",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/06e80.svg",
+    "jlptLevel": "N3"
+  },
+  "掛": {
+    "unicode": "0639B",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/0639b.svg",
+    "jlptLevel": "N3"
+  },
+  "居": {
+    "unicode": "05C45",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05c45.svg",
+    "jlptLevel": "N3"
+  },
+  "突": {
+    "unicode": "07A81-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/07a81-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "招": {
+    "unicode": "062DB",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/062db.svg",
+    "jlptLevel": "N3"
+  },
+  "段": {
+    "unicode": "06BB5",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06bb5.svg",
+    "jlptLevel": "N3"
+  },
+  "腹": {
+    "unicode": "08179-KAISHO",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/08179-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "痛": {
+    "unicode": "075DB-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/075db-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "退": {
+    "unicode": "09000-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/09000-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "貸": {
+    "unicode": "08CB8-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/08cb8-kaisho.svg",
+    "jlptLevel": "N4"
+  },
+  "迷": {
+    "unicode": "08FF7-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/08ff7-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "訪": {
+    "unicode": "08A2A-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/08a2a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "怒": {
+    "unicode": "06012",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/06012.svg",
+    "jlptLevel": "N3"
+  },
+  "眠": {
+    "unicode": "07720-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/07720-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "靴": {
+    "unicode": "09774",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/09774.svg",
+    "jlptLevel": "N3"
+  },
+  "途": {
+    "unicode": "09014",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/09014.svg",
+    "jlptLevel": "N3"
+  },
+  "給": {
+    "unicode": "07D66-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/07d66-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "冷": {
+    "unicode": "051B7-INSATSU",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/051b7-insatsu.svg",
+    "jlptLevel": "N3"
+  },
+  "処": {
+    "unicode": "051E6",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/051e6.svg",
+    "jlptLevel": "N3"
+  },
+  "婦": {
+    "unicode": "05A66-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05a66-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "程": {
+    "unicode": "07A0B-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/07a0b-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "精": {
+    "unicode": "07CBE-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/07cbe-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "絶": {
+    "unicode": "07D76-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/07d76-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "杯": {
+    "unicode": "0676F-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0676f-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "積": {
+    "unicode": "07A4D-KAISHO",
+    "strokeCount": 16,
+    "svgPath": "/kanji-svgs/07a4d-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "寄": {
+    "unicode": "05BC4-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05bc4-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "娘": {
+    "unicode": "05A18-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/05a18-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "怖": {
+    "unicode": "06016",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/06016.svg",
+    "jlptLevel": "N3"
+  },
+  "恐": {
+    "unicode": "06050",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06050.svg",
+    "jlptLevel": "N3"
+  },
+  "婚": {
+    "unicode": "05A5A-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05a5a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "遊": {
+    "unicode": "0904A-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/0904a-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "貧": {
+    "unicode": "08CA7-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/08ca7-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "適": {
+    "unicode": "09069-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/09069-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "押": {
+    "unicode": "062BC-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/062bc-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "更": {
+    "unicode": "066F4-KAISHO",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/066f4-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "浮": {
+    "unicode": "06D6E",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06d6e.svg",
+    "jlptLevel": "N3"
+  },
+  "越": {
+    "unicode": "08D8A",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/08d8a.svg",
+    "jlptLevel": "N3"
+  },
+  "背": {
+    "unicode": "080CC-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/080cc-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "盗": {
+    "unicode": "076D7",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/076d7.svg",
+    "jlptLevel": "N3"
+  },
+  "除": {
+    "unicode": "09664",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/09664.svg",
+    "jlptLevel": "N3"
+  },
+  "幾": {
+    "unicode": "05E7E",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/05e7e.svg",
+    "jlptLevel": "N3"
+  },
+  "散": {
+    "unicode": "06563-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/06563-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "似": {
+    "unicode": "04F3C",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/04f3c.svg",
+    "jlptLevel": "N3"
+  },
+  "富": {
+    "unicode": "05BCC-KAISHO",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/05bcc-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "探": {
+    "unicode": "063A2-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/063a2-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "迎": {
+    "unicode": "08FCE",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/08fce.svg",
+    "jlptLevel": "N3"
+  },
+  "祖": {
+    "unicode": "07956-KAISHO",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/07956-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "雑": {
+    "unicode": "096D1-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/096d1-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "賛": {
+    "unicode": "08CDB-KAISHO",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/08cdb-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "込": {
+    "unicode": "08FBC",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/08fbc.svg",
+    "jlptLevel": "N3"
+  },
+  "欲": {
+    "unicode": "06B32",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/06b32.svg",
+    "jlptLevel": "N3"
+  },
+  "閉": {
+    "unicode": "09589-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/09589-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "窓": {
+    "unicode": "07A93-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/07a93-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "否": {
+    "unicode": "05426",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05426.svg",
+    "jlptLevel": "N3"
+  },
+  "暮": {
+    "unicode": "066AE-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/066ae-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "誤": {
+    "unicode": "08AA4",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/08aa4.svg",
+    "jlptLevel": "N3"
+  },
+  "降": {
+    "unicode": "0964D",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/0964d.svg",
+    "jlptLevel": "N3"
+  },
+  "勤": {
+    "unicode": "052E4-VTLST",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/052e4-vtlst.svg",
+    "jlptLevel": "N3"
+  },
+  "刻": {
+    "unicode": "0523B-KAISHO",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/0523b-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "遅": {
+    "unicode": "09045",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/09045.svg",
+    "jlptLevel": "N3"
+  },
+  "破": {
+    "unicode": "07834",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/07834.svg",
+    "jlptLevel": "N3"
+  },
+  "互": {
+    "unicode": "04E92",
+    "strokeCount": 4,
+    "svgPath": "/kanji-svgs/04e92.svg",
+    "jlptLevel": "N3"
+  },
+  "彼": {
+    "unicode": "05F7C",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05f7c.svg",
+    "jlptLevel": "N3"
+  },
+  "恥": {
+    "unicode": "06065-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/06065-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "払": {
+    "unicode": "06255",
+    "strokeCount": 5,
+    "svgPath": "/kanji-svgs/06255.svg",
+    "jlptLevel": "N3"
+  },
+  "舞": {
+    "unicode": "0821E-KAISHO",
+    "strokeCount": 15,
+    "svgPath": "/kanji-svgs/0821e-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "頼": {
+    "unicode": "0983C-KAISHO",
+    "strokeCount": 16,
+    "svgPath": "/kanji-svgs/0983c-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "戻": {
+    "unicode": "0623B",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/0623b.svg",
+    "jlptLevel": "N3"
+  },
+  "抱": {
+    "unicode": "062B1",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/062b1.svg",
+    "jlptLevel": "N3"
+  },
+  "緒": {
+    "unicode": "07DD2-KAISHO",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/07dd2-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "逃": {
+    "unicode": "09003-MIDFST",
+    "strokeCount": 9,
+    "svgPath": "/kanji-svgs/09003-midfst.svg",
+    "jlptLevel": "N3"
+  },
+  "御": {
+    "unicode": "05FA1",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/05fa1.svg",
+    "jlptLevel": "N3"
+  },
+  "吹": {
+    "unicode": "05439",
+    "strokeCount": 7,
+    "svgPath": "/kanji-svgs/05439.svg",
+    "jlptLevel": "N3"
+  },
+  "到": {
+    "unicode": "05230-VTFST",
+    "strokeCount": 8,
+    "svgPath": "/kanji-svgs/05230-vtfst.svg",
+    "jlptLevel": "N3"
+  },
+  "髪": {
+    "unicode": "09AEA-HZFST",
+    "strokeCount": 14,
+    "svgPath": "/kanji-svgs/09aea-hzfst.svg",
+    "jlptLevel": "N3"
+  },
+  "疲": {
+    "unicode": "075B2-KAISHO",
+    "strokeCount": 10,
+    "svgPath": "/kanji-svgs/075b2-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "歳": {
+    "unicode": "06B73-HZFST",
+    "strokeCount": 13,
+    "svgPath": "/kanji-svgs/06b73-hzfst.svg",
+    "jlptLevel": "N3"
+  },
+  "偶": {
+    "unicode": "05076-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/05076-kaisho.svg",
+    "jlptLevel": "N3"
+  },
+  "偉": {
+    "unicode": "05049",
+    "strokeCount": 12,
+    "svgPath": "/kanji-svgs/05049.svg",
+    "jlptLevel": "N3"
+  },
+  "頂": {
+    "unicode": "09802-KAISHO",
+    "strokeCount": 11,
+    "svgPath": "/kanji-svgs/09802-kaisho.svg",
+    "jlptLevel": "N3"
+  }
+}
