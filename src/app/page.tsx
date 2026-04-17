@@ -10,10 +10,8 @@ export default function HubPage() {
       <PhaseIndicator />
       <TodaySession />
       <ProgressRails />
-      <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
-        <MangaLadderMini />
-        <QuickActions />
-      </div>
+      <MangaLadderMini />
+      <QuickActions />
     </main>
   );
 }
