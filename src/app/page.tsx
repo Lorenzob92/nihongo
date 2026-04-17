@@ -6,10 +6,10 @@ import { QuickActions } from "@/components/hub/QuickActions";
 
 export default function HubPage() {
   return (
-    <main className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-8 sm:px-6 sm:py-10">
+    <main className="mx-auto flex w-full max-w-6xl flex-col gap-5 px-4 py-6 sm:px-6 sm:py-8">
       <PhaseIndicator />
-      <TodaySession />
       <ProgressRails />
+      <TodaySession />
       <MangaLadderMini />
       <QuickActions />
     </main>

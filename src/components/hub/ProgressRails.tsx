@@ -1,5 +1,4 @@
 import { USER_STATE } from "@/data/user-state";
-import { Card } from "@/components/ui/Card";
 
 type Rail = {
   label: string;
@@ -12,49 +11,50 @@ type Rail = {
 export function ProgressRails() {
   const r = USER_STATE.rails;
   const rails: Rail[] = [
-    { label: "Kanji recognised", jaLabel: "漢字", current: r.kanjiKnown, target: r.kanjiTarget },
-    { label: "Grammar points known", jaLabel: "文法", current: r.grammarKnown, target: r.grammarTarget },
-    { label: "Vocab in Anki queue", jaLabel: "語彙", current: r.vocabInQueue, target: r.vocabTarget },
-    { label: "Hours this week", jaLabel: "今週の時間", current: r.hoursThisWeek, target: r.hoursTarget, unit: "h" },
+    { label: "Kanji", jaLabel: "漢字", current: r.kanjiKnown, target: r.kanjiTarget },
+    { label: "Grammar", jaLabel: "文法", current: r.grammarKnown, target: r.grammarTarget },
+    { label: "Vocab", jaLabel: "語彙", current: r.vocabInQueue, target: r.vocabTarget },
+    { label: "Hours / wk", jaLabel: "今週", current: r.hoursThisWeek, target: r.hoursTarget, unit: "h" },
   ];
 
   return (
     <section>
       <header className="mb-3 flex items-baseline justify-between">
-        <h2 className="font-display text-xl text-ink-deep">Progress rails</h2>
-        <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted">
-          mocked for V0
-        </p>
+        <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-zinc-400">Progress</h2>
+        <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-600">mocked V0</p>
       </header>
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
         {rails.map((rail) => {
           const pct = Math.min(100, Math.round((rail.current / rail.target) * 100));
           return (
-            <Card key={rail.label} className="space-y-3">
+            <div
+              key={rail.label}
+              className="rounded-[10px] border border-white/10 bg-surface p-3 shadow-card"
+            >
               <div className="flex items-baseline justify-between">
-                <p className="text-xs font-medium text-muted">{rail.label}</p>
-                <span lang="ja" className="font-jp text-[11px] text-muted-soft">
+                <p className="text-[11px] font-semibold text-zinc-400">{rail.label}</p>
+                <span lang="ja" className="font-jp text-[10px] text-zinc-600">
                   {rail.jaLabel}
                 </span>
               </div>
-              <div className="flex items-baseline gap-1">
-                <span className="font-display text-3xl text-ink-deep">
+              <div className="mt-1.5 flex items-baseline gap-1">
+                <span className="text-2xl font-black tracking-tight text-white">
                   {rail.current}
                   {rail.unit ?? ""}
                 </span>
-                <span className="text-sm text-muted">
+                <span className="text-[11px] text-zinc-500">
                   / {rail.target}
                   {rail.unit ?? ""}
                 </span>
               </div>
-              <div className="h-1.5 overflow-hidden rounded-full bg-line">
+              <div className="mt-2 h-1 overflow-hidden rounded-full bg-white/10">
                 <div
-                  className="h-full rounded-full bg-accent"
+                  className="h-full rounded-full bg-[#638dff]"
                   style={{ width: `${pct}%` }}
                 />
               </div>
-              <p className="font-mono text-[11px] text-muted">{pct}%</p>
-            </Card>
+              <p className="mt-1 font-mono text-[10px] text-zinc-600">{pct}%</p>
+            </div>
           );
         })}
       </div>
