@@ -18,9 +18,9 @@ export function Card({
   return (
     <Tag
       className={cn(
-        "bg-surface hairline shadow-card",
-        hero ? "rounded-[20px]" : "rounded-[16px]",
-        padded && "p-5 sm:p-6",
+        "bg-surface border border-white/10 shadow-card",
+        hero ? "rounded-[16px]" : "rounded-[12px]",
+        padded && "p-4 sm:p-5",
         className,
       )}
     >

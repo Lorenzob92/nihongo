@@ -7,6 +7,7 @@ import "./globals.css";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
   display: "swap",
 });
 
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#faf8f3",
+  themeColor: "#0a0a12",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
@@ -58,7 +59,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${klee.variable} ${notoJp.variable} ${mono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-background text-ink">
+      <body className="min-h-full flex flex-col bg-background text-foreground">
         <Header />
         <div className="flex-1 flex flex-col">{children}</div>
         <Footer />

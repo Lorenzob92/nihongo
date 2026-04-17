@@ -1,40 +1,49 @@
 @import "tailwindcss";
 
-/* Soft Sumi design tokens */
+/*
+ * V2 design tokens — TasteDB aesthetic.
+ * Dark `#0a0a12` ground, electric blue `#638dff` accent, dense, modern.
+ */
 :root {
-  /* Surfaces */
-  --background: #faf8f3; /* cream, washi paper */
-  --surface: #ffffff;     /* card surface */
-  --surface-soft: #f5f2ea; /* subtle inset */
+  /* Surfaces (OKLCH for consistency with TasteDB) */
+  --background: #0a0a12;
+  --surface: oklch(0.205 0 0);
+  --surface-2: oklch(0.27 0 0);
+  --surface-soft: oklch(0.18 0 0);
 
-  /* Ink and sumi greys */
-  --ink: #0f0f0f;          /* primary text */
-  --ink-deep: #1a1a1a;     /* strongest contrast */
-  --muted: #8a8a8a;        /* secondary text */
-  --muted-soft: #b3b3b3;   /* tertiary text */
-  --line: #ededed;         /* hairline borders */
-  --line-strong: #d8d8d8;  /* stronger borders */
+  /* Text */
+  --foreground: oklch(0.985 0 0);
+  --ink: oklch(0.985 0 0);
+  --ink-deep: #ffffff;
+  --muted: #71717a;             /* zinc-500 */
+  --muted-soft: #52525b;        /* zinc-600 */
 
-  /* Accent: the Lorenzo blue */
-  --accent: #5a8eea;
-  --accent-deep: #3f6fcf;
-  --accent-soft: #ebf2ff;
+  /* Borders */
+  --line: oklch(1 0 0 / 10%);
+  --line-strong: oklch(1 0 0 / 18%);
+
+  /* Accent: electric blue */
+  --accent: #638dff;
+  --accent-deep: #4f72d6;
+  --accent-soft: rgba(99, 141, 255, 0.12);
 
   /* Status */
-  --recommend: #0a8a5b;
-  --warn: #b04444;
+  --recommend: #34d399;         /* emerald-400 */
+  --warn: #f87171;              /* red-400 */
 
-  /* Phase colours */
-  --phase-reactivate: #9ca3af;
-  --phase-bridge: #5a8eea;
-  --phase-immerse: #a855f7;
-  --phase-native: #0a8a5b;
+  /* Phase tints (kept for variety, but darkened for the new palette) */
+  --phase-reactivate: #a1a1aa;  /* zinc-400 */
+  --phase-bridge: #638dff;
+  --phase-immerse: #c084fc;
+  --phase-native: #34d399;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
   --color-surface-soft: var(--surface-soft);
+  --color-foreground: var(--foreground);
   --color-ink: var(--ink);
   --color-ink-deep: var(--ink-deep);
   --color-muted: var(--muted);
@@ -52,12 +61,13 @@
   --color-phase-native: var(--phase-native);
 
   --font-sans: var(--font-inter);
-  --font-display: var(--font-klee);
+  --font-display: var(--font-inter);
+  --font-atmos: var(--font-klee);
   --font-jp: var(--font-noto-jp);
   --font-mono: var(--font-mono-stack);
 
-  --radius-card: 16px;
-  --radius-hero: 20px;
+  --radius-card: 12px;
+  --radius-hero: 16px;
   --radius-pill: 999px;
 }
 
@@ -65,7 +75,7 @@
 html,
 body {
   background: var(--background);
-  color: var(--ink);
+  color: var(--foreground);
   font-family: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -79,7 +89,13 @@ body {
   font-feature-settings: "palt";
 }
 
-/* Furigana: small, tasteful */
+/* Klee One reserved for atmospheric Japanese flourishes */
+.font-atmos {
+  font-family: var(--font-klee), var(--font-noto-jp), "Hiragino Sans", sans-serif;
+  font-weight: 600;
+}
+
+/* Furigana */
 ruby {
   ruby-position: over;
 }
@@ -92,26 +108,42 @@ rt {
 
 /* Selection */
 ::selection {
-  background: color-mix(in oklab, var(--accent) 28%, transparent);
-  color: var(--ink-deep);
+  background: rgba(99, 141, 255, 0.35);
+  color: #ffffff;
 }
 
-/* Scrollbar — barely there */
+/* Custom scrollbar (lifted from TasteDB) */
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a12;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--line-strong);
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--muted-soft);
+  background: rgba(255, 255, 255, 0.2);
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.12) #0a0a12;
 }
 
-/* Single-layer card shadow */
+/* Hide scrollbar utility for nav */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Card surface helper (replaces old shadow-card) */
 .shadow-card {
-  box-shadow: 0 1px 2px rgba(15, 15, 15, 0.04), 0 8px 24px -12px rgba(15, 15, 15, 0.08);
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.04) inset, 0 8px 24px -16px rgba(0, 0, 0, 0.6);
 }
 
 /* Hairline border helper */
@@ -119,11 +151,18 @@ rt {
   border: 1px solid var(--line);
 }
 
-/* Ink stroke pulse for kanji-style emphasis */
+/* Subtle ink pulse for current items */
 @keyframes ink-pulse {
-  0%, 100% { opacity: 0.85; }
-  50% { opacity: 1; }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(99, 141, 255, 0.0); }
+  50% { box-shadow: 0 0 0 4px rgba(99, 141, 255, 0.18); }
 }
 .ink-pulse {
   animation: ink-pulse 2.4s ease-in-out infinite;
+}
+
+/* Gradient halo for hero panels */
+.hero-halo {
+  background:
+    radial-gradient(120% 80% at 50% 0%, rgba(99, 141, 255, 0.12) 0%, transparent 60%),
+    var(--surface);
 }

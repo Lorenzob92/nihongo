@@ -2,29 +2,34 @@ import { cn } from "@/lib/utils";
 
 type PillProps = {
   children: React.ReactNode;
-  tone?: "default" | "accent" | "muted" | "recommend" | "warn" | "phase";
+  tone?: "default" | "accent" | "muted" | "recommend" | "warn" | "phase" | "jlpt";
   phaseColor?: string;
   className?: string;
 };
 
 const TONE_CLASSES: Record<NonNullable<PillProps["tone"]>, string> = {
-  default: "bg-surface-soft text-ink border border-line",
-  accent: "bg-accent-soft text-accent-deep border border-[color:var(--accent)]/20",
-  muted: "bg-surface-soft text-muted border border-line",
-  recommend: "bg-[color:var(--recommend)]/10 text-recommend border border-[color:var(--recommend)]/30",
-  warn: "bg-[color:var(--warn)]/10 text-warn border border-[color:var(--warn)]/30",
-  phase: "bg-surface text-ink border border-line",
+  default: "bg-white/5 text-zinc-300 border border-white/10",
+  accent: "bg-[#638dff]/15 text-[#638dff] border border-[#638dff]/30",
+  muted: "bg-white/5 text-zinc-400 border border-white/5",
+  recommend: "bg-emerald-500/15 text-emerald-400 border border-emerald-500/25",
+  warn: "bg-red-500/15 text-red-400 border border-red-500/25",
+  phase: "bg-white/5 text-zinc-300 border border-white/10",
+  jlpt: "bg-[#638dff]/15 text-[#638dff] border border-[#638dff]/25",
 };
 
 export function Pill({ children, tone = "default", phaseColor, className }: PillProps) {
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium font-mono tracking-tight",
+        "inline-flex items-center gap-1.5 rounded-md px-2 py-0.5 text-[11px] font-semibold tracking-tight",
         TONE_CLASSES[tone],
         className,
       )}
-      style={phaseColor ? { color: phaseColor, borderColor: `${phaseColor}33` } : undefined}
+      style={
+        phaseColor
+          ? { color: phaseColor, borderColor: `${phaseColor}40`, background: `${phaseColor}1a` }
+          : undefined
+      }
     >
       {phaseColor ? (
         <span

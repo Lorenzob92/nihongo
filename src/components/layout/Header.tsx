@@ -14,26 +14,26 @@ export function Header() {
   const phase = PHASE_META[USER_STATE.currentPhase];
 
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-background/85 backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-line bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <Link href="/" className="flex items-center gap-3 group">
+        <Link href="/" className="flex items-center gap-2 group">
           <span
-            className="font-display text-2xl leading-none tracking-tight text-ink-deep"
+            className="font-atmos text-2xl leading-none tracking-tight text-white"
             lang="ja"
           >
             日本語
           </span>
-          <span className="hidden text-xs font-mono uppercase tracking-[0.18em] text-muted sm:inline">
+          <span className="hidden text-[10px] font-mono uppercase tracking-[0.18em] text-zinc-500 sm:inline">
             Lorenzo
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 sm:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-0.5 sm:flex" aria-label="Primary">
           {NAV.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="rounded-[10px] px-3 py-1.5 text-sm font-medium text-ink/80 transition-colors hover:bg-surface-soft hover:text-ink"
+              className="rounded-md px-3 py-1.5 text-sm font-semibold text-zinc-400 transition-colors hover:bg-white/5 hover:text-white"
             >
               {item.label}
             </Link>
@@ -51,12 +51,12 @@ export function Header() {
       </div>
 
       {/* Mobile nav strip */}
-      <nav className="flex items-center gap-1 overflow-x-auto border-t border-line px-3 py-2 sm:hidden" aria-label="Primary mobile">
+      <nav className="flex items-center gap-0.5 overflow-x-auto border-t border-line px-3 py-2 sm:hidden scrollbar-hide" aria-label="Primary mobile">
         {NAV.map((item) => (
           <Link
             key={item.href}
             href={item.href}
-            className="whitespace-nowrap rounded-[10px] px-3 py-1.5 text-sm font-medium text-ink/80 hover:bg-surface-soft"
+            className="whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-semibold text-zinc-400 hover:bg-white/5 hover:text-white"
           >
             {item.label}
           </Link>

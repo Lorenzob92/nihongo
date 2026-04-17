@@ -370,7 +370,7 @@ export function ConversationClient() {
                       )}
                     >
                       {m.corrections ? (
-                        <div className="mb-2 rounded-[8px] bg-amber-100/70 p-2 text-[11px] text-amber-900">
+                        <div className="mb-2 rounded-[8px] bg-amber-500/15 border border-amber-500/25 p-2 text-[11px] text-amber-300">
                           <span className="font-mono uppercase tracking-wider">Correction</span>
                           <p className="mt-1 font-jp">{m.corrections}</p>
                         </div>

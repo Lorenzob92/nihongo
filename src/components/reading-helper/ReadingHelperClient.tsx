@@ -38,20 +38,20 @@ type QueueEntry = {
 };
 
 const POS_BADGES: Record<PartOfSpeech, string> = {
-  noun: "bg-blue-50 text-blue-700 border-blue-200",
-  verb: "bg-emerald-50 text-emerald-700 border-emerald-200",
-  "i-adjective": "bg-amber-50 text-amber-700 border-amber-200",
-  "na-adjective": "bg-amber-50 text-amber-700 border-amber-200",
-  adverb: "bg-fuchsia-50 text-fuchsia-700 border-fuchsia-200",
-  particle: "bg-slate-100 text-slate-600 border-slate-200",
-  "auxiliary-verb": "bg-teal-50 text-teal-700 border-teal-200",
-  conjunction: "bg-slate-100 text-slate-600 border-slate-200",
-  interjection: "bg-pink-50 text-pink-700 border-pink-200",
-  counter: "bg-indigo-50 text-indigo-700 border-indigo-200",
-  pronoun: "bg-violet-50 text-violet-700 border-violet-200",
-  prefix: "bg-slate-100 text-slate-600 border-slate-200",
-  suffix: "bg-slate-100 text-slate-600 border-slate-200",
-  other: "bg-slate-100 text-slate-600 border-slate-200",
+  noun: "bg-blue-500/15 text-blue-300 border border-blue-500/25",
+  verb: "bg-emerald-500/15 text-emerald-300 border border-emerald-500/25",
+  "i-adjective": "bg-amber-500/15 text-amber-300 border border-amber-500/25",
+  "na-adjective": "bg-amber-500/15 text-amber-300 border border-amber-500/25",
+  adverb: "bg-fuchsia-500/15 text-fuchsia-300 border border-fuchsia-500/25",
+  particle: "bg-white/5 text-zinc-400 border border-white/10",
+  "auxiliary-verb": "bg-teal-500/15 text-teal-300 border border-teal-500/25",
+  conjunction: "bg-white/5 text-zinc-400 border border-white/10",
+  interjection: "bg-pink-500/15 text-pink-300 border border-pink-500/25",
+  counter: "bg-indigo-500/15 text-indigo-300 border border-indigo-500/25",
+  pronoun: "bg-violet-500/15 text-violet-300 border border-violet-500/25",
+  prefix: "bg-white/5 text-zinc-400 border border-white/10",
+  suffix: "bg-white/5 text-zinc-400 border border-white/10",
+  other: "bg-white/5 text-zinc-400 border border-white/10",
 };
 
 export function ReadingHelperClient() {
