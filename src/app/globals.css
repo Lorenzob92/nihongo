@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+/* Soft Sumi design tokens */
+:root {
+  /* Surfaces */
+  --background: #faf8f3; /* cream, washi paper */
+  --surface: #ffffff;     /* card surface */
+  --surface-soft: #f5f2ea; /* subtle inset */
+
+  /* Ink and sumi greys */
+  --ink: #0f0f0f;          /* primary text */
+  --ink-deep: #1a1a1a;     /* strongest contrast */
+  --muted: #8a8a8a;        /* secondary text */
+  --muted-soft: #b3b3b3;   /* tertiary text */
+  --line: #ededed;         /* hairline borders */
+  --line-strong: #d8d8d8;  /* stronger borders */
+
+  /* Accent: the Lorenzo blue */
+  --accent: #5a8eea;
+  --accent-deep: #3f6fcf;
+  --accent-soft: #ebf2ff;
+
+  /* Status */
+  --recommend: #0a8a5b;
+  --warn: #b04444;
+
+  /* Phase colours */
+  --phase-reactivate: #9ca3af;
+  --phase-bridge: #5a8eea;
+  --phase-immerse: #a855f7;
+  --phase-native: #0a8a5b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-soft: var(--surface-soft);
+  --color-ink: var(--ink);
+  --color-ink-deep: var(--ink-deep);
+  --color-muted: var(--muted);
+  --color-muted-soft: var(--muted-soft);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-deep: var(--accent-deep);
+  --color-accent-soft: var(--accent-soft);
+  --color-recommend: var(--recommend);
+  --color-warn: var(--warn);
+  --color-phase-reactivate: var(--phase-reactivate);
+  --color-phase-bridge: var(--phase-bridge);
+  --color-phase-immerse: var(--phase-immerse);
+  --color-phase-native: var(--phase-native);
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-klee);
+  --font-jp: var(--font-noto-jp);
+  --font-mono: var(--font-mono-stack);
+
+  --radius-card: 16px;
+  --radius-hero: 20px;
+  --radius-pill: 999px;
+}
+
+/* Base */
+html,
+body {
+  background: var(--background);
+  color: var(--ink);
+  font-family: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Japanese rendering: cleaner kerning, fall back to JP font */
+:lang(ja),
+.font-jp {
+  font-family: var(--font-noto-jp), "Hiragino Sans", "Yu Gothic", sans-serif;
+  font-feature-settings: "palt";
+}
+
+/* Furigana: small, tasteful */
+ruby {
+  ruby-position: over;
+}
+rt {
+  font-size: 0.55em;
+  color: var(--muted);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Selection */
+::selection {
+  background: color-mix(in oklab, var(--accent) 28%, transparent);
+  color: var(--ink-deep);
+}
+
+/* Scrollbar — barely there */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-soft);
+}
+
+/* Single-layer card shadow */
+.shadow-card {
+  box-shadow: 0 1px 2px rgba(15, 15, 15, 0.04), 0 8px 24px -12px rgba(15, 15, 15, 0.08);
+}
+
+/* Hairline border helper */
+.hairline {
+  border: 1px solid var(--line);
+}
+
+/* Ink stroke pulse for kanji-style emphasis */
+@keyframes ink-pulse {
+  0%, 100% { opacity: 0.85; }
+  50% { opacity: 1; }
+}
+.ink-pulse {
+  animation: ink-pulse 2.4s ease-in-out infinite;
+}
