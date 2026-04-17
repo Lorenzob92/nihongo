@@ -53,12 +53,22 @@ export type MangaStatus = "locked" | "current" | "upcoming" | "complete";
 
 export type MangaRung = {
   rung: number;
+  /** URL slug for /manga-ladder/[slug] and the manga-covers lookup. */
+  slug: string;
   title: string;
   titleJa?: string;
   jlptLevel: JlptLevel;
   jpdbLevel?: string;
   status: MangaStatus;
   notes: string;
+  /** Longer "why this is at this rung" explanation, shown on the detail page. */
+  whyAtThisRung?: string;
+  readingAid?: {
+    mokuroAvailable: boolean;
+    /** Volume slug (e.g. "v01") if Mokuro is available; opens the in-app reader. */
+    mokuroVolume?: string;
+    sourceTip?: string;
+  };
   tier?: "S" | "A" | "B";
 };
 

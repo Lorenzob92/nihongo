@@ -1,5 +1,8 @@
-import { CheckCircle2, Circle, Lock, Play } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { CheckCircle2, Circle, Lock, Play, ArrowRight } from "lucide-react";
 import { MANGA_LADDER } from "@/data/manga-ladder";
+import { MANGA_COVERS } from "@/data/manga-covers";
 import { USER_STATE } from "@/data/user-state";
 import { Pill } from "@/components/ui/Pill";
 import { JapaneseText } from "@/components/japanese/JapaneseText";
@@ -24,40 +27,61 @@ export function MangaLadder() {
         const meta = STATUS_META[m.status];
         const Icon = meta.icon;
         const isCurrent = m.rung === current;
+        const cover = MANGA_COVERS[m.slug];
         return (
-          <li
-            key={m.rung}
-            className={cn(
-              "flex flex-col gap-3 rounded-[16px] border bg-surface p-5 shadow-card sm:flex-row sm:items-start",
-              isCurrent ? "border-accent" : "border-line",
-              m.status === "locked" && "opacity-60",
-            )}
-          >
-            <div className="flex flex-none items-center gap-3 sm:flex-col sm:items-center sm:justify-center sm:gap-1 sm:pr-4">
-              <span className="grid h-12 w-12 place-items-center rounded-full bg-surface-soft font-display text-xl text-ink-deep">
-                {m.rung}
-              </span>
-              <Pill tone={meta.tone}>
-                <Icon className="h-3 w-3" /> {meta.label}
-              </Pill>
-            </div>
+          <li key={m.rung}>
+            <Link
+              href={`/manga-ladder/${m.slug}`}
+              className={cn(
+                "group flex gap-4 rounded-[14px] border bg-surface p-3 sm:p-4 shadow-card transition-all hover:-translate-y-0.5 hover:border-[#638dff]/40",
+                isCurrent ? "border-[#638dff]/50 ring-1 ring-[#638dff]/30" : "border-white/10",
+                m.status === "locked" && "opacity-60",
+              )}
+            >
+              <div className="relative h-32 sm:h-40 w-24 sm:w-28 flex-none overflow-hidden rounded-[8px] border border-white/10 bg-black">
+                {cover?.coverLarge ? (
+                  <Image
+                    src={cover.coverLarge}
+                    alt={m.title}
+                    fill
+                    sizes="120px"
+                    className="object-cover transition-transform group-hover:scale-105"
+                  />
+                ) : (
+                  <div className="grid h-full place-items-center font-jp text-2xl text-zinc-600">
+                    {m.titleJa?.[0] ?? "?"}
+                  </div>
+                )}
+                <span className="absolute left-1.5 top-1.5 grid h-6 w-6 place-items-center rounded-md bg-black/70 font-mono text-[10px] font-bold text-white backdrop-blur-sm">
+                  {m.rung}
+                </span>
+              </div>
 
-            <div className="flex-1 space-y-2">
-              <div className="flex flex-wrap items-baseline gap-2">
-                <h3 className="font-display text-2xl text-ink-deep">{m.title}</h3>
-                {m.titleJa ? (
-                  <JapaneseText size="lg" className="text-muted">
-                    {m.titleJa}
-                  </JapaneseText>
-                ) : null}
+              <div className="flex flex-1 flex-col gap-1.5">
+                <div className="flex flex-wrap items-center gap-1.5">
+                  <Pill tone={meta.tone}>
+                    <Icon className="h-3 w-3" /> {meta.label}
+                  </Pill>
+                  <Pill tone="jlpt">{m.jlptLevel}</Pill>
+                  {m.jpdbLevel ? <Pill tone="muted">jpdb {m.jpdbLevel}</Pill> : null}
+                  {m.tier ? <Pill tone="muted">{m.tier}-tier</Pill> : null}
+                </div>
+                <div className="flex flex-wrap items-baseline gap-2">
+                  <h3 className="text-xl sm:text-2xl font-black tracking-tight text-white">
+                    {m.title}
+                  </h3>
+                  {m.titleJa ? (
+                    <JapaneseText size="base" className="text-zinc-500 font-atmos">
+                      {m.titleJa}
+                    </JapaneseText>
+                  ) : null}
+                </div>
+                <p className="text-xs sm:text-sm text-zinc-400 line-clamp-2">{m.notes}</p>
+                <span className="mt-auto inline-flex items-center gap-1 text-[11px] font-semibold text-[#638dff] transition-transform group-hover:translate-x-0.5">
+                  Details <ArrowRight className="h-3 w-3" />
+                </span>
               </div>
-              <p className="text-sm text-ink/80">{m.notes}</p>
-              <div className="flex flex-wrap gap-2">
-                <Pill tone="muted">{m.jlptLevel}</Pill>
-                {m.jpdbLevel ? <Pill tone="muted">jpdb {m.jpdbLevel}</Pill> : null}
-                {m.tier ? <Pill tone="muted">tier {m.tier}</Pill> : null}
-              </div>
-            </div>
+            </Link>
           </li>
         );
       })}
