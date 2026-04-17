@@ -15,7 +15,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     prereqs: [],
     estimatedMin: 18,
     blurb: "The single highest-leverage concept in Japanese. Misreading は as 'subject' is the biggest barrier to seinen comprehension.",
-    status: "planned",
+    status: "built",
   },
   {
     slug: "wo-particle",
@@ -27,7 +27,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     prereqs: ["wa-vs-ga"],
     estimatedMin: 12,
     blurb: "Direct object marker, plus the trickier 'movement-through' を with intransitive motion verbs.",
-    status: "planned",
+    status: "built",
   },
   {
     slug: "ni-vs-de",
@@ -39,7 +39,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     prereqs: ["wa-vs-ga", "wo-particle"],
     estimatedMin: 18,
     blurb: "The single most-tested distinction at N5/N4. Existence vs action, point in time vs duration.",
-    status: "planned",
+    status: "built",
   },
   {
     slug: "he-vs-ni",
@@ -173,7 +173,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     prereqs: ["verb-groups", "ta-form"],
     estimatedMin: 18,
     blurb: "The Swiss army knife. Connecting clauses, requests, permission, prohibition, state. Cannot read fluently without it.",
-    status: "planned",
+    status: "built",
   },
   {
     slug: "te-iru-state",
@@ -269,7 +269,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     prereqs: ["verb-groups", "plain-form-nai"],
     estimatedMin: 18,
     blurb: "Direct passive plus the uniquely Japanese suffering passive. Essential for seinen victimhood narratives.",
-    status: "planned",
+    status: "built",
   },
   {
     slug: "causative",
@@ -281,7 +281,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     prereqs: ["verb-groups"],
     estimatedMin: 16,
     blurb: "Make-do and let-do. Boss-subordinate, parent-child dynamics. Particle traps everywhere.",
-    status: "planned",
+    status: "built",
   },
   {
     slug: "causative-passive",
@@ -601,7 +601,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     prereqs: ["tara-conditional", "ba-conditional", "to-conditional", "nara-conditional"],
     estimatedMin: 18,
     blurb: "Decision tree. Side-by-side examples of the same scenario in all four. When each is impossible.",
-    status: "planned",
+    status: "built",
   },
 
   // ----- Section G: Modal Patterns (10) -----
@@ -873,7 +873,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     prereqs: ["verb-groups"],
     estimatedMin: 16,
     blurb: "Special honorific verbs plus the お/ご + stem + になる pattern. Workplace seinen, customer service, period dramas.",
-    status: "planned",
+    status: "built",
   },
   {
     slug: "kenjougo",
