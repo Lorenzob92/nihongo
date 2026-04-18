@@ -19,9 +19,14 @@ const OUTPUT = path.join(APP_ROOT, "src", "data", "manga-covers.ts");
 
 // AniList IDs verified by searching anilist.co directly.
 const QUERIES = [
+  { slug: "chi-sweet-home",    aniListId: 31397 },  // Chi's Sweet Home
   { slug: "yotsubato",         aniListId: 30104 },  // Yotsuba to!
+  { slug: "shirokuma-cafe",    aniListId: 65695 },  // Shirokuma Cafe
   { slug: "doraemon",          aniListId: 31032 },  // Doraemon
+  { slug: "crayon-shin-chan",  aniListId: 32435 },  // Crayon Shin-chan
+  { slug: "flying-witch",      aniListId: 76258 },  // Flying Witch
   { slug: "frieren",           aniListId: 118586 }, // Sousou no Frieren
+  { slug: "nichijou",          aniListId: 33082 },  // Nichijou
   { slug: "spy-x-family",      aniListId: 108556 }, // SPY x FAMILY
   { slug: "mob-psycho-100",    aniListId: 85189 },  // Mob Psycho 100
   { slug: "pluto",             aniListId: 30745 },  // PLUTO

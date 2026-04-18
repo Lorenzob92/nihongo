@@ -1,11 +1,28 @@
 import type { MangaRung } from "@/lib/types";
 
-// 12 rungs from spec section 7. Status reflects mocked V0 progress.
+// Beginner-heavy ladder. Status reflects mocked V0 progress.
 // `slug` is the URL slug used by /manga-ladder/[slug] AND looked up
 // in src/data/manga-covers.ts for AniList cover/banner/synopsis.
 export const MANGA_LADDER: MangaRung[] = [
   {
     rung: 1,
+    slug: "chi-sweet-home",
+    title: "Chi's Sweet Home",
+    titleJa: "チーズスイートホーム",
+    jlptLevel: "N5",
+    jpdbLevel: "Level 1",
+    status: "upcoming",
+    notes: "Easiest possible entry. Cat protagonist, picture-book pacing, all hiragana.",
+    whyAtThisRung:
+      "Konami Kanata's all-ages cat manga: most chapters are 5 pages, almost everything is in hiragana with sparse N5 kanji. Chi narrates her own life, so the language is concrete and repetitive. If Yotsubato feels too hard, start here.",
+    readingAid: {
+      mokuroAvailable: false,
+      sourceTip: "12 short volumes. Available on Bookwalker JP and Amazon JP Kindle.",
+    },
+    tier: "B",
+  },
+  {
+    rung: 2,
     slug: "yotsubato",
     title: "Yotsubato!",
     titleJa: "よつばと！",
@@ -23,7 +40,24 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "S",
   },
   {
-    rung: 2,
+    rung: 3,
+    slug: "shirokuma-cafe",
+    title: "Shirokuma Cafe (Polar Bear's Cafe)",
+    titleJa: "しろくまカフェ",
+    jlptLevel: "N5",
+    jpdbLevel: "Level 1",
+    status: "upcoming",
+    notes: "Slow gag manga, food + animal vocab, very low panel density.",
+    whyAtThisRung:
+      "Aloha Higa's slice-of-life is built on word-play and food-shop vocab. Sentences are short, each chapter is self-contained, and the visual gags scaffold any unknown words. Furigana on most kanji.",
+    readingAid: {
+      mokuroAvailable: false,
+      sourceTip: "5 volumes complete. Anime adaptation gives you free listening practice.",
+    },
+    tier: "B",
+  },
+  {
+    rung: 4,
     slug: "doraemon",
     title: "Doraemon",
     titleJa: "ドラえもん",
@@ -40,7 +74,41 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "A",
   },
   {
-    rung: 3,
+    rung: 5,
+    slug: "crayon-shin-chan",
+    title: "Crayon Shin-chan",
+    titleJa: "クレヨンしんちゃん",
+    jlptLevel: "N4",
+    jpdbLevel: "Level 2",
+    status: "upcoming",
+    notes: "Kid Japanese with slang. Short chapters, vulgar humour, lots of repetition.",
+    whyAtThisRung:
+      "Shin-chan is 5 and speaks in mangled, slangy Japanese: this is exactly the casual register manga loves. Chapters are 5-10 pages. You learn 'baby talk' contractions (ぞーきりゃ, とうちゃん, かあちゃん) the same way Japanese kids do.",
+    readingAid: {
+      mokuroAvailable: false,
+      sourceTip: "50+ volumes complete. The anime is on most JP streaming services for parallel ear training.",
+    },
+    tier: "B",
+  },
+  {
+    rung: 6,
+    slug: "flying-witch",
+    title: "Flying Witch",
+    titleJa: "ふらいんぐうぃっち",
+    jlptLevel: "N4",
+    jpdbLevel: "Level 3",
+    status: "upcoming",
+    notes: "Atmospheric slice-of-life. Slow pacing, rural vocab, gentle.",
+    whyAtThisRung:
+      "Chihiro Ishizuka's witch-in-the-countryside manga is dialogue-light, atmospheric, and uses concrete N4 vocabulary. Many chapters are seasonal observations. Pace lets you re-read pages without feeling stuck.",
+    readingAid: {
+      mokuroAvailable: false,
+      sourceTip: "12+ volumes ongoing in Bessatsu Shounen Magazine. Anime adaptation excellent.",
+    },
+    tier: "B",
+  },
+  {
+    rung: 7,
     slug: "frieren",
     title: "Frieren",
     titleJa: "葬送のフリーレン",
@@ -57,7 +125,24 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "S",
   },
   {
-    rung: 4,
+    rung: 8,
+    slug: "nichijou",
+    title: "Nichijou",
+    titleJa: "日常",
+    jlptLevel: "N4",
+    jpdbLevel: "Level 3",
+    status: "upcoming",
+    notes: "Absurdist school comedy. Short gag chapters, modern teenage speech.",
+    whyAtThisRung:
+      "Keiichi Arawi's absurdist school comedy uses contemporary teenage spoken Japanese without the slang overload of harder titles. Gag-per-page format means tiny digestible chunks. Excellent for hearing register-shifts (deadpan robot vs hyperactive Yuuko).",
+    readingAid: {
+      mokuroAvailable: false,
+      sourceTip: "10 volumes complete. Anime is on Crunchyroll for parallel listening.",
+    },
+    tier: "B",
+  },
+  {
+    rung: 9,
     slug: "spy-x-family",
     title: "Spy x Family",
     titleJa: "SPY×FAMILY",
@@ -74,7 +159,7 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "A",
   },
   {
-    rung: 5,
+    rung: 10,
     slug: "mob-psycho-100",
     title: "Mob Psycho 100",
     titleJa: "モブサイコ100",
@@ -91,7 +176,7 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "S",
   },
   {
-    rung: 6,
+    rung: 11,
     slug: "pluto",
     title: "Pluto",
     titleJa: "PLUTO",
@@ -108,7 +193,7 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "S",
   },
   {
-    rung: 7,
+    rung: 12,
     slug: "attack-on-titan",
     title: "Attack on Titan",
     titleJa: "進撃の巨人",
@@ -125,7 +210,7 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "S",
   },
   {
-    rung: 8,
+    rung: 13,
     slug: "death-note",
     title: "Death Note",
     titleJa: "DEATH NOTE",
@@ -142,7 +227,7 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "A",
   },
   {
-    rung: 9,
+    rung: 14,
     slug: "monster",
     title: "Monster",
     titleJa: "MONSTER",
@@ -159,7 +244,7 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "S",
   },
   {
-    rung: 10,
+    rung: 15,
     slug: "20th-century-boys",
     title: "20th Century Boys",
     titleJa: "20世紀少年",
@@ -176,7 +261,7 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "S",
   },
   {
-    rung: 11,
+    rung: 16,
     slug: "vinland-saga",
     title: "Vinland Saga",
     titleJa: "ヴィンランド・サガ",
@@ -193,7 +278,7 @@ export const MANGA_LADDER: MangaRung[] = [
     tier: "S",
   },
   {
-    rung: 12,
+    rung: 17,
     slug: "berserk",
     title: "Berserk",
     titleJa: "ベルセルク",

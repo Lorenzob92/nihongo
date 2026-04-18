@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ArrowLeft, BookOpen, ExternalLink, Star } from "lucide-react";
+import { ArrowLeft, BookOpen, ExternalLink, Search, Star } from "lucide-react";
 import { MANGA_LADDER, MANGA_LADDER_BY_SLUG } from "@/data/manga-ladder";
 import { MANGA_COVERS } from "@/data/manga-covers";
 import { Pill } from "@/components/ui/Pill";
@@ -177,6 +177,28 @@ export default async function MangaDetailPage({
           ) : null}
 
           <MangaProgressButtons slug={m.slug} />
+
+          {/* Search raws on Nyaa: opens a search URL, you pick what you want */}
+          <div className="grid grid-cols-2 gap-2">
+            <a
+              href={`https://nyaa.si/?f=0&c=3_0&q=${encodeURIComponent(m.titleJa || m.title)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1.5 rounded-[10px] border border-white/10 bg-surface px-3 py-2 text-[11px] font-semibold text-white hover:bg-surface-2"
+            >
+              <Search className="h-3 w-3" />
+              Nyaa (JP)
+            </a>
+            <a
+              href={`https://nyaa.si/?f=0&c=3_0&q=${encodeURIComponent(m.title)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-1.5 rounded-[10px] border border-white/10 bg-surface px-3 py-2 text-[11px] font-semibold text-white hover:bg-surface-2"
+            >
+              <Search className="h-3 w-3" />
+              Nyaa (EN)
+            </a>
+          </div>
 
           {m.readingAid?.sourceTip ? (
             <div className="rounded-[10px] border border-white/10 bg-surface p-3">
