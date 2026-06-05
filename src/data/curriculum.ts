@@ -319,6 +319,18 @@ export const CURRICULUM: CurriculumLesson[] = [
     blurb: "The 25 pink-highlighted verbs from sensei's list. Bidirectional flashcards + cheatsheet. Heavy on the transitive/intransitive pairs (開く/開ける, 閉まる/閉める, 始まる/始める) the exam loves.",
     status: "built",
   },
+  {
+    slug: "pink-verbs-2",
+    title: "Sensei's verb list (pink set 2)",
+    titleJa: "先生の動詞リスト 2",
+    section: "B",
+    order: 18,
+    jlptLevel: "N5",
+    prereqs: ["pink-verbs-exam"],
+    estimatedMin: 16,
+    blurb: "The next 26 pink verbs from sensei's list (歩く, 売る, 起きる, 降りる, 走る, 引く/弾く, 渡す/渡る…). Memory hooks, bidirectional flashcards + cheatsheet. Watch the U-verb traps 走る・要る・分かる and the 引く/弾く homophone.",
+    status: "built",
+  },
 
   // ----- Section C: Adjectives (5) -----
   {
