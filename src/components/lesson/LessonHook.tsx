@@ -1,5 +1,6 @@
 import { Quote } from "lucide-react";
 import { JapaneseText } from "@/components/japanese/JapaneseText";
+import { RichText } from "./RichText";
 import type { LessonStep } from "@/lib/types";
 
 type Props = Extract<LessonStep, { type: "hook" }>;
@@ -12,16 +13,18 @@ export function LessonHook(props: Props) {
           Why this matters
         </p>
         <h2 className="font-display text-2xl text-ink-deep sm:text-3xl">
-          {props.whyItMatters}
+          The pitch
         </h2>
       </header>
 
+      <RichText text={props.whyItMatters} />
+
       {props.mediaExample ? (
-        <figure className="rounded-[16px] border border-line bg-surface-soft p-5">
+        <figure className="rounded-[16px] border border-[color:var(--accent)]/25 bg-[color:var(--accent)]/8 p-5">
           <div className="flex items-start gap-3">
-            <Quote className="mt-0.5 h-4 w-4 flex-none text-muted" />
+            <Quote className="mt-0.5 h-4 w-4 flex-none text-accent-deep" />
             <div className="space-y-2">
-              <JapaneseText size="xl" className="text-ink-deep">
+              <JapaneseText size="xl" className="block text-ink-deep">
                 {props.mediaExample.quote}
               </JapaneseText>
               <figcaption className="font-mono text-[11px] uppercase tracking-[0.16em] text-muted">

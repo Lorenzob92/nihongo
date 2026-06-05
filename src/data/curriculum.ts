@@ -295,6 +295,30 @@ export const CURRICULUM: CurriculumLesson[] = [
     blurb: "'Was made to do' against your will. Workplace suffering, drinking-party scenes in seinen.",
     status: "planned",
   },
+  {
+    slug: "ni-iku-purpose",
+    title: "〜に行く / 来る / 帰る: going to do something",
+    titleJa: "「〜に行く・来る・帰る」",
+    section: "B",
+    order: 16,
+    jlptLevel: "N5",
+    prereqs: ["masu-form", "ni-vs-de"],
+    estimatedMin: 14,
+    blurb: "[Place]に + [Verb-stem]に + 行く/来る/帰る. The grammar of announcing where and why you're going. Sensei-flagged for May 2026.",
+    status: "built",
+  },
+  {
+    slug: "pink-verbs-exam",
+    title: "Sensei's verb list (pink set)",
+    titleJa: "先生の動詞リスト",
+    section: "B",
+    order: 17,
+    jlptLevel: "N5",
+    prereqs: [],
+    estimatedMin: 12,
+    blurb: "The 25 pink-highlighted verbs from sensei's list. Bidirectional flashcards + cheatsheet. Heavy on the transitive/intransitive pairs (開く/開ける, 閉まる/閉める, 始まる/始める) the exam loves.",
+    status: "built",
+  },
 
   // ----- Section C: Adjectives (5) -----
   {
@@ -356,6 +380,18 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 10,
     blurb: "Change of state vs causing change. Central to slice-of-life and character development arcs.",
     status: "planned",
+  },
+  {
+    slug: "n5-final-adjectives",
+    title: "The last N5 i-adjectives",
+    titleJa: "N5最後のい形容詞",
+    section: "C",
+    order: 6,
+    jlptLevel: "N5",
+    prereqs: ["i-adjectives"],
+    estimatedMin: 12,
+    blurb: "Sensei-flagged final N5 vocab batch: 厚い, 危ない, 軽い, 涼しい, 狭い, 細い, 不味い, 丸い. Includes the 厚/暑/熱 homophone trap.",
+    status: "built",
   },
 
   // ----- Section D: Demonstratives, Questions, Counters, Time (7) -----

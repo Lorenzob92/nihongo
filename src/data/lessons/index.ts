@@ -7,6 +7,9 @@ import { PARTICLES_WO_NI_DE } from "./particles-wo-ni-de";
 import { FOUR_CONDITIONALS } from "./four-conditionals";
 import { PASSIVE_VOICE } from "./passive-voice";
 import { KEIGO_INTRO } from "./keigo-intro";
+import { N5_FINAL_ADJECTIVES } from "./n5-final-adjectives";
+import { NI_IKU_PURPOSE } from "./ni-iku-purpose";
+import { PINK_VERBS_EXAM } from "./pink-verbs-exam";
 
 // Registry of all built lesson content. Phase 2 agents: import a new file
 // (one per lesson, matching the curriculum slug) and add it here.
@@ -22,6 +25,9 @@ export const LESSON_CONTENT: Record<string, LessonContent> = {
   [FOUR_CONDITIONALS.slug]: FOUR_CONDITIONALS,
   [PASSIVE_VOICE.slug]: PASSIVE_VOICE,
   [KEIGO_INTRO.slug]: KEIGO_INTRO,
+  [N5_FINAL_ADJECTIVES.slug]: N5_FINAL_ADJECTIVES,
+  [NI_IKU_PURPOSE.slug]: NI_IKU_PURPOSE,
+  [PINK_VERBS_EXAM.slug]: PINK_VERBS_EXAM,
 };
 
 export function getLessonContent(slug: string): LessonContent | undefined {

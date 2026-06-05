@@ -117,6 +117,17 @@ export type SrsItem = {
   type: "grammar" | "vocab" | "kanji";
 };
 
+export type FlashcardItem = {
+  /** Front of card. Typically kanji with optional `(furigana)` glosses. */
+  front: string;
+  /** Back of card — primary meaning. */
+  back: string;
+  /** Optional secondary line on the back: opposite, trap warning, collocations. */
+  note?: string;
+  /** Optional romaji shown small on the back. */
+  romaji?: string;
+};
+
 export type LessonStep =
   | {
       type: "hook";
@@ -130,6 +141,7 @@ export type LessonStep =
       cureDollyTake?: string;
     }
   | { type: "examples"; items: ExampleSentence[] }
+  | { type: "flashcards"; title?: string; subtitle?: string; items: FlashcardItem[] }
   | { type: "drill"; items: DrillItem[] }
   | {
       type: "listening";

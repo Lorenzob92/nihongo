@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Headphones } from "lucide-react";
+import { Headphones, Play, Square } from "lucide-react";
 import { JapaneseText } from "@/components/japanese/JapaneseText";
+import { speakJapanese, stopSpeaking } from "@/lib/speech";
 import { cn } from "@/lib/utils";
 import type { LessonStep } from "@/lib/types";
 
@@ -11,7 +12,22 @@ type Props = Extract<LessonStep, { type: "listening" }>;
 export function LessonListening(props: Props) {
   const [showTranscript, setShowTranscript] = useState(false);
   const [picked, setPicked] = useState<number | null>(null);
+  const [playing, setPlaying] = useState(false);
   const q = props.comprehensionQuestions[0];
+
+  const handlePlay = () => {
+    if (playing) {
+      stopSpeaking();
+      setPlaying(false);
+      return;
+    }
+    setPlaying(true);
+    speakJapanese(props.transcript, { rate: 0.85 });
+    // Rough estimate: clear playing state after the utterance length.
+    // SpeechSynthesisUtterance has onend but we keep this simple.
+    const approxMs = Math.max(2000, props.transcript.length * 120);
+    setTimeout(() => setPlaying(false), approxMs);
+  };
 
   return (
     <section className="space-y-6">
@@ -32,9 +48,17 @@ export function LessonListening(props: Props) {
           <div className="min-w-0 flex-1">
             <p className="text-sm font-medium text-ink">Audio clip</p>
             <p className="text-xs text-muted">
-              Audio synthesis arrives in Phase 2 (VOICEVOX).
+              Browser TTS at 0.85x. VOICEVOX upgrade in Phase 2.
             </p>
           </div>
+          <button
+            type="button"
+            onClick={handlePlay}
+            className="inline-flex items-center gap-1.5 rounded-[10px] border border-line bg-surface px-3 py-1.5 text-xs font-medium text-ink hover:bg-surface-soft"
+          >
+            {playing ? <Square className="h-3.5 w-3.5" /> : <Play className="h-3.5 w-3.5" />}
+            {playing ? "Stop" : "Play"}
+          </button>
           <button
             type="button"
             onClick={() => setShowTranscript((s) => !s)}

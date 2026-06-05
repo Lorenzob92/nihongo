@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Volume2, Eye, EyeOff } from "lucide-react";
 import { JapaneseText } from "@/components/japanese/JapaneseText";
+import { speakJapanese } from "@/lib/speech";
 import type { LessonStep } from "@/lib/types";
 
 type Props = Extract<LessonStep, { type: "examples" }>;
@@ -39,9 +40,10 @@ export function LessonExamples(props: Props) {
                 </JapaneseText>
                 <button
                   type="button"
-                  className="flex-none rounded-full bg-surface-soft p-2 text-muted hover:bg-line"
-                  aria-label="Play audio (TODO Phase 2: VOICEVOX)"
-                  title="Audio coming in Phase 2"
+                  onClick={() => speakJapanese(item.ja)}
+                  className="flex-none rounded-full bg-surface-soft p-2 text-muted hover:bg-line hover:text-accent-deep"
+                  aria-label="Play audio"
+                  title="Play audio"
                 >
                   <Volume2 className="h-4 w-4" />
                 </button>

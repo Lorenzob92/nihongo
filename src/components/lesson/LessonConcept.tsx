@@ -1,4 +1,5 @@
 import { JapaneseText } from "@/components/japanese/JapaneseText";
+import { RichText } from "./RichText";
 import type { LessonStep } from "@/lib/types";
 
 type Props = Extract<LessonStep, { type: "concept" }>;
@@ -15,16 +16,14 @@ export function LessonConcept(props: Props) {
         </h2>
       </header>
 
-      <p className="text-base leading-relaxed text-ink/85 sm:text-lg">
-        {props.explanation}
-      </p>
+      <RichText text={props.explanation} />
 
       {props.formulaJa ? (
-        <div className="rounded-[16px] border border-line bg-surface-soft p-5">
-          <p className="mb-2 font-mono text-[11px] uppercase tracking-[0.18em] text-muted">
+        <div className="rounded-[16px] border border-[color:var(--accent)]/30 bg-[color:var(--accent)]/8 p-5">
+          <p className="mb-2 font-mono text-[11px] uppercase tracking-[0.18em] text-accent-deep">
             Pattern
           </p>
-          <JapaneseText size="lg" className="text-ink-deep">
+          <JapaneseText size="lg" className="block text-ink-deep">
             {props.formulaJa}
           </JapaneseText>
         </div>
@@ -35,9 +34,10 @@ export function LessonConcept(props: Props) {
           <p className="mb-2 font-mono text-[11px] uppercase tracking-[0.18em] text-accent-deep">
             Structural take (Cure Dolly)
           </p>
-          <p className="text-sm leading-relaxed text-ink/85">
-            {props.cureDollyTake}
-          </p>
+          <RichText
+            text={props.cureDollyTake}
+            className="text-sm sm:text-[15px]"
+          />
         </div>
       ) : null}
     </section>
