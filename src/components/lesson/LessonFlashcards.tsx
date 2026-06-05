@@ -136,6 +136,17 @@ export function LessonFlashcards(props: Props) {
                       {card.romaji}
                     </p>
                   ) : null}
+                  {card.mnemonic ? (
+                    <p className="mx-auto flex max-w-md items-start justify-center gap-1.5 text-sm leading-relaxed text-ink/70">
+                      <span aria-hidden>{card.mnemonic.emoji}</span>
+                      <span>
+                        <span className="font-semibold text-ink-deep">
+                          “{card.mnemonic.hook}”
+                        </span>{" "}
+                        <JapaneseText>{card.mnemonic.story}</JapaneseText>
+                      </span>
+                    </p>
+                  ) : null}
                 </div>
               ) : HAS_JP.test(card.front) ? (
                 <JapaneseText

@@ -10,6 +10,7 @@ import { StepNav } from "./StepNav";
 import { LessonHook } from "./LessonHook";
 import { LessonConcept } from "./LessonConcept";
 import { LessonExamples } from "./LessonExamples";
+import { LessonMnemonics } from "./LessonMnemonics";
 import { LessonFlashcards } from "./LessonFlashcards";
 import { LessonDrill } from "./LessonDrill";
 import { LessonListening } from "./LessonListening";
@@ -21,6 +22,7 @@ const STEP_TITLES: Record<LessonStep["type"], string> = {
   hook: "Hook",
   concept: "Concept",
   examples: "Examples",
+  mnemonics: "Memory hooks",
   flashcards: "Flashcards",
   drill: "Drill",
   listening: "Listening",
@@ -37,6 +39,8 @@ function renderStep(step: LessonStep) {
       return <LessonConcept {...step} />;
     case "examples":
       return <LessonExamples {...step} />;
+    case "mnemonics":
+      return <LessonMnemonics {...step} />;
     case "flashcards":
       return <LessonFlashcards {...step} />;
     case "drill":

@@ -117,6 +117,27 @@ export type SrsItem = {
   type: "grammar" | "vocab" | "kanji";
 };
 
+/** A WaniKani-style memory hook: a sound-alike anchor + a sticky story. */
+export type Mnemonic = {
+  /** The sound-alike anchor word, e.g. "Alghero" or "a key". */
+  hook: string;
+  /** The one-line story that makes it stick. */
+  story: string;
+  /** A single emoji that captures the image. */
+  emoji: string;
+  /** Source language of the hook, shown as a small badge. */
+  lang: "IT" | "EN" | "JP";
+};
+
+/** One entry on the pre-flashcard "meet the verbs" mnemonics screen. */
+export type MnemonicCard = {
+  /** Verb in kanji with optional `(furigana)` glosses. */
+  ja: string;
+  romaji: string;
+  meaning: string;
+  mnemonic: Mnemonic;
+};
+
 export type FlashcardItem = {
   /** Front of card. Typically kanji with optional `(furigana)` glosses. */
   front: string;
@@ -126,6 +147,8 @@ export type FlashcardItem = {
   note?: string;
   /** Optional romaji shown small on the back. */
   romaji?: string;
+  /** Optional compact memory hook shown on the back to reinforce recall. */
+  mnemonic?: Mnemonic;
 };
 
 export type LessonStep =
@@ -141,6 +164,7 @@ export type LessonStep =
       cureDollyTake?: string;
     }
   | { type: "examples"; items: ExampleSentence[] }
+  | { type: "mnemonics"; title?: string; subtitle?: string; items: MnemonicCard[] }
   | { type: "flashcards"; title?: string; subtitle?: string; items: FlashcardItem[] }
   | { type: "drill"; items: DrillItem[] }
   | {
