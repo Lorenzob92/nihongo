@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Volume2, ChevronLeft, ChevronRight, RotateCcw } from "lucide-react";
+import { Volume2, ChevronLeft, ChevronRight, RotateCcw, Shuffle } from "lucide-react";
 import { JapaneseText } from "@/components/japanese/JapaneseText";
 import { speakJapanese } from "@/lib/speech";
 import type { FlashcardItem, LessonStep } from "@/lib/types";
@@ -23,7 +23,11 @@ export function LessonFlashcards(props: Props) {
   const total = props.items.length;
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
-  const card = props.items[index];
+  const [order, setOrder] = useState<number[]>(() =>
+    props.items.map((_, i) => i),
+  );
+  const [shuffled, setShuffled] = useState(false);
+  const card = props.items[order[index]];
   const title = props.title ?? "Tap to flip";
   const subtitle = props.subtitle;
 
@@ -39,6 +43,21 @@ export function LessonFlashcards(props: Props) {
   const restart = useCallback(() => {
     setFlipped(false);
     setIndex(0);
+    setOrder(props.items.map((_, i) => i));
+    setShuffled(false);
+  }, [props.items]);
+  const shuffle = useCallback(() => {
+    setOrder((prev) => {
+      const next = [...prev];
+      for (let i = next.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [next[i], next[j]] = [next[j], next[i]];
+      }
+      return next;
+    });
+    setFlipped(false);
+    setIndex(0);
+    setShuffled(true);
   }, []);
 
   useEffect(() => {
@@ -193,13 +212,26 @@ export function LessonFlashcards(props: Props) {
         >
           <ChevronLeft className="h-4 w-4" /> Prev
         </button>
-        <button
-          type="button"
-          onClick={restart}
-          className="inline-flex items-center gap-1.5 rounded-[10px] px-3 py-2 text-xs text-muted hover:text-ink"
-        >
-          <RotateCcw className="h-3.5 w-3.5" /> Restart
-        </button>
+        <div className="flex items-center gap-1">
+          <button
+            type="button"
+            onClick={shuffle}
+            className={`inline-flex items-center gap-1.5 rounded-[10px] px-3 py-2 text-xs hover:text-ink ${
+              shuffled ? "text-accent-deep" : "text-muted"
+            }`}
+            title="Shuffle the order"
+          >
+            <Shuffle className="h-3.5 w-3.5" /> Shuffle
+          </button>
+          <button
+            type="button"
+            onClick={restart}
+            className="inline-flex items-center gap-1.5 rounded-[10px] px-3 py-2 text-xs text-muted hover:text-ink"
+            title="Reset to original order"
+          >
+            <RotateCcw className="h-3.5 w-3.5" /> Reset
+          </button>
+        </div>
         <button
           type="button"
           onClick={goNext}
