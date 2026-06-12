@@ -3,6 +3,7 @@ import { TodaySession } from "@/components/hub/TodaySession";
 import { ProgressRails } from "@/components/hub/ProgressRails";
 import { MangaLadderMini } from "@/components/hub/MangaLadderMini";
 import { QuickActions } from "@/components/hub/QuickActions";
+import { RecentLessons } from "@/components/hub/RecentLessons";
 
 export default function HubPage() {
   return (
@@ -10,6 +11,7 @@ export default function HubPage() {
       <PhaseIndicator />
       <ProgressRails />
       <TodaySession />
+      <RecentLessons />
       <MangaLadderMini />
       <QuickActions />
     </main>

@@ -38,6 +38,11 @@ export type CurriculumLesson = {
   /** Why this matters (one sentence). */
   blurb: string;
   status: LessonStatus;
+  /**
+   * ISO date (YYYY-MM-DD) the lesson content was built. Drives the "Latest"
+   * view and "New" badges. Only set on built lessons; absent = not yet built.
+   */
+  created?: string;
 };
 
 export type SectionMeta = {

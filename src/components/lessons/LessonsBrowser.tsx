@@ -2,15 +2,16 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, CheckCircle2, LayoutGrid, Layers, ListFilter } from "lucide-react";
-import { CURRICULUM, lessonsBySection } from "@/data/curriculum";
+import { ArrowRight, CheckCircle2, Clock, LayoutGrid, Layers, ListFilter } from "lucide-react";
+import { CURRICULUM, builtLessonsNewestFirst, NEW_LESSON_SLUGS } from "@/data/curriculum";
 import { SECTIONS } from "@/data/sections";
+import { formatBuiltDate } from "@/lib/format";
 import type { CurriculumLesson, JlptLevel } from "@/lib/types";
 import { Pill } from "@/components/ui/Pill";
 import { JapaneseText } from "@/components/japanese/JapaneseText";
 import { cn } from "@/lib/utils";
 
-type GroupBy = "section" | "jlpt" | "status";
+type GroupBy = "latest" | "section" | "jlpt" | "status";
 
 const JLPT_ORDER: JlptLevel[] = ["N5", "N4", "N3", "N2", "N1"];
 
@@ -23,7 +24,7 @@ const STATUS_FILTERS = [
 type StatusFilter = (typeof STATUS_FILTERS)[number]["value"];
 
 export function LessonsBrowser() {
-  const [groupBy, setGroupBy] = useState<GroupBy>("section");
+  const [groupBy, setGroupBy] = useState<GroupBy>("latest");
   const [status, setStatus] = useState<StatusFilter>("all");
   const [search, setSearch] = useState("");
 
@@ -40,6 +41,19 @@ export function LessonsBrowser() {
   }, [status, search]);
 
   const groups = useMemo(() => {
+    if (groupBy === "latest") {
+      const builtSlugs = new Set(filtered.map((l) => l.slug));
+      const items = builtLessonsNewestFirst().filter((l) => builtSlugs.has(l.slug));
+      return [
+        {
+          id: "latest",
+          title: "Latest",
+          subtitle: "Built lessons, most recently added first.",
+          ja: undefined as string | undefined,
+          items,
+        },
+      ].filter((g) => g.items.length > 0);
+    }
     if (groupBy === "section") {
       return SECTIONS.map((s) => ({
         id: s.id,
@@ -89,6 +103,7 @@ export function LessonsBrowser() {
             Group by
           </span>
           {[
+            { v: "latest", label: "Latest", Icon: Clock },
             { v: "section", label: "Section", Icon: Layers },
             { v: "jlpt", label: "JLPT", Icon: ListFilter },
             { v: "status", label: "Status", Icon: LayoutGrid },
@@ -177,6 +192,8 @@ export function LessonsBrowser() {
 
 function LessonCard({ lesson }: { lesson: CurriculumLesson }) {
   const isReady = lesson.status === "built";
+  const isNew = NEW_LESSON_SLUGS.has(lesson.slug);
+  const builtDate = formatBuiltDate(lesson.created);
   return (
     <li>
       <Link
@@ -191,7 +208,11 @@ function LessonCard({ lesson }: { lesson: CurriculumLesson }) {
             <Pill tone="jlpt">{lesson.jlptLevel}</Pill>
             <Pill tone="muted">{lesson.estimatedMin}m</Pill>
           </div>
-          {isReady ? (
+          {isNew ? (
+            <span className="inline-flex items-center rounded-full bg-[#638dff] px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white">
+              New
+            </span>
+          ) : isReady ? (
             <Pill tone="recommend">
               <CheckCircle2 className="h-3 w-3" /> Ready
             </Pill>
@@ -210,9 +231,16 @@ function LessonCard({ lesson }: { lesson: CurriculumLesson }) {
         <p className="text-[11px] leading-relaxed text-zinc-400 line-clamp-3">
           {lesson.blurb}
         </p>
-        <span className="mt-auto inline-flex items-center gap-1 pt-1 text-[11px] font-semibold text-[#638dff] transition-transform group-hover:translate-x-0.5">
-          Open <ArrowRight className="h-3 w-3" />
-        </span>
+        <div className="mt-auto flex items-center justify-between gap-2 pt-1">
+          <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#638dff] transition-transform group-hover:translate-x-0.5">
+            Open <ArrowRight className="h-3 w-3" />
+          </span>
+          {isReady && builtDate ? (
+            <span className="font-mono text-[10px] text-zinc-600">
+              Added {builtDate}
+            </span>
+          ) : null}
+        </div>
       </Link>
     </li>
   );

@@ -16,6 +16,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 18,
     blurb: "The single highest-leverage concept in Japanese. Misreading は as 'subject' is the biggest barrier to seinen comprehension.",
     status: "built",
+    created: "2026-04-18",
   },
   {
     slug: "wo-particle",
@@ -28,6 +29,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 12,
     blurb: "Direct object marker, plus the trickier 'movement-through' を with intransitive motion verbs.",
     status: "built",
+    created: "2026-04-18",
   },
   {
     slug: "ni-vs-de",
@@ -40,6 +42,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 18,
     blurb: "The single most-tested distinction at N5/N4. Existence vs action, point in time vs duration.",
     status: "built",
+    created: "2026-04-18",
   },
   {
     slug: "he-vs-ni",
@@ -174,6 +177,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 18,
     blurb: "The Swiss army knife. Connecting clauses, requests, permission, prohibition, state. Cannot read fluently without it.",
     status: "built",
+    created: "2026-04-18",
   },
   {
     slug: "te-iru-state",
@@ -270,6 +274,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 18,
     blurb: "Direct passive plus the uniquely Japanese suffering passive. Essential for seinen victimhood narratives.",
     status: "built",
+    created: "2026-04-18",
   },
   {
     slug: "causative",
@@ -282,6 +287,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 16,
     blurb: "Make-do and let-do. Boss-subordinate, parent-child dynamics. Particle traps everywhere.",
     status: "built",
+    created: "2026-04-18",
   },
   {
     slug: "causative-passive",
@@ -306,6 +312,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 14,
     blurb: "[Place]に + [Verb-stem]に + 行く/来る/帰る. The grammar of announcing where and why you're going. Sensei-flagged for May 2026.",
     status: "built",
+    created: "2026-06-05",
   },
   {
     slug: "pink-verbs-exam",
@@ -318,6 +325,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 12,
     blurb: "The 25 pink-highlighted verbs from sensei's list. Bidirectional flashcards + cheatsheet. Heavy on the transitive/intransitive pairs (開く/開ける, 閉まる/閉める, 始まる/始める) the exam loves.",
     status: "built",
+    created: "2026-06-05",
   },
   {
     slug: "pink-verbs-2",
@@ -328,8 +336,9 @@ export const CURRICULUM: CurriculumLesson[] = [
     jlptLevel: "N5",
     prereqs: ["pink-verbs-exam"],
     estimatedMin: 16,
-    blurb: "The next 26 pink verbs from sensei's list (歩く, 売る, 起きる, 降りる, 走る, 引く/弾く, 渡す/渡る…). Memory hooks, bidirectional flashcards + cheatsheet. Watch the U-verb traps 走る・要る・分かる and the 引く/弾く homophone.",
+    blurb: "The next 27 pink verbs from sensei's list (歩く, 売る, 起きる, 降りる, 走る, 引く/弾く, 吹く, 渡す/渡る…). Memory hooks, bidirectional flashcards + cheatsheet. Watch the U-verb traps 走る・要る・分かる and the 引く/弾く homophone.",
     status: "built",
+    created: "2026-06-05",
   },
 
   // ----- Section C: Adjectives (5) -----
@@ -356,6 +365,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 14,
     blurb: "Attributive な vs predicative だ. The deceptive きれい and 嫌い. Clean conjugation is the N4 entry ticket.",
     status: "built",
+    created: "2026-04-18",
   },
   {
     slug: "comparatives",
@@ -404,6 +414,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 12,
     blurb: "Sensei-flagged final N5 vocab batch: 厚い, 危ない, 軽い, 涼しい, 狭い, 細い, 不味い, 丸い. Includes the 厚/暑/熱 homophone trap.",
     status: "built",
+    created: "2026-06-05",
   },
 
   // ----- Section D: Demonstratives, Questions, Counters, Time (7) -----
@@ -650,6 +661,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 18,
     blurb: "Decision tree. Side-by-side examples of the same scenario in all four. When each is impossible.",
     status: "built",
+    created: "2026-04-18",
   },
 
   // ----- Section G: Modal Patterns (10) -----
@@ -922,6 +934,7 @@ export const CURRICULUM: CurriculumLesson[] = [
     estimatedMin: 16,
     blurb: "Special honorific verbs plus the お/ご + stem + になる pattern. Workplace seinen, customer service, period dramas.",
     status: "built",
+    created: "2026-04-18",
   },
   {
     slug: "kenjougo",
@@ -1042,4 +1055,50 @@ export function lessonsBySection(section: string): CurriculumLesson[] {
   return CURRICULUM.filter((l) => l.section === section).sort(
     (a, b) => a.order - b.order,
   );
+}
+
+/**
+ * Lesson slugs in the order their content was actually built (oldest first),
+ * taken from git history of src/data/lessons/. The `created` date on each
+ * lesson is day-granular, so several share a date; this array is the
+ * tiebreaker that keeps "newest first" deterministic and genuinely chronological.
+ * When you build a new lesson, append its slug here.
+ */
+export const BUILT_ORDER: string[] = [
+  "na-adjectives",
+  "wa-vs-ga",
+  "wo-particle",
+  "ni-vs-de",
+  "te-form",
+  "passive",
+  "causative",
+  "four-conditionals-synthesis",
+  "sonkeigo",
+  "n5-final-adjectives",
+  "ni-iku-purpose",
+  "pink-verbs-exam",
+  "pink-verbs-2",
+];
+
+const BUILT_RANK: Record<string, number> = Object.fromEntries(
+  BUILT_ORDER.map((slug, i) => [slug, i]),
+);
+
+/**
+ * The most recently built lessons, badged "New" wherever a lesson card appears.
+ * Currently the last 4 in BUILT_ORDER (the June 2026 batch).
+ */
+export const NEW_LESSON_SLUGS: Set<string> = new Set(BUILT_ORDER.slice(-4));
+
+/**
+ * All built lessons, newest first. Sorts by build rank (BUILT_ORDER) so the
+ * most recently created lesson leads. Lessons missing from BUILT_ORDER fall to
+ * the end. Drives the Lessons page "Latest" view and the hub "Recently added".
+ */
+export function builtLessonsNewestFirst(): CurriculumLesson[] {
+  return CURRICULUM.filter((l) => l.status === "built").sort((a, b) => {
+    const ra = BUILT_RANK[a.slug] ?? -1;
+    const rb = BUILT_RANK[b.slug] ?? -1;
+    return rb - ra;
+  });
 }
