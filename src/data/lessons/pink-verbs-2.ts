@@ -31,6 +31,7 @@ const MN: Record<string, Mnemonic> = {
   hanasu: { hook: "naso", story: "\"Naso\" (Italian: nose): talk too much and your nose grows, Pinocchio-style.", emoji: "🗣️", lang: "IT" },
   "hiku-pull": { hook: "hiccup", story: "A hiccup pulls at your chest. (Opposite of 押す osu = to push.)", emoji: "🚪", lang: "EN" },
   "hiku-play": { hook: "pull the strings", story: "弾く hiku = play strings: same sound as 引く (pull), because you pull/pluck the strings.", emoji: "🎸", lang: "EN" },
+  fuku: { hook: "foo, blow", story: "Foo! You blow: blow out candles, or blow into a flute. 笛(ふえ)を吹く = play a wind instrument (your edge as a player).", emoji: "🎺", lang: "EN" },
   furu: { hook: "fur", story: "Snow falls like fur drifting from the sky. (Same 降 kanji as 降りる, both come down.)", emoji: "❄️", lang: "EN" },
   wakaru: { hook: "what're you", story: "\"What're you saying? Oh, now I get it.\" (U-VERB: 分かります.)", emoji: "💡", lang: "EN" },
   wasureru: { hook: "what's your...", story: "\"What's your name again? Sorry, I forgot.\"", emoji: "💭", lang: "EN" },
@@ -72,6 +73,7 @@ export const PINK_VERBS_2: LessonContent = {
         { ja: "話(はな)す", romaji: "hanasu", meaning: "to talk, to speak", mnemonic: MN.hanasu },
         { ja: "引(ひ)く", romaji: "hiku", meaning: "to pull", mnemonic: MN["hiku-pull"] },
         { ja: "弾(ひ)く", romaji: "hiku", meaning: "to play (a string instrument)", mnemonic: MN["hiku-play"] },
+        { ja: "吹(ふ)く", romaji: "fuku", meaning: "to blow (wind); to play a wind instrument", mnemonic: MN.fuku },
         { ja: "降(ふ)る", romaji: "furu", meaning: "to fall (rain / snow)", mnemonic: MN.furu },
         { ja: "分(わ)かる", romaji: "wakaru", meaning: "to understand", mnemonic: MN.wakaru },
         { ja: "忘(わす)れる", romaji: "wasureru", meaning: "to forget", mnemonic: MN.wasureru },
@@ -105,6 +107,7 @@ export const PINK_VERBS_2: LessonContent = {
         { front: "話(はな)す", back: "to talk, to speak, to tell", note: "日本語(にほんご)を話す = speak Japanese.", romaji: "hanasu", mnemonic: MN.hanasu },
         { front: "引(ひ)く", back: "to pull", note: "Opposite: 押(お)す (to push). Same reading as 弾く (play strings).", romaji: "hiku", mnemonic: MN["hiku-pull"] },
         { front: "弾(ひ)く", back: "to play (a string / keyboard instrument)", note: "ギターを弾く, ピアノを弾く. Same reading as 引く (pull).", romaji: "hiku", mnemonic: MN["hiku-play"] },
+        { front: "吹(ふ)く", back: "to blow (wind); to play a wind instrument", note: "U-verb. 風(かぜ)が吹く = the wind blows. 笛(ふえ)を吹く = play a flute.", romaji: "fuku", mnemonic: MN.fuku },
         { front: "降(ふ)る", back: "to fall (rain / snow)", note: "雨(あめ)が降る = it rains. Same 降 kanji as 降りる (get off).", romaji: "furu", mnemonic: MN.furu },
         { front: "分(わ)かる", back: "to understand, to know", note: "U-verb. Takes が: 日本語が分かる. Not を.", romaji: "wakaru", mnemonic: MN.wakaru },
         { front: "忘(わす)れる", back: "to forget", note: "Ru-verb. 宿題(しゅくだい)を忘れる = forget the homework.", romaji: "wasureru", mnemonic: MN.wasureru },
@@ -138,6 +141,7 @@ export const PINK_VERBS_2: LessonContent = {
         { front: "to talk, to speak", back: "話(はな)す", note: "日本語を話す.", romaji: "hanasu", mnemonic: MN.hanasu },
         { front: "to pull", back: "引(ひ)く", note: "Opposite: 押す (push). Homophone 弾く (play strings).", romaji: "hiku", mnemonic: MN["hiku-pull"] },
         { front: "to play (a string instrument)", back: "弾(ひ)く", note: "ギターを弾く. Homophone 引く (pull).", romaji: "hiku", mnemonic: MN["hiku-play"] },
+        { front: "to blow (wind); to play a wind instrument", back: "吹(ふ)く", note: "風が吹く. 笛を吹く. Homophone-ish with 降る (furu).", romaji: "fuku", mnemonic: MN.fuku },
         { front: "to fall (rain / snow)", back: "降(ふ)る", note: "雨が降る. Same 降 as 降りる.", romaji: "furu", mnemonic: MN.furu },
         { front: "to understand", back: "分(わ)かる", note: "U-verb. Takes が, not を.", romaji: "wakaru", mnemonic: MN.wakaru },
         { front: "to forget", back: "忘(わす)れる", note: "Ru-verb.", romaji: "wasureru", mnemonic: MN.wasureru },
@@ -148,7 +152,7 @@ export const PINK_VERBS_2: LessonContent = {
     {
       type: "cheatsheet",
       summary:
-        "All 26 verbs in set 2. Trap-spotting: (1) transitive/intransitive pairs 終わる/終える, 止まる/止める, 渡す/渡る (the -eru/-su partner = YOU do it). (2) Same-reading kanji: 引く (pull) vs 弾く (play strings), and the 降 kanji in both 降る (fall) and 降りる (get off). (3) U-VERB traps that look like ru-verbs: 走る, 要る, 分かる (走ります, 要ります, 分かります). (4) 分かる takes が, not を.",
+        "All 27 verbs in set 2. Trap-spotting: (1) transitive/intransitive pairs 終わる/終える, 止まる/止める, 渡す/渡る (the -eru/-su partner = YOU do it). (2) Same-reading kanji: 引く (pull) vs 弾く (play strings), and the 降 kanji in both 降る (fall) and 降りる (get off). (3) U-VERB traps that look like ru-verbs: 走る, 要る, 分かる (走ります, 要ります, 分かります). (4) 分かる takes が, not を.",
       anchorSentences: [
         "映画(えいが)が終(お)わる。/ 宿題(しゅくだい)を終(お)える。",
         "バスが止(と)まる。/ 車(くるま)を止(と)める。",
@@ -180,6 +184,7 @@ export const PINK_VERBS_2: LessonContent = {
         ["話す", "はなす", "hanasu", "to talk", ""],
         ["引く", "ひく", "hiku", "to pull", "opp. 押す · vs 弾く"],
         ["弾く", "ひく", "hiku", "to play strings", "vs 引く"],
+        ["吹く", "ふく", "fuku", "to blow / play wind", "風が吹く · 笛を吹く"],
         ["降る", "ふる", "furu", "to fall (rain)", "雨が降る · 降 kanji"],
         ["分かる", "わかる", "wakaru", "to understand", "u-verb · takes が"],
         ["忘れる", "わすれる", "wasureru", "to forget", "ru-verb"],
