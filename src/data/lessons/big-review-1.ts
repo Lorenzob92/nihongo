@@ -189,6 +189,35 @@ export const BIG_REVIEW_1: LessonContent = {
         },
       ],
     },
+    {
+      type: "cheatsheet",
+      summary:
+        "The dialogue cheatsheet: bank these patterns and you can rebuild the whole conversation from memory. Traps to keep: 四時 is read よじ (never しじ); きれい is a な-adjective, so its past is きれいでした, not きれいかった; and もう食べましたか (\"have you eaten yet?\") is answered with まだ食べていません (\"not yet\"), NOT 食べませんでした (\"I didn't eat\"). The 〜に行く purpose pattern is the spine of the dialogue, appearing twice (見に行く, 買いに行く).",
+      anchorSentences: [
+        "かぶきが好(す)きですか。/ あまり知(し)りません。",
+        "ロバートさんはおもしろかったと言(い)っていました。",
+        "チケットを二枚(にまい)もらったから、見(み)に行(い)きませんか。",
+        "来週(らいしゅう)の木曜日(もくようび)、十二時(じゅうにじ)から四時(よじ)までです。",
+        "もう昼(ひる)ご飯(はん)を食(た)べましたか。/ いいえ、まだ食(た)べていません。",
+        "じゃあ、買(か)いに行(い)きましょう。",
+      ],
+      conjugationTable: [
+        ["Pattern", "Meaning", "From the dialogue"],
+        ["あまり + negative", "not really / not much", "あまり知りません"],
+        ["〜と言っていました", "(someone) said …", "おもしろかったと言っていました"],
+        ["[ます-stem] に 行く/来る/帰る", "go / come / return to do", "見に行く・買いに行く"],
+        ["〜ませんか", "won't you …? (invitation)", "見に行きませんか"],
+        ["〜ましょう", "let's …", "買いに行きましょう"],
+        ["ぜひ", "by all means (an eager yes)", "ええ、ぜひ"],
+        ["〜から〜まで", "from … to …", "十二時から四時まで"],
+        ["[number] 枚(まい)", "counter for flat things", "チケットを二枚"],
+        ["もう + past", "already / yet?", "もう食べましたか"],
+        ["まだ + 〜ていません", "not yet (might still happen)", "まだ食べていません"],
+        ["ところで", "by the way (topic change)", "ところで、…"],
+        ["な-adj + でした", "was … (past polite)", "きれいでした"],
+        ["〜ている (state)", "is in a state of …", "出ている人 = the people who are out"],
+      ],
+    },
 
     // ---- PART 2: the verbs ----
     {
