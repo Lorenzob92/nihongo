@@ -340,6 +340,19 @@ export const CURRICULUM: CurriculumLesson[] = [
     status: "built",
     created: "2026-06-05",
   },
+  {
+    slug: "big-review-1",
+    title: "Big Review 1: Kabuki dialogue + every verb",
+    titleJa: "大復習 1",
+    section: "B",
+    order: 19,
+    jlptLevel: "N5",
+    prereqs: ["pink-verbs-exam", "pink-verbs-2"],
+    estimatedMin: 30,
+    blurb: "Consolidation day. The Genki L9 kabuki dialogue to memorise and translate (drills 〜に行く, あまり〜ない, もう/まだ, 〜と言っていました), plus sensei's WHOLE verb sheet in one place: the ~54 verbs missing from the pink decks get mnemonics + bidirectional practice, then a single recognition pass over all ~106 and a master cheatsheet. Big WEARING-family cluster (着る/履く/被る/かける/つける/する).",
+    status: "built",
+    created: "2026-06-26",
+  },
 
   // ----- Section C: Adjectives (5) -----
   {
@@ -1078,6 +1091,7 @@ export const BUILT_ORDER: string[] = [
   "ni-iku-purpose",
   "pink-verbs-exam",
   "pink-verbs-2",
+  "big-review-1",
 ];
 
 const BUILT_RANK: Record<string, number> = Object.fromEntries(

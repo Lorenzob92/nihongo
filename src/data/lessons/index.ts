@@ -11,6 +11,7 @@ import { N5_FINAL_ADJECTIVES } from "./n5-final-adjectives";
 import { NI_IKU_PURPOSE } from "./ni-iku-purpose";
 import { PINK_VERBS_EXAM } from "./pink-verbs-exam";
 import { PINK_VERBS_2 } from "./pink-verbs-2";
+import { BIG_REVIEW_1 } from "./big-review-1";
 
 // Registry of all built lesson content. Phase 2 agents: import a new file
 // (one per lesson, matching the curriculum slug) and add it here.
@@ -30,6 +31,7 @@ export const LESSON_CONTENT: Record<string, LessonContent> = {
   [NI_IKU_PURPOSE.slug]: NI_IKU_PURPOSE,
   [PINK_VERBS_EXAM.slug]: PINK_VERBS_EXAM,
   [PINK_VERBS_2.slug]: PINK_VERBS_2,
+  [BIG_REVIEW_1.slug]: BIG_REVIEW_1,
 };
 
 export function getLessonContent(slug: string): LessonContent | undefined {
