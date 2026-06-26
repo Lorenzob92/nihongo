@@ -104,6 +104,7 @@ export const BIG_REVIEW_1: LessonContent = {
     },
     {
       type: "examples",
+      prompt: "en",
       items: [
         {
           ja: "メアリーさんはかぶきが好(す)きですか。",
@@ -151,6 +152,7 @@ export const BIG_REVIEW_1: LessonContent = {
     },
     {
       type: "examples",
+      prompt: "en",
       items: [
         {
           ja: "きれいでしたね。",

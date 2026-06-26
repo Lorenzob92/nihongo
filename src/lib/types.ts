@@ -168,7 +168,16 @@ export type LessonStep =
       formulaJa?: string;
       cureDollyTake?: string;
     }
-  | { type: "examples"; items: ExampleSentence[] }
+  | {
+      type: "examples";
+      items: ExampleSentence[];
+      /**
+       * Which language is the prompt (shown first); the other is the reveal.
+       * "ja" (default) = Japanese first, reveal English. "en" = English first,
+       * reveal the Japanese (a production drill).
+       */
+      prompt?: "ja" | "en";
+    }
   | { type: "mnemonics"; title?: string; subtitle?: string; items: MnemonicCard[] }
   | { type: "flashcards"; title?: string; subtitle?: string; items: FlashcardItem[] }
   | { type: "drill"; items: DrillItem[] }
