@@ -108,36 +108,42 @@ export const BIG_REVIEW_1: LessonContent = {
       items: [
         {
           ja: "メアリーさんはかぶきが好(す)きですか。",
+          romaji: "Mearī-san wa kabuki ga suki desu ka.",
           en: "Takeshi: Mary, do you like kabuki?",
           breakdown:
             "Speaker: たけし. かぶき takes が as the object of 好き. 好きですか asks about a preference.",
         },
         {
           ja: "かぶきですか。あまり知(し)りません。",
+          romaji: "Kabuki desu ka. Amari shirimasen.",
           en: "Mary: Kabuki? I don't really know it.",
           breakdown:
             "あまり + a negative (知りません) = \"not much / not really\". 知る is a u-verb; polite negative is 知りません.",
         },
         {
           ja: "でも、ロバートさんはおもしろかったと言(い)っていました。",
+          romaji: "Demo, Robāto-san wa omoshirokatta to itte imashita.",
           en: "But Robert said it was interesting.",
           breakdown:
             "おもしろかった = past of the い-adjective おもしろい. 〜と言っていました = \"(he) said / was saying\", reporting someone else's words.",
         },
         {
           ja: "かぶきのチケットを二枚(にまい)もらったから、見(み)に行(い)きませんか。",
+          romaji: "Kabuki no chiketto o nimai moratta kara, mi ni ikimasen ka.",
           en: "Takeshi: I got two kabuki tickets, so won't you go and see it (with me)?",
           breakdown:
             "二枚 = two (枚 counts flat things). もらった = plain past of もらう (received). 〜から = \"so / because\". 見に行く = \"go to see\": ます-stem 見 + に + 行く.",
         },
         {
           ja: "ええ、ぜひ。いつですか。",
+          romaji: "Ē, zehi. Itsu desu ka.",
           en: "Mary: Yes, by all means. When is it?",
           breakdown:
             "ぜひ = \"by all means / definitely\", an eager yes to an invitation.",
         },
         {
           ja: "来週(らいしゅう)の木曜日(もくようび)です。十二時(じゅうにじ)から四時(よじ)までです。",
+          romaji: "Raishū no mokuyōbi desu. Jūniji kara yoji made desu.",
           en: "Takeshi: Next Thursday. From twelve o'clock to four.",
           breakdown:
             "来週 = next week. 〜から〜まで = \"from ... to ...\". Note 四時 is read よじ, never しじ.",
@@ -156,35 +162,41 @@ export const BIG_REVIEW_1: LessonContent = {
       items: [
         {
           ja: "きれいでしたね。",
+          romaji: "Kirei deshita ne.",
           en: "Mary: It was beautiful, wasn't it.",
           breakdown:
             "きれい is a な-adjective; its past polite is きれいでした (not きれいかった). ね invites agreement.",
         },
         {
           ja: "出(で)ている人(ひと)はみんな男(おとこ)の人(ひと)ですよ。",
+          romaji: "Dete iru hito wa minna otoko no hito desu yo.",
           en: "Takeshi: The people on stage are all men.",
           breakdown:
             "出ている = \"are appearing / are out (on stage)\", 出る + ている for an ongoing state. みんな = all. よ tells Mary something she didn't know.",
         },
         {
           ja: "本当(ほんとう)ですか。",
+          romaji: "Hontō desu ka.",
           en: "Mary: Really?",
           breakdown: "本当ですか = \"Is that true? / Really?\"",
         },
         {
           ja: "ええ。ところで、もう昼(ひる)ご飯(はん)を食(た)べましたか。",
+          romaji: "Ē. Tokorode, mō hirugohan o tabemashita ka.",
           en: "Takeshi: Yes. By the way, have you eaten lunch yet?",
           breakdown:
             "ところで = \"by the way\", changing the topic. もう + past = \"already / yet\". 昼ご飯 = lunch.",
         },
         {
           ja: "いいえ、まだ食(た)べていません。",
+          romaji: "Iie, mada tabete imasen.",
           en: "Mary: No, not yet.",
           breakdown:
             "まだ + 〜ていません = \"haven't done it yet\". NOT 食べませんでした (that means \"didn't eat\"); ていません leaves it open, she still might.",
         },
         {
           ja: "じゃあ、買(か)いに行(い)きましょう。",
+          romaji: "Jā, kai ni ikimashō.",
           en: "Takeshi: Then let's go and buy some.",
           breakdown:
             "じゃあ = \"well then\". 買いに行く = \"go to buy\" (買い is the ます-stem of 買う). ましょう = \"let's\". Same に-purpose pattern as 見に行く above.",

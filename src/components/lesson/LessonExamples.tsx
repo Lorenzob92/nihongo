@@ -82,22 +82,36 @@ export function LessonExamples(props: Props) {
                     className="overflow-hidden"
                   >
                     {promptEn ? (
-                      <div className="mt-3 flex items-start justify-between gap-3">
-                        <JapaneseText size="lg" className="text-ink-deep">
-                          {item.ja}
-                        </JapaneseText>
-                        <button
-                          type="button"
-                          onClick={() => speakJapanese(item.ja)}
-                          className="flex-none rounded-full bg-surface-soft p-2 text-muted hover:bg-line hover:text-accent-deep"
-                          aria-label="Play audio"
-                          title="Play audio"
-                        >
-                          <Volume2 className="h-4 w-4" />
-                        </button>
-                      </div>
+                      <>
+                        <div className="mt-3 flex items-start justify-between gap-3">
+                          <JapaneseText size="lg" className="text-ink-deep">
+                            {item.ja}
+                          </JapaneseText>
+                          <button
+                            type="button"
+                            onClick={() => speakJapanese(item.ja)}
+                            className="flex-none rounded-full bg-surface-soft p-2 text-muted hover:bg-line hover:text-accent-deep"
+                            aria-label="Play audio"
+                            title="Play audio"
+                          >
+                            <Volume2 className="h-4 w-4" />
+                          </button>
+                        </div>
+                        {item.romaji ? (
+                          <p className="mt-1.5 font-mono text-xs italic text-muted">
+                            {item.romaji}
+                          </p>
+                        ) : null}
+                      </>
                     ) : (
-                      <p className="mt-3 text-sm text-ink/80">{item.en}</p>
+                      <>
+                        <p className="mt-3 text-sm text-ink/80">{item.en}</p>
+                        {item.romaji ? (
+                          <p className="mt-1.5 font-mono text-xs italic text-muted">
+                            {item.romaji}
+                          </p>
+                        ) : null}
+                      </>
                     )}
                     {item.breakdown ? (
                       <p className="mt-1.5 text-xs text-muted">{item.breakdown}</p>
