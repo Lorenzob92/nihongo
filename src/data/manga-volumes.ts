@@ -23,6 +23,10 @@ export const MANGA_VOLUMES: MangaVolume[] = [
     titleJa: "よつばと！第1巻",
     totalPages: 231,
   },
+  { mangaSlug: "doraemon", volume: "v01", title: "Doraemon Vol 1", titleJa: "ドラえもん 第1巻", totalPages: 192 },
+  { mangaSlug: "shirokuma-cafe", volume: "v01", title: "Shirokuma Cafe Vol 1", titleJa: "しろくまカフェ 第1巻", totalPages: 171 },
+  { mangaSlug: "crayon-shin-chan", volume: "v01", title: "Crayon Shin-chan Vol 1", titleJa: "クレヨンしんちゃん 第1巻", totalPages: 122 },
+  { mangaSlug: "chi-sweet-home", volume: "v01", title: "Chi's Sweet Home Vol 1", titleJa: "チーズスイートホーム 第1巻", totalPages: 172 },
 ];
 
 export const MANGA_VOLUMES_BY_KEY: Record<string, MangaVolume> = Object.fromEntries(
