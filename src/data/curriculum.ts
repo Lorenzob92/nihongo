@@ -353,6 +353,19 @@ export const CURRICULUM: CurriculumLesson[] = [
     status: "built",
     created: "2026-06-26",
   },
+  {
+    slug: "tsumori-not-yet",
+    title: "つもり plans + まだ〜ていません",
+    titleJa: "「つもり」と「まだ〜ていません」",
+    section: "B",
+    order: 20,
+    jlptLevel: "N5",
+    prereqs: ["te-form", "big-review-1"],
+    estimatedMin: 12,
+    blurb: "This week's sensei homework as a drill deck: six つもり plan sentences (plain verb + つもり) and three まだ〜ていません not-yets, flashcarded in both directions with full romaji.",
+    status: "built",
+    created: "2026-07-03",
+  },
 
   // ----- Section C: Adjectives (5) -----
   {
@@ -1092,6 +1105,7 @@ export const BUILT_ORDER: string[] = [
   "pink-verbs-exam",
   "pink-verbs-2",
   "big-review-1",
+  "tsumori-not-yet",
 ];
 
 const BUILT_RANK: Record<string, number> = Object.fromEntries(
