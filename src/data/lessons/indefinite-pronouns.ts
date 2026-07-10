@@ -165,13 +165,15 @@ export const INDEFINITE_PRONOUNS: LessonContent = {
       type: "cheatsheet",
       summary:
         "Question word + か = some- (どこか somewhere, 何か something). + も with a negative verb = no- (どこにも...ない nowhere). + でも = any-/every- (どこでも anywhere). Particle order: か clips straight on (どこかに), but も and でも come after the particle (どこにも, どこにでも). Sensei's two traps: どこにも denies a specific search vs どこも denies the whole area; どこでも is anywhere you act (で) vs どこにでも is every place (に).",
+      anchorTitle: "The forms at a glance",
       anchorSentences: [
-        "きのう、どこかに行(い)った？",
-        "何(なに)か辛(から)いものを食(た)べませんか？",
-        "きのうの夜(よる)、僕(ぼく)はどこにも行(い)かなかった。",
-        "どこも座(すわ)れる場所(ばしょ)がない。",
-        "建物(たてもの)のどこでも食(た)べてもいい。",
-        "ロンドンのどこにでもテスコがあります。",
+        "どこか = somewhere (dokoka)",
+        "どこにも〜ない = not anywhere, denies a specific search (doko ni mo ~nai)",
+        "どこも〜ない = nowhere at all, denies the whole area (doko mo ~nai)",
+        "どこでも = anywhere, wherever you do the action (doko demo)",
+        "どこにでも = everywhere, every single place (doko ni demo)",
+        "何(なに)か / 何(なに)も〜ない / 何(なに)でも = something / nothing / anything (nanika / nanimo / nandemo)",
+        "誰(だれ)か / 誰(だれ)も〜ない / 誰(だれ)でも = someone / no one / anyone (dareka / daremo / daredemo)",
       ],
       conjugationTable: [
         ["Japanese", "English", "Romaji"],

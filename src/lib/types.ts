@@ -195,6 +195,8 @@ export type LessonStep =
   | {
       type: "cheatsheet";
       summary: string;
+      /** Optional label for the anchor list; defaults to "Anchor sentences". */
+      anchorTitle?: string;
       anchorSentences: string[];
       conjugationTable?: string[][];
     }

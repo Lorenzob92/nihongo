@@ -21,7 +21,7 @@ export function LessonCheatsheet(props: Props) {
 
       <div className="rounded-[16px] border border-line bg-surface p-5">
         <p className="mb-3 font-mono text-[11px] uppercase tracking-[0.18em] text-muted">
-          Anchor sentences
+          {props.anchorTitle ?? "Anchor sentences"}
         </p>
         <ol className="space-y-2">
           {props.anchorSentences.map((s, i) => (
