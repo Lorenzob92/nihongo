@@ -13,6 +13,7 @@ import { PINK_VERBS_EXAM } from "./pink-verbs-exam";
 import { PINK_VERBS_2 } from "./pink-verbs-2";
 import { BIG_REVIEW_1 } from "./big-review-1";
 import { TSUMORI_NOT_YET } from "./tsumori-not-yet";
+import { INDEFINITE_PRONOUNS } from "./indefinite-pronouns";
 
 // Registry of all built lesson content. Phase 2 agents: import a new file
 // (one per lesson, matching the curriculum slug) and add it here.
@@ -34,6 +35,7 @@ export const LESSON_CONTENT: Record<string, LessonContent> = {
   [PINK_VERBS_2.slug]: PINK_VERBS_2,
   [BIG_REVIEW_1.slug]: BIG_REVIEW_1,
   [TSUMORI_NOT_YET.slug]: TSUMORI_NOT_YET,
+  [INDEFINITE_PRONOUNS.slug]: INDEFINITE_PRONOUNS,
 };
 
 export function getLessonContent(slug: string): LessonContent | undefined {

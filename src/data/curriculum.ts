@@ -471,14 +471,15 @@ export const CURRICULUM: CurriculumLesson[] = [
   {
     slug: "indefinite-pronouns",
     title: "Question word + か/も/でも",
-    titleJa: "誰か・誰も・誰でも",
+    titleJa: "どこか・どこも・どこでも",
     section: "D",
     order: 3,
     jlptLevel: "N5",
     prereqs: ["question-words"],
     estimatedMin: 12,
     blurb: "'Did anyone come?', 'Nothing happened', 'Anywhere is fine'. Everywhere in dialogue.",
-    status: "planned",
+    status: "built",
+    created: "2026-07-10",
   },
   {
     slug: "counters-tsu-ko",
@@ -1106,6 +1107,7 @@ export const BUILT_ORDER: string[] = [
   "pink-verbs-2",
   "big-review-1",
   "tsumori-not-yet",
+  "indefinite-pronouns",
 ];
 
 const BUILT_RANK: Record<string, number> = Object.fromEntries(
