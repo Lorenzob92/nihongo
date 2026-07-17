@@ -366,6 +366,19 @@ export const CURRICULUM: CurriculumLesson[] = [
     status: "built",
     created: "2026-07-03",
   },
+  {
+    slug: "pink-verbs-3",
+    title: "Sensei's verb list (pink set 3)",
+    titleJa: "先生(せんせい)の動詞(どうし)リスト 3",
+    section: "B",
+    order: 21,
+    jlptLevel: "N5",
+    prereqs: ["pink-verbs-2", "big-review-1"],
+    estimatedMin: 18,
+    blurb: "The last 14 pink rows on sensei's sheet, ahead of next week's 25-verb test. Particle-heavy (会う に, ある が, かかる が, 勤める に) and four more wearing verbs. Includes a cheatsheet of the complete 114-verb sheet.",
+    status: "built",
+    created: "2026-07-17",
+  },
 
   // ----- Section C: Adjectives (5) -----
   {
@@ -480,6 +493,19 @@ export const CURRICULUM: CurriculumLesson[] = [
     blurb: "'Did anyone come?', 'Nothing happened', 'Anywhere is fine'. Everywhere in dialogue.",
     status: "built",
     created: "2026-07-10",
+  },
+  {
+    slug: "kakaru-no-yatsu",
+    title: "どのくらいかかる + の/やつ",
+    titleJa: "「どのくらいかかる」と「の・やつ」",
+    section: "D",
+    order: 4,
+    jlptLevel: "N4",
+    prereqs: ["te-form", "tsumori-not-yet"],
+    estimatedMin: 15,
+    blurb: "This week's sensei homework: how long a journey takes (AからBまで), how long an action takes (のに + かかる), and の/やつ so you never repeat the noun. The drill is built from your six actual mistakes.",
+    status: "built",
+    created: "2026-07-17",
   },
   {
     slug: "counters-tsu-ko",
@@ -1108,6 +1134,8 @@ export const BUILT_ORDER: string[] = [
   "big-review-1",
   "tsumori-not-yet",
   "indefinite-pronouns",
+  "pink-verbs-3",
+  "kakaru-no-yatsu",
 ];
 
 const BUILT_RANK: Record<string, number> = Object.fromEntries(
