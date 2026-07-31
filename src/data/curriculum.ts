@@ -379,6 +379,19 @@ export const CURRICULUM: CurriculumLesson[] = [
     status: "built",
     created: "2026-07-17",
   },
+  {
+    slug: "hisashiburi-tari",
+    title: "Homework: 〜ぶりに + たり〜たりする",
+    titleJa: "「〜ぶりに」と「〜たり〜たりする」",
+    section: "B",
+    order: 22,
+    jlptLevel: "N4",
+    prereqs: ["te-form", "kakaru-no-yatsu"],
+    estimatedMin: 20,
+    blurb: "The 31 July script as sensei's voice memo on screen: [duration]ぶりに (for the first time in a year / 30 years / ages) and たり〜たりする (unordered lists where only the final する conjugates). All 16 sentences as English-first cards, a drill built from your two actual mistakes (泳いでけど and a しました on a habitual weekend), and the full cheatsheet. Verb sheet unchanged this week: the 25-verb test pool lives in the かかる lesson's cheatsheets.",
+    status: "built",
+    created: "2026-07-31",
+  },
 
   // ----- Section C: Adjectives (5) -----
   {
@@ -1122,6 +1135,7 @@ export const BUILT_ORDER: string[] = [
   "tsumori-not-yet",
   "indefinite-pronouns",
   "kakaru-no-yatsu",
+  "hisashiburi-tari",
 ];
 
 const BUILT_RANK: Record<string, number> = Object.fromEntries(
