@@ -16,6 +16,7 @@ import { TSUMORI_NOT_YET } from "./tsumori-not-yet";
 import { INDEFINITE_PRONOUNS } from "./indefinite-pronouns";
 import { KAKARU_NO_YATSU } from "./kakaru-no-yatsu";
 import { HISASHIBURI_TARI } from "./hisashiburi-tari";
+import { BIG_REVIEW_2 } from "./big-review-2";
 
 // Registry of all built lesson content. Phase 2 agents: import a new file
 // (one per lesson, matching the curriculum slug) and add it here.
@@ -40,6 +41,7 @@ export const LESSON_CONTENT: Record<string, LessonContent> = {
   [INDEFINITE_PRONOUNS.slug]: INDEFINITE_PRONOUNS,
   [KAKARU_NO_YATSU.slug]: KAKARU_NO_YATSU,
   [HISASHIBURI_TARI.slug]: HISASHIBURI_TARI,
+  [BIG_REVIEW_2.slug]: BIG_REVIEW_2,
 };
 
 export function getLessonContent(slug: string): LessonContent | undefined {

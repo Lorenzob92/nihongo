@@ -393,6 +393,20 @@ export const CURRICULUM: CurriculumLesson[] = [
     created: "2026-07-31",
   },
 
+  {
+    slug: "big-review-2",
+    title: "Big Review 2: the whole summer, one lesson",
+    titleJa: "大(だい)復習(ふくしゅう) 2",
+    section: "B",
+    order: 23,
+    jlptLevel: "N4",
+    prereqs: ["tsumori-not-yet", "indefinite-pronouns", "kakaru-no-yatsu", "hisashiburi-tari"],
+    estimatedMin: 45,
+    blurb: "Sensei is back after the break, so this is all five pre-break lessons in one place: つもり plans, まだ〜ていません, the どこか/どこにも/どこでも family, both ways of asking how long something takes (AからBまで and のに + かかる), の/やつ, 〜ぶりに, たり〜たりする, and the kabuki dialogue. Opens with the first two minutes of the call, then drills the nine mistakes you actually made across those weeks, then every sentence English-first because production is what a seven-week gap kills. Four cheatsheets at the end, including sensei's full 114-row verb sheet for the 25-verb test.",
+    status: "built",
+    created: "2026-09-18",
+  },
+
   // ----- Section C: Adjectives (5) -----
   {
     slug: "i-adjectives",
@@ -1136,6 +1150,7 @@ export const BUILT_ORDER: string[] = [
   "indefinite-pronouns",
   "kakaru-no-yatsu",
   "hisashiburi-tari",
+  "big-review-2",
 ];
 
 const BUILT_RANK: Record<string, number> = Object.fromEntries(
