@@ -407,6 +407,20 @@ export const CURRICULUM: CurriculumLesson[] = [
     created: "2026-09-18",
   },
 
+  {
+    slug: "te-form-negatives",
+    title: "Sensei sheet: verb groups, te-form + the six negatives",
+    titleJa: "動詞(どうし)のグループ・て形(けい)・否定(ひてい)の六(むっ)つ",
+    section: "B",
+    order: 24,
+    jlptLevel: "N4",
+    prereqs: ["te-form", "tsumori-not-yet"],
+    estimatedMin: 20,
+    blurb: "The 25 September handout as one lesson. Sensei's vowel rule for る-verbs (aる, uる, oる always u-verbs; eる ru; iる ru 75%, u 25%), the te-form it unlocks, and the six negatives: won't, didn't, haven't ever (ことがない), haven't yet (てない), hadn't ever, hadn't yet, plus た-form + ことがある. Group and te-form cards, English-first negative cards, a drill on the ever/yet split, and three cheatsheets to keep open on the call.",
+    status: "built",
+    created: "2026-09-25",
+  },
+
   // ----- Section C: Adjectives (5) -----
   {
     slug: "i-adjectives",
@@ -1151,6 +1165,7 @@ export const BUILT_ORDER: string[] = [
   "kakaru-no-yatsu",
   "hisashiburi-tari",
   "big-review-2",
+  "te-form-negatives",
 ];
 
 const BUILT_RANK: Record<string, number> = Object.fromEntries(
