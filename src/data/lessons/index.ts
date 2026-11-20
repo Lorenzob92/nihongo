@@ -18,6 +18,7 @@ import { KAKARU_NO_YATSU } from "./kakaru-no-yatsu";
 import { HISASHIBURI_TARI } from "./hisashiburi-tari";
 import { BIG_REVIEW_2 } from "./big-review-2";
 import { TE_FORM_NEGATIVES } from "./te-form-negatives";
+import { KA_EMBEDDED_QUESTIONS } from "./ka-embedded-questions";
 
 // Registry of all built lesson content. Phase 2 agents: import a new file
 // (one per lesson, matching the curriculum slug) and add it here.
@@ -44,6 +45,7 @@ export const LESSON_CONTENT: Record<string, LessonContent> = {
   [HISASHIBURI_TARI.slug]: HISASHIBURI_TARI,
   [BIG_REVIEW_2.slug]: BIG_REVIEW_2,
   [TE_FORM_NEGATIVES.slug]: TE_FORM_NEGATIVES,
+  [KA_EMBEDDED_QUESTIONS.slug]: KA_EMBEDDED_QUESTIONS,
 };
 
 export function getLessonContent(slug: string): LessonContent | undefined {

@@ -421,6 +421,20 @@ export const CURRICULUM: CurriculumLesson[] = [
     created: "2026-09-25",
   },
 
+  {
+    slug: "ka-embedded-questions",
+    title: "Homework: questions inside sentences (〜か / 〜かどうか)",
+    titleJa: "「〜か」と「〜かどうか」",
+    section: "B",
+    order: 25,
+    jlptLevel: "N4",
+    prereqs: ["indefinite-pronouns", "te-form-negatives"],
+    estimatedMin: 20,
+    blurb: "The 20 November homework, first sheet after the autumn gap. A question folded inside a bigger sentence: question word + plain clause + か in front of 分からない, 知っている, 聞く, 調べる and friends, かどうか for whether or not, and 〜てみる for try it and see. All the homework sentences English-first, a drill that opens with the four things that slipped in your answers (息子に, 彼に, 開いている, 来られる), a read-back pass and one cheatsheet.",
+    status: "built",
+    created: "2026-11-20",
+  },
+
   // ----- Section C: Adjectives (5) -----
   {
     slug: "i-adjectives",
@@ -1166,6 +1180,7 @@ export const BUILT_ORDER: string[] = [
   "hisashiburi-tari",
   "big-review-2",
   "te-form-negatives",
+  "ka-embedded-questions",
 ];
 
 const BUILT_RANK: Record<string, number> = Object.fromEntries(
