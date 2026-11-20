@@ -1,3 +1,4 @@
+import { withRuby } from "@/lib/ruby";
 import { JapaneseText } from "@/components/japanese/JapaneseText";
 
 // Renders lesson prose with structure. Splits on blank lines for paragraphs,
@@ -81,7 +82,7 @@ function InlineRich({ text }: { text: string }) {
             </span>
           );
         }
-        return <span key={i}>{p}</span>;
+        return <span key={i}>{withRuby(p)}</span>;
       })}
     </>
   );
@@ -134,9 +135,25 @@ export function RichText({ text, className }: RichTextProps) {
               <p className="mb-1 font-mono text-[10px] uppercase tracking-[0.18em] text-accent-deep">
                 Example
               </p>
-              <p className="text-[15px] leading-relaxed sm:text-base">
-                <InlineRich text={b.text} />
-              </p>
+              {(() => {
+                // "日本語。 English." reads better as two lines than one run.
+                const m = b.text.match(/^(.*?[。？！?])\s+([A-Za-z"“].*)$/);
+                if (!m) {
+                  return (
+                    <p className="text-[15px] leading-relaxed sm:text-base">
+                      <InlineRich text={b.text} />
+                    </p>
+                  );
+                }
+                return (
+                  <>
+                    <p lang="ja" className="font-jp text-lg leading-[2] text-ink-deep">
+                      <InlineRich text={m[1]} />
+                    </p>
+                    <p className="text-[15px] leading-relaxed text-ink/75">{m[2]}</p>
+                  </>
+                );
+              })()}
             </div>
           );
         }

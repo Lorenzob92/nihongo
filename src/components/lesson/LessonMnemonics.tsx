@@ -1,5 +1,6 @@
 "use client";
 
+import { withRuby } from "@/lib/ruby";
 import { useCallback, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Volume2, ChevronLeft, ChevronRight } from "lucide-react";
@@ -95,7 +96,7 @@ export function LessonMnemonics(props: Props) {
                 size="3xl"
                 className="block text-4xl font-bold text-ink-deep sm:text-5xl"
               >
-                {card.ja}
+                {withRuby(card.ja)}
               </JapaneseText>
               <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
                 {card.romaji}

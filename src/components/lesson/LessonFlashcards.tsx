@@ -1,5 +1,6 @@
 "use client";
 
+import { withRuby } from "@/lib/ruby";
 import { useCallback, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Volume2, ChevronLeft, ChevronRight, RotateCcw, Shuffle } from "lucide-react";
@@ -138,11 +139,11 @@ export function LessonFlashcards(props: Props) {
                       size="3xl"
                       className="block text-4xl font-bold text-ink-deep sm:text-6xl"
                     >
-                      {card.back}
+                      {withRuby(card.back)}
                     </JapaneseText>
                   ) : (
                     <p className="text-2xl font-semibold leading-snug text-ink-deep sm:text-[28px]">
-                      {card.back}
+                      {withRuby(card.back)}
                     </p>
                   )}
                   {card.note ? (
@@ -172,11 +173,11 @@ export function LessonFlashcards(props: Props) {
                   size="3xl"
                   className="block text-5xl font-bold text-ink-deep sm:text-7xl"
                 >
-                  {card.front}
+                  {withRuby(card.front)}
                 </JapaneseText>
               ) : (
                 <p className="text-3xl font-semibold leading-snug text-ink-deep sm:text-4xl">
-                  {card.front}
+                  {withRuby(card.front)}
                 </p>
               )}
             </motion.div>

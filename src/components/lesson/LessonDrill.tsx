@@ -1,5 +1,6 @@
 "use client";
 
+import { withRuby } from "@/lib/ruby";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Check, X } from "lucide-react";
@@ -60,7 +61,7 @@ export function LessonDrill(props: Props) {
                   Cloze · type the answer
                 </p>
                 <JapaneseText size="lg" className="text-ink-deep">
-                  {sentenceParts[0]}
+                  {withRuby(sentenceParts[0])}
                   <span
                     className={cn(
                       "mx-1 inline-block min-w-[3.5rem] rounded-md border-b-2 px-2 py-0.5 text-center align-baseline",
@@ -73,11 +74,11 @@ export function LessonDrill(props: Props) {
                   >
                     {s.value || "____"}
                   </span>
-                  {sentenceParts[1]}
+                  {withRuby(sentenceParts[1] ?? "")}
                 </JapaneseText>
                 <p className="mt-2 text-xs text-muted">{item.en}</p>
                 {item.hint ? (
-                  <p className="mt-1 text-[11px] text-muted-soft italic">{item.hint}</p>
+                  <p className="mt-1 text-[11px] text-muted-soft italic">{withRuby(item.hint)}</p>
                 ) : null}
 
                 <div className="mt-3 flex flex-wrap items-center gap-2">
@@ -146,11 +147,11 @@ export function LessonDrill(props: Props) {
                 Pick the right form
               </p>
               <JapaneseText size="lg" className="text-ink-deep">
-                {sentenceParts[0]}
+                {withRuby(sentenceParts[0])}
                 <span className="mx-1 inline-block min-w-[3rem] rounded-md border-b-2 border-line-strong bg-surface-soft px-2 py-0.5 text-center align-baseline">
-                  {s.selectedIndex !== null ? item.options[s.selectedIndex] : "____"}
+                  {s.selectedIndex !== null ? withRuby(item.options[s.selectedIndex]) : "____"}
                 </span>
-                {sentenceParts[1]}
+                {withRuby(sentenceParts[1] ?? "")}
               </JapaneseText>
               <p className="mt-2 text-xs text-muted">{item.en}</p>
 
@@ -186,7 +187,7 @@ export function LessonDrill(props: Props) {
                     exit={{ opacity: 0 }}
                     className="mt-3 text-sm text-ink/80"
                   >
-                    {item.explanation}
+                    {withRuby(item.explanation)}
                   </motion.p>
                 ) : null}
               </AnimatePresence>

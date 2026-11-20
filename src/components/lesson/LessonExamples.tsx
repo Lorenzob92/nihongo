@@ -1,5 +1,6 @@
 "use client";
 
+import { withRuby } from "@/lib/ruby";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Volume2, Eye, EyeOff } from "lucide-react";
@@ -43,7 +44,7 @@ export function LessonExamples(props: Props) {
               ) : (
                 <div className="flex items-start justify-between gap-3">
                   <JapaneseText size="xl" className="text-ink-deep">
-                    {item.ja}
+                    {withRuby(item.ja)}
                   </JapaneseText>
                   <button
                     type="button"
@@ -85,7 +86,7 @@ export function LessonExamples(props: Props) {
                       <>
                         <div className="mt-3 flex items-start justify-between gap-3">
                           <JapaneseText size="lg" className="text-ink-deep">
-                            {item.ja}
+                            {withRuby(item.ja)}
                           </JapaneseText>
                           <button
                             type="button"

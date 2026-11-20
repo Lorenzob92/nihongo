@@ -1,3 +1,4 @@
+import { withRuby } from "@/lib/ruby";
 import { cn } from "@/lib/utils";
 
 type JapaneseTextProps = {
@@ -28,7 +29,7 @@ export function JapaneseText({
 }: JapaneseTextProps) {
   return (
     <span lang="ja" className={cn("font-jp", SIZE[size], className)}>
-      {children}
+      {typeof children === "string" ? withRuby(children) : children}
     </span>
   );
 }

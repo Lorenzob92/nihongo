@@ -1,5 +1,6 @@
 "use client";
 
+import { withRuby } from "@/lib/ruby";
 import { CheckCircle2, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { motion } from "motion/react";
@@ -41,8 +42,8 @@ export function LessonWrap(props: Props) {
               className="flex items-start justify-between gap-3 rounded-[10px] border border-line bg-surface-soft px-3 py-2"
             >
               <div>
-                <p className="text-sm font-medium text-ink-deep">{item.front}</p>
-                <p className="text-xs text-muted">{item.back}</p>
+                <p className="text-sm font-medium text-ink-deep">{withRuby(item.front)}</p>
+                <p className="text-xs text-muted">{withRuby(item.back)}</p>
               </div>
               <span className="flex-none rounded-full bg-surface px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-muted">
                 {item.type}

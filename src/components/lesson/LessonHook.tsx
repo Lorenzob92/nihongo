@@ -1,3 +1,4 @@
+import { withRuby } from "@/lib/ruby";
 import { Quote } from "lucide-react";
 import { JapaneseText } from "@/components/japanese/JapaneseText";
 import { RichText } from "./RichText";
@@ -25,10 +26,10 @@ export function LessonHook(props: Props) {
             <Quote className="mt-0.5 h-4 w-4 flex-none text-accent-deep" />
             <div className="space-y-2">
               <JapaneseText size="xl" className="block text-ink-deep">
-                {props.mediaExample.quote}
+                {withRuby(props.mediaExample.quote)}
               </JapaneseText>
               <figcaption className="font-mono text-[11px] uppercase tracking-[0.16em] text-muted">
-                {props.mediaExample.source}
+                {withRuby(props.mediaExample.source)}
               </figcaption>
             </div>
           </div>

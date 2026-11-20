@@ -25,7 +25,7 @@ export const KA_EMBEDDED_QUESTIONS: LessonContent = {
     {
       type: "hook",
       whyItMatters:
-        "First homework after the gap, and it is the pattern that turns two short sentences into one grown-up one.\n\nUntil now a question was its own sentence: どこに行(い)きますか。 This week the question gets swallowed by a bigger sentence: \"I don't know WHERE HE IS GOING\", \"I'll ask WHY WE HAVE TO\", \"I'll check WHETHER IT IS OPEN\". The question keeps its か, loses its politeness, and sits in front of a verb like 分(わ)からない, 知(し)っている, 聞(き)く or 調(しら)べてみる.\n\nIt is everywhere in what you want to read. Every detective, every doctor, every hero who does not know what to do next is using it: 何(なに)が起(お)きたか分からない, 誰(だれ)がやったか知っている. Urasawa could not write a page of Monster without it.\n\nYou got most of the homework right, which after two months off is a good sign. All the sentences are here English-first, then a drill that opens with the four things that slipped in your answers, then the read-back pass and one cheatsheet.",
+        "First homework after the gap: the pattern that folds a question inside a bigger sentence.\n\nExample: どこに行(い)くか分(わ)からない。 I don't know where he is going.\n\nEvery detective and every lost hero in what you want to read runs on it: 何(なに)が起(お)きたか分からない, 誰(だれ)がやったか知(し)っている.\n\nYou got most of the sheet right. The plan:\n1. Three short rules\n2. Your sentences, English first\n3. A drill that opens with your four slips\n4. Read-back and the cheatsheet",
       mediaExample: {
         quote:
           "何(なん)のために生(う)まれて、何(なに)をして生(い)きるのか、答(こた)えられないなんて、そんなのは嫌(いや)だ！",
@@ -36,19 +36,19 @@ export const KA_EMBEDDED_QUESTIONS: LessonContent = {
     {
       type: "concept",
       explanation:
-        "[question word + plain sentence] + か + [main verb] = the question becomes a piece of a bigger sentence.\n\n友達(ともだち)がどこに行(い)くか分(わ)からない。 = I don't know where my friend is going.\n\nThree rules do all the work.\n\n1. PLAIN FORM before か. The folded question is never polite: 行くか, 行ったか, 食(た)べたいか, 難(むずか)しいか. Never 行きますか分からない. The politeness of the whole sentence lives on the last verb only (分からない or 分かりません), exactly like the final する in たり〜たりする.\n\n2. だ DROPS before か. A noun or a な-adjective goes straight onto か: どこか, 僕(ぼく)のか, 何時(なんじ)か. So \"where the biggest country is\" = 一番(いちばん)大(おお)きい国(くに)がどこか. Not どこだか, not どこですか.\n\n3. The question word stays where it would be in the normal question. You do not move it to the front like English does. どうして数学(すうがく)を勉強(べんきょう)しないといけないか is just the question どうして数学を勉強しないといけませんか with the ending made plain.\n\nBonus you already own: 僕のか is the の from the やつ lesson. どの水(みず)が僕のか = which water is MINE.",
+        "A question can sit inside a bigger sentence. It keeps its か and loses its politeness.\n\nExample: 友達(ともだち)がどこに行(い)くか分(わ)からない。 I don't know where my friend is going.\n\nThree rules:\n1. Plain form before か. ✓行(い)くか ✗行(い)きますか\n2. だ drops before か. ✓どこか ✗どこだか\n3. The question word stays in its normal seat. It does not jump to the front like in English.\n\nPoliteness and tense live on the last verb only: 分からない or 分かりません.",
       formulaJa: "[question word + plain clause] + か + 分(わ)からない・知(し)っている・聞(き)く",
     },
     {
       type: "concept",
       explanation:
-        "No question word? Then it is a yes/no question, and the fold is かどうか = whether or not.\n\nあの店(みせ)が開(あ)いているかどうか確認(かくにん)する。 = I will check whether that shop is open or not.\n\nSame rules: plain form in front, だ drops (学生(がくせい)かどうか = whether he is a student or not).\n\nHow to choose, every time:\n\nIs there a question word (何, どこ, いつ, 誰(だれ), どの, どうして, どうやって)? → か alone. Never かどうか: どこに行(い)くかどうか is wrong.\n\nNo question word, English says \"whether\" or \"if\"? → かどうか.\n\nIn fast speech people shorten かどうか to a bare か (行くつもりか分からない is heard, and it is what you wrote for the Ben sentence). It is not wrong. But when the English says \"whether or not\", かどうか is the full form, and it is what sensei's header means by \"A or not\".",
+        "No question word means a yes/no question. The fold is かどうか: whether or not.\n\nExample: あの店(みせ)が開(あ)いているかどうか確認(かくにん)する。 I will check whether that shop is open or not.\n\nHow to choose:\n1. Question word inside (何, どこ, いつ, 誰(だれ), どの, どうして, どうやって): か alone.\n2. No question word, and English says whether or if: かどうか.\n3. Never both. ✗どこに行(い)くかどうか\n\nIn fast speech かどうか shrinks to a bare か, which is what you wrote for Ben. Not wrong, but かどうか is the full form.",
       formulaJa: "[plain clause, no question word] + かどうか + 確認(かくにん)する・分(わ)からない",
     },
     {
       type: "concept",
       explanation:
-        "The verbs that close the sentence, and the two traps hiding in them.\n\n分(わ)からない = not know, not be sure. 知(し)っている = know. Careful with the negative: \"I don't know\" is 知らない, never 知っていない.\n\n聞(き)く = ask. TRAP 1: the person you ask takes に. 先生(せんせい)に聞く, 息子(むすこ)に聞く, 彼(かれ)に聞く. If the English says \"ask HIM\" or \"ask MY SON\", that person has to appear with に, outside the folded question. Twice this week the person went missing.\n\n調(しら)べる = look up. 確認(かくにん)する = check. 覚(おぼ)えている = remember. 説明(せつめい)する = explain (説明できる = can explain). 考(かんが)えている = be thinking about. 言(い)う and 教(おし)える take it too: どこに行(い)くか言わなかった = he did not say where he was going.\n\n〜てみる = try it and see. Te-form + みる, written in kana. It loves this pattern because \"try and see\" needs something to find out: どこか調べてみる = I'll look up where (and see). どのコンピューターが動(うご)くか、つけてみる = I'll switch them on and see which one works. The みる conjugates like the normal 見(み)る: みます, みた, みたい.\n\nTRAP 2, a kanji one: あいている. 開(あ)いている = open (a shop, a door). 空(あ)いている = vacant, free (a seat, a room, a slot in a diary). Same sound, and your phone's keyboard will happily offer the wrong one.",
+        "The verbs that close the sentence:\n1. 分(わ)からない: not know, not be sure\n2. 知(し)っている: know. The negative is ✓知(し)らない ✗知(し)っていない\n3. 聞(き)く: ask\n4. 調(しら)べる: look up\n5. 確認(かくにん)する: check\n6. 覚(おぼ)えている: remember\n7. 説明(せつめい)できる: can explain\n8. 考(かんが)えている: be thinking about\n\nTwo traps from your sheet:\n1. The person you ask takes に and sits outside the question: 息子(むすこ)に聞く, 彼(かれ)に聞く.\n2. あいている has two kanji. 開(あ)いている is open. 空(あ)いている is vacant.\n\nてみる means try it and see: te-form + みる, written in kana.\n\nExample: どのコンピューターが動(うご)くか、つけてみる。 I'll switch them on and see which one works.",
       formulaJa: "[person]に + [folded question]か + 聞(き)く ・ [te-form] + みる = try and see",
     },
     {
@@ -324,6 +324,120 @@ export const KA_EMBEDDED_QUESTIONS: LessonContent = {
       type: "cheatsheet",
       summary:
         "HOMEWORK CHEATSHEET (20 November). A question folded inside a sentence: [question word + PLAIN clause] + か + main verb (分からない, 知っている, 聞く, 調べる, 確認する, 覚えている, 説明できる, 考えている, 言う). No question word = whether or not = かどうか. Three rules: plain form before か (行くか, never 行きますか分からない); だ drops (どこか, 僕のか, つもりかどうか); the question word stays in its normal seat. Politeness and tense live on the LAST verb only. 〜てみる = te-form + みる = try it and see (調べてみる, つけてみる).\n\nYour four slips this week: 息子に聞く, not 息子が (the person you ask takes に); 彼に was missing from the boss sentence; 開いている = open, 空いている = vacant (same sound); 来られる is the standard potential of 来る, 来れる is speech only.\n\nTwo extras: \"I don't know\" is 知らない, never 知っていない. Someone else's wants are 食べたがっている or 食べたいと言っている, never a bare 食べたい.",
+      rules: [
+        {
+          title: "Question word inside: か",
+          formula: [
+            { text: "question word" },
+            { text: "plain sentence" },
+            { text: "か", key: true },
+            { text: "分(わ)からない" },
+          ],
+          note: "The question keeps its か and loses its politeness. The question word stays in its normal seat.",
+          right: [
+            {
+              ja: "友達(ともだち)がどこに行(い)くか分(わ)からない。",
+              en: "I don't know where my friend is going.",
+            },
+          ],
+          wrong: [
+            {
+              ja: "どこに行(い)きますか分(わ)かりません。",
+              why: "No ます before か. Politeness goes on the last verb only.",
+            },
+          ],
+        },
+        {
+          title: "No question word: かどうか",
+          formula: [
+            { text: "plain sentence" },
+            { text: "かどうか", key: true },
+            { text: "確認(かくにん)する" },
+          ],
+          note: "Whether or not. For yes/no questions only.",
+          right: [
+            {
+              ja: "あの店(みせ)が開(あ)いているかどうか確認(かくにん)する。",
+              en: "I will check whether that shop is open or not.",
+            },
+          ],
+          wrong: [
+            {
+              ja: "どこに行(い)くかどうか分(わ)からない。",
+              why: "どこ is a question word, so か alone.",
+            },
+          ],
+        },
+        {
+          title: "What goes in front of か",
+          note: "Always the plain form. A noun loses its だ.",
+          right: [
+            { ja: "行(い)くか ・ 行(い)ったか", en: "Verb: plain, any tense" },
+            { ja: "難(むずか)しいか", en: "い-adjective: as it is" },
+            { ja: "どこか ・ 僕(ぼく)のか ・ つもりか", en: "Noun or question word: no だ" },
+          ],
+          wrong: [{ ja: "どこだか ・ どこですか", why: "No だ and no です before か." }],
+        },
+        {
+          title: "The person you ask takes に",
+          formula: [
+            { text: "person" },
+            { text: "に", key: true },
+            { text: "question + か" },
+            { text: "聞(き)く" },
+          ],
+          right: [
+            {
+              ja: "息子(むすこ)に何(なに)を食(た)べたいか聞(き)きます。",
+              en: "I will ask my son what he wants to eat.",
+            },
+          ],
+        },
+        {
+          title: "Try it and see: てみる",
+          formula: [{ text: "te-form" }, { text: "みる", key: true }],
+          note: "Do it to find out. It pairs naturally with a folded question.",
+          right: [
+            {
+              ja: "どのコンピューターが動(うご)くか、つけてみる。",
+              en: "I'll switch them on and see which one works.",
+            },
+          ],
+        },
+      ],
+      fixesTitle: "Your slips this week, fixed",
+      fixes: [
+        {
+          wrong: "息子(むすこ)が…聞(き)きます",
+          right: "息子(むすこ)に…聞(き)きます",
+          why: "You ask him, so he takes に.",
+        },
+        {
+          wrong: "来(こ)られるか、聞(き)く",
+          right: "来(こ)られるか、彼(かれ)に聞(き)く",
+          why: "Ask HIM: he was missing from the boss sentence.",
+        },
+        {
+          wrong: "空(あ)いている",
+          right: "開(あ)いている",
+          why: "Same sound. 開 is open (a shop). 空 is vacant (a seat).",
+        },
+        {
+          wrong: "来(こ)れる",
+          right: "来(こ)られる",
+          why: "来れる is speech only. 来られる is the standard form.",
+        },
+        {
+          wrong: "知(し)っていない",
+          right: "知(し)らない",
+          why: "Not on your sheet, but the classic trap: don't know is 知らない.",
+        },
+        {
+          wrong: "息子(むすこ)は食(た)べたいです",
+          right: "息子(むすこ)は食(た)べたがっています",
+          why: "たい is for your own wants. For someone else: たがっている.",
+        },
+      ],
       anchorTitle: "The homework sentences",
       anchorSentences: [
         "ベンさんが今年(ことし)北海道(ほっかいどう)に行(い)くつもりかどうか分(わ)からない。",
@@ -343,7 +457,7 @@ export const KA_EMBEDDED_QUESTIONS: LessonContent = {
       ],
       conjugationTable: [
         ["Japanese", "English", "Romaji"],
-        ["1. Question word + plain clause + か", "", ""],
+        ["Question word + か", "", ""],
         [
           "どうして数学(すうがく)を勉強(べんきょう)しないといけないか、先生(せんせい)に聞(き)きます。",
           "I will ask the teacher why we have to study maths.",
@@ -399,7 +513,7 @@ export const KA_EMBEDDED_QUESTIONS: LessonContent = {
           "I'm thinking about what I should buy for my mother.",
           "Boku ga okāsan ni nani o kattara ii ka kangaete iru.",
         ],
-        ["2. No question word + かどうか = whether or not", "", ""],
+        ["かどうか: whether or not", "", ""],
         [
           "ベンさんが今年(ことし)北海道(ほっかいどう)に行(い)くつもりかどうか分(わ)からない。",
           "I'm not sure whether Ben is planning to go to Hokkaido this year or not.",
@@ -410,23 +524,14 @@ export const KA_EMBEDDED_QUESTIONS: LessonContent = {
           "I will check whether the shop is open or not.",
           "Ano mise ga aite iru ka dō ka kakunin suru.",
         ],
-        ["3. What goes in front of か", "", ""],
-        ["行(い)くか ・ 行(い)ったか", "Verb: plain form, any tense", "iku ka / itta ka"],
-        ["難(むずか)しいか", "い-adjective: as it is", "muzukashii ka"],
-        ["どこか ・ 僕(ぼく)のか ・ つもりか", "Noun or question word: だ drops", "doko ka / boku no ka / tsumori ka"],
-        ["4. The closing verbs", "", ""],
+        ["The closing verbs", "", ""],
         ["分(わ)からない ・ 知(し)っている ・ 知(し)らない", "not know, not be sure ・ know ・ don't know", "wakaranai / shitte iru / shiranai"],
         ["[person]に聞(き)く", "ask [person]: the one you ask takes に", "[person] ni kiku"],
         ["調(しら)べる ・ 確認(かくにん)する", "look up ・ check", "shiraberu / kakunin suru"],
         ["覚(おぼ)えている ・ 考(かんが)えている", "remember ・ be thinking about", "oboete iru / kangaete iru"],
         ["説明(せつめい)する ・ 説明(せつめい)できる", "explain ・ can explain", "setsumei suru / setsumei dekiru"],
         ["調(しら)べてみる ・ つけてみる", "te-form + みる: try it and see", "shirabete miru / tsukete miru"],
-        ["5. Your four slips", "", ""],
-        ["息子(むすこ)が聞(き)く → 息子(むすこ)に聞(き)く", "The person you ask takes に", "musuko ni kiku"],
-        ["聞(き)く → 彼(かれ)に聞(き)く", "\"Ask HIM\": do not leave him out", "kare ni kiku"],
-        ["空(あ)いている → 開(あ)いている", "空 = vacant (seat, slot). 開 = open (shop, door)", "aite iru"],
-        ["来(こ)れる → 来(こ)られる", "来れる is speech. 来られる is standard", "koreru → korareru"],
-        ["6. The macaroni line", "", ""],
+        ["Someone else wants something", "", ""],
         [
           "息子(むすこ)は晩(ばん)ご飯(はん)にマカロニを食(た)べたがっています。",
           "He (my son) wants to eat macaroni for dinner. Someone else's want: たい → たがっている",

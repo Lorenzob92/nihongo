@@ -156,6 +156,20 @@ export type FlashcardItem = {
   mnemonic?: Mnemonic;
 };
 
+/** One building block of a pattern. `key` marks the piece to memorise. */
+export type FormulaPart = { text: string; key?: boolean };
+
+/** One rule on a cheatsheet: a pattern, one line of why, and proof. */
+export type CheatRule = {
+  title: string;
+  formula?: FormulaPart[];
+  note?: string;
+  right?: { ja: string; en?: string }[];
+  wrong?: { ja: string; why?: string }[];
+};
+
+export type CheatFix = { wrong: string; right: string; why: string };
+
 export type LessonStep =
   | {
       type: "hook";
@@ -199,6 +213,15 @@ export type LessonStep =
       anchorTitle?: string;
       anchorSentences: string[];
       conjugationTable?: string[][];
+      /**
+       * The rule broken down into cards. When present it replaces the
+       * summary paragraph on screen (the summary stays as the plain-text
+       * fallback).
+       */
+      rules?: CheatRule[];
+      /** Wrong-then-right pairs, usually the learner's own slips. */
+      fixes?: CheatFix[];
+      fixesTitle?: string;
     }
   | { type: "wrap"; srsItems: SrsItem[] };
 
