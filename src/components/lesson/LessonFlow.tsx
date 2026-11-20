@@ -17,6 +17,7 @@ import { LessonListening } from "./LessonListening";
 import { LessonReading } from "./LessonReading";
 import { LessonCheatsheet } from "./LessonCheatsheet";
 import { LessonWrap } from "./LessonWrap";
+import { LessonVideo } from "./LessonVideo";
 
 const STEP_TITLES: Record<LessonStep["type"], string> = {
   hook: "Hook",
@@ -28,6 +29,7 @@ const STEP_TITLES: Record<LessonStep["type"], string> = {
   listening: "Listening",
   reading: "Reading",
   cheatsheet: "Cheatsheet",
+  video: "Video",
   wrap: "Wrap",
 };
 
@@ -51,6 +53,8 @@ function renderStep(step: LessonStep) {
       return <LessonReading {...step} />;
     case "cheatsheet":
       return <LessonCheatsheet {...step} />;
+    case "video":
+      return <LessonVideo {...step} />;
     case "wrap":
       return <LessonWrap {...step} />;
   }

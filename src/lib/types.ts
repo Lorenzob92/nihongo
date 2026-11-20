@@ -223,6 +223,15 @@ export type LessonStep =
       fixes?: CheatFix[];
       fixesTitle?: string;
     }
+  | {
+      /** A narrated video lesson, served from /public/video. */
+      type: "video";
+      title: string;
+      blurb?: string;
+      src: string;
+      poster?: string;
+      minutes?: number;
+    }
   | { type: "wrap"; srsItems: SrsItem[] };
 
 export type LessonContent = {

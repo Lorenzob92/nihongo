@@ -25,13 +25,21 @@ export const KA_EMBEDDED_QUESTIONS: LessonContent = {
     {
       type: "hook",
       whyItMatters:
-        "First homework after the gap: the pattern that folds a question inside a bigger sentence.\n\nExample: どこに行(い)くか分(わ)からない。 I don't know where he is going.\n\nEvery detective and every lost hero in what you want to read runs on it: 何(なに)が起(お)きたか分からない, 誰(だれ)がやったか知(し)っている.\n\nYou got most of the sheet right. The plan:\n1. Three short rules\n2. Your sentences, English first\n3. A drill that opens with your four slips\n4. Read-back and the cheatsheet",
+        "First homework after the gap: the pattern that folds a question inside a bigger sentence.\n\nExample: どこに行(い)くか分(わ)からない。 I don't know where he is going.\n\nEvery detective and every lost hero in what you want to read runs on it: 何(なに)が起(お)きたか分からない, 誰(だれ)がやったか知(し)っている.\n\nYou got most of the sheet right. The plan:\n1. A short video, then three short rules\n2. Your sentences, English first\n3. A drill that opens with your four slips\n4. Read-back and the cheatsheet",
       mediaExample: {
         quote:
           "何(なん)のために生(う)まれて、何(なに)をして生(い)きるのか、答(こた)えられないなんて、そんなのは嫌(いや)だ！",
         source:
           "アンパンマンのマーチ, the Anpanman theme. Two questions folded in front of 答えられない: \"not being able to answer what I was born for, what I live to do\"",
       },
+    },
+    {
+      type: "video",
+      title: "The rule in two and a half minutes",
+      blurb: "Watch this first. English voice for the explanation, Japanese voice for the Japanese, and one pause near the end where you say a sentence out loud.",
+      src: "/video/ka-embedded-questions.mp4",
+      poster: "/video/ka-embedded-questions.jpg",
+      minutes: 2.5,
     },
     {
       type: "concept",
